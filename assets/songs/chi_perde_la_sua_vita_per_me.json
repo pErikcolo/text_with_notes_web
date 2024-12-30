@@ -1,0 +1,149 @@
+[
+    {
+      "id": "song4",
+      "title": "Chi perde la sua vita per me",
+      "tags": ["Adorazione", "Silenzio"],
+      "sections": [
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "text": "Re   La   Sim   La",
+                 "tags": []
+                }
+            ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "text": "Chi perde la sua vita per me",
+                "tags": [
+                  { "word": "Chi", "note": " " },
+                  { "word": "perde la sua", "note": "Re" },
+                  { "word": "vita per", "note": "La" },
+                  { "word": "me", "note": "Sim" }
+                ]
+              },
+              {
+                "text": "la troverà, la troverà, la troverà",
+                "tags": [
+                    { "word": "la", "note": " " },
+                    { "word": "trove", "note": "La" },
+                    { "word": "rà, la trove", "note": "Sol" },
+                    { "word": "rà, la trove", "note": "La" },
+                    { "word": "rà", "note": "Re" }
+                ]
+              },
+              {
+                "text": "Chi lascia il proprio padre per me,",
+                "tags": [
+                    { "word": "Chi", "note": " " },
+                    { "word": "lascia il proprio", "note": "Re" },
+                    { "word": "padre per", "note": "La" },
+                    { "word": "me,", "note": "Sim" }
+                ]
+              },
+              {
+                "text": "la propria madre per me, mi troverà, mi troverà",
+                "tags": [
+                    { "word": "la propria", "note": " " },
+                    { "word": "madre per", "note": "La" },
+                    { "word": "me, mi trove", "note": "Sol" },
+                    { "word": "rà, mi trove", "note": "La" },
+                    { "word": "rà", "note": "Re" }
+                ]
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "text": "Non tema nulla, non tema nulla:",
+              "tags": [
+                { "word": "Non", "note": " " },
+                { "word": "tema", "note": "La" },
+                { "word": "nulla, non", "note": "Sim" },
+                { "word": "tema", "note": "La" },
+                { "word": "nulla:", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "Io sono qui, Io sono qui. x2",
+              "tags": [
+                { "word": "Io sono", "note": " " },
+                { "word": "qui, Io sono", "note": "La" },
+                { "word": "qui. x2", "note": "Re" }
+              ]
+            }
+          ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "text": "Chi lascia la sua casa per me,",
+                "tags": [
+                  { "word": "Chi", "note": " " },
+                  { "word": "lascia la sua", "note": "Re" },
+                  { "word": "casa per", "note": "La" },
+                  { "word": "me,", "note": "Sim" }
+                ]
+              },
+              {
+                "text": "i suoi beni per me, i suoi figli per me mi troverà.",
+                "tags": [
+                    { "word": "i suoi", "note": " " },
+                    { "word": "beni per", "note": "La" },
+                    { "word": "me, i suoi figli per", "note": "Sol" },
+                    { "word": "me mi trove", "note": "La" },
+                    { "word": "rà.", "note": "Re" }
+                ]
+              },
+              {
+                "text": "Non tema nulla, io conosco chi ho",
+                "tags": [
+                    { "word": "Non", "note": " " },
+                    { "word": "tema", "note": "La" },
+                    { "word": "nulla,", "note": "Sim" },
+                    { "word": "io con", "note": "La" },
+                    { "word": "osco chi ho", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "scelto per me, chi ho scelto per me!",
+                "tags": [
+                    { "word": "scelto per", "note": " " },
+                    { "word": "me, chi ho scelto per", "note": "La" },
+                    { "word": "me!", "note": "Re" }
+                ]
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "text": "Non tema nulla, non tema nulla:",
+              "tags": [
+                { "word": "Non", "note": " " },
+                { "word": "tema", "note": "La" },
+                { "word": "nulla, non", "note": "Sim" },
+                { "word": "tema", "note": "La" },
+                { "word": "nulla:", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "Io sono qui, Io sono qui. x2",
+              "tags": [
+                { "word": "Io sono", "note": " " },
+                { "word": "qui, Io sono", "note": "La" },
+                { "word": "qui. x2", "note": "Re" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+]

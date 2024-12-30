@@ -1,0 +1,121 @@
+[
+    {
+      "id": "song3",
+      "title": "Alleluia (Canto per Cristo)",
+      "tags": ["Alleluia", "Canti al Vangelo"],
+      "sections": [
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "text": "Do   Sol   Fa   Mi",
+                 "tags": []
+                }
+            ]
+        },
+        {
+            "type": "chorus",
+          "lines": [
+              {
+                "text": "Alleluia, allelu alleluia, alleluia, alleluia  ",
+                "tags": [
+                  { "word": "Allel", "note": "Do" },
+                  { "word": "uia, alle", "note": "Mim" },
+                  { "word": "lu allelu", "note": "Fa" },
+                  { "word": "ia,", "note": "Do" },
+                  { "word": "allelu", "note": "Fa" },
+                  { "word": "ia, alle", "note": "Do" },
+                  { "word": "luia", "note": "Sol7" },
+                  { "word": "  ", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "Alleluia, allelu alleluia, alleluia, alleluia   ",
+                "tags": [
+                    { "word": "Allel", "note": "Do" },
+                    { "word": "uia, alle", "note": "Mim" },
+                    { "word": "lu allelu", "note": "Fa" },
+                    { "word": "ia,", "note": "Do" },
+                    { "word": "allelu", "note": "Fa" },
+                    { "word": "ia, alle", "note": "Do" },
+                    { "word": "luia", "note": "Sol" },
+                    { "word": "  ", "note": "Do" }
+                ]
+              }
+          ]
+        },
+        {
+          "type": "verse",
+          "lines": [
+            {
+              "text": "Canto per Cristo che mi libererà",
+              "tags": [
+                { "word": "Canto per", "note": "Do" },
+                { "word": "Cristo che", "note": "Mim" },
+                { "word": "mi liber", "note": "Fa" },
+                { "word": "erà", "note": "Do" }
+              ]
+            },
+            {
+              "text": "quando verrà nella gloria, ",
+              "tags": [
+                { "word": "quando", "note": "Fa" },
+                { "word": "verrà nella", "note": "Do" },
+                { "word": "gloria,", "note": "Sol7" },
+                { "word": " ", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "quando la vita con Lui rinascerà",
+              "tags": [
+                { "word": "quando la", "note": "Do" },
+                { "word": "vita con", "note": "Mim" },
+                { "word": "Lui rinasc", "note": "Fa" },
+                { "word": "erà", "note": "Do" }
+              ]
+            },
+            {
+              "text": "alleluia, alleluia  ",
+              "tags": [
+                { "word": "allelu", "note": "Fa" },
+                { "word": "ia, all", "note": "Do" },
+                { "word": "eluia", "note": "Sol" },
+                { "word": "  ", "note": "Do" }
+              ]
+            }
+          ]
+        },
+        {
+            "type": "chorus",
+          "lines": [
+              {
+                "text": "Alleluia, allelu alleluia, alleluia, alleluia  ",
+                "tags": [
+                  { "word": "Allel", "note": "Do" },
+                  { "word": "uia, alle", "note": "Mim" },
+                  { "word": "lu allelu", "note": "Fa" },
+                  { "word": "ia,", "note": "Do" },
+                  { "word": "allelu", "note": "Fa" },
+                  { "word": "ia, alle", "note": "Do" },
+                  { "word": "luia", "note": "Sol7" },
+                  { "word": "  ", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "Alleluia, allelu alleluia, alleluia, alleluia   ",
+                "tags": [
+                    { "word": "Allel", "note": "Do" },
+                    { "word": "uia, alle", "note": "Mim" },
+                    { "word": "lu allelu", "note": "Fa" },
+                    { "word": "ia,", "note": "Do" },
+                    { "word": "allelu", "note": "Fa" },
+                    { "word": "ia, alle", "note": "Do" },
+                    { "word": "luia", "note": "Sol" },
+                    { "word": "  ", "note": "Do" }
+                ]
+              }
+          ]
+        }
+      ]
+    }
+]

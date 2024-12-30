@@ -1,0 +1,37 @@
+[
+    {
+      "id": "song1",
+      "title": "Bonum est confidere",
+      "tags": ["Canoni di Taizè", "Canti ai salmi"],
+      "sections": [
+        {
+          "type": "verse",
+          "lines": [
+              {
+                "text": "Bonum est confidere in  Do   mi   no,",
+                "tags": [
+                  { "word": "Bonum", "note": "Rem" },
+                  { "word": "est", "note": " " },
+                  { "word": "confidere", "note": "La" },
+                  { "word": "in", "note": " " },
+                  { "word": "Do", "note": "Rem" },
+                  { "word": "mi", "note": "Do" },
+                  { "word": "no,", "note": "Fa" }
+                ]
+              },
+              {
+                "text": "Bonum sperare in  Do   mi   no.",
+                "tags": [
+                    { "word": "Bonum", "note": "Solm" },
+                    { "word": "sperare", "note": "Rem" },
+                    { "word": "in", "note": " " },
+                    { "word": "Do", "note": "Solm" },
+                    { "word": "mi", "note": "La" },
+                    { "word": "no.", "note": "Rem" }
+                ]
+              }
+          ]
+        }
+      ]
+    }
+]

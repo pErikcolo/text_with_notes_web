@@ -2,32 +2,38 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: #f9f9f9;
 }
 
 header {
-  background-color: #6200EA;
+  background-color: #6200ea;
   color: white;
+  padding: 1rem;
   text-align: center;
-  padding: 15px;
 }
 
-footer {
-  background-color: #6200EA;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+.song-list {
+  padding: 1rem;
 }
 
-main {
-  padding: 20px;
-}
-
-#song-list {
-  padding: 10px;
+.song-item {
   background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.song-item:hover {
+  background-color: #f1f1f1;
+}
+
+.song-details {
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: white;
+  border: 1px solid #ddd;
   border-radius: 5px;
 }

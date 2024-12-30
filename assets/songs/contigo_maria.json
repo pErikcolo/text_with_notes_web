@@ -1,0 +1,201 @@
+[
+    {
+      "id": "song5",
+      "title": "Contigo Maria",
+      "tags": ["Canti a Maria", "Canti di conclusione"],
+      "sections": [
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "text": "Re   Sol   Re   Sol",
+                 "tags": []
+                }
+            ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "text": "Voglio camminare con te Maria",
+                "tags": [
+                  { "word": "Voglio camminare con te", "note": "Re" },
+                  { "word": "Maria", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "sii per me una luce o madre mia",
+                "tags": [
+                    { "word": "sii per me una luce o madre", "note": "Re" },
+                    { "word": "mia", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "brilla innanzi a me il tuo grande esempio",
+                "tags": [
+                    { "word": "brilla innanzi a me il tuo grande", "note": "La" },
+                    { "word": "esempio", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "di santità, di umiltà",
+                "tags": [
+                    { "word": "di santi", "note": " " },
+                    { "word": "tà, di umil", "note": "Re" },
+                    { "word": "tà", "note": "La" }
+                ]
+              },
+              {
+                "text": "Voglio camminare con te Maria",
+                "tags": [
+                  { "word": "Voglio camminare con te", "note": "Re" },
+                  { "word": "Maria", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "faro di bellezza lungo la via",
+                "tags": [
+                    { "word": "faro di bellezza lungo la", "note": "Re" },
+                    { "word": "via", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "ho bisogno del tuo amor di madre",
+                "tags": [
+                    { "word": "ho bisogno del tuo amor di", "note": "La" },
+                    { "word": "madre", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "prega per me, il mio Signor",
+                "tags": [
+                    { "word": "prega per", "note": " " },
+                    { "word": "me, il mio Si", "note": "Re" },
+                    { "word": "gnor", "note": "La" }
+                ]
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "text": "Guida i miei passi, portami al cielo, ",
+              "tags": [
+                { "word": "Guida i miei", "note": " " },
+                { "word": "passi,", "note": "Re" },
+                { "word": "portami al", "note": "Sol" },
+                { "word": "cielo", "note": "Re" },
+                { "word": ", ", "note": "La" }
+              ]
+            },
+            {
+              "text": "sotto il tuo manto nulla io temo ",
+              "tags": [
+                { "word": "sotto il tuo", "note": " " },
+                { "word": "manto", "note": "Sim" },
+                { "word": "nulla io", "note": "Sol" },
+                { "word": "tem", "note": "Re" },
+                { "word": "o ", "note": "La" }
+              ]
+            },
+            {
+              "text": "piena di grazia, Ave Maria  ",
+              "tags": [
+                { "word": "piena di", "note": " " },
+                { "word": "grazia,", "note": "Re" },
+                { "word": "Ave", "note": "Sol" },
+                { "word": "Mari", "note": "Re" },
+                { "word": "a  ", "note": "La" }
+              ]
+            },
+            {
+              "text": "oggi ti offro la vita mia.",
+              "tags": [
+                { "word": "oggi ti", "note": " " },
+                { "word": "offro la vita", "note": "Sim" },
+                { "word": "mia.", "note": "Re" }
+              ]
+            }
+          ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "text": "Voglio camminare con te Maria",
+                "tags": [
+                  { "word": "Voglio camminare con te", "note": "Re" },
+                  { "word": "Maria", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "madre di dolore e gioia mia",
+                "tags": [
+                    { "word": "madre di dolore e gioia", "note": "Re" },
+                    { "word": "mia", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "tu la donna fedele del mistero",
+                "tags": [
+                    { "word": "tu la donna fedele del mi", "note": "La" },
+                    { "word": "stero", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "sei stata lì, grembo d’amor.",
+                "tags": [
+                    { "word": "sei stata", "note": " " },
+                    { "word": "lì, grembo d’a", "note": "Re" },
+                    { "word": "mor.", "note": "La" }
+                ]
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "text": "Guida i miei passi, portami al cielo, ",
+              "tags": [
+                { "word": "Guida i miei", "note": " " },
+                { "word": "passi,", "note": "Re" },
+                { "word": "portami al", "note": "Sol" },
+                { "word": "cielo", "note": "Re" },
+                { "word": ", ", "note": "La" }
+              ]
+            },
+            {
+              "text": "sotto il tuo manto nulla io temo ",
+              "tags": [
+                { "word": "sotto il tuo", "note": " " },
+                { "word": "manto", "note": "Sim" },
+                { "word": "nulla io", "note": "Sol" },
+                { "word": "tem", "note": "Re" },
+                { "word": "o ", "note": "La" }
+              ]
+            },
+            {
+              "text": "piena di grazia, Ave Maria  ",
+              "tags": [
+                { "word": "piena di", "note": " " },
+                { "word": "grazia,", "note": "Re" },
+                { "word": "Ave", "note": "Sol" },
+                { "word": "Mari", "note": "Re" },
+                { "word": "a  ", "note": "La" }
+              ]
+            },
+            {
+              "text": "oggi ti offro la vita mia. x2",
+              "tags": [
+                { "word": "oggi ti", "note": " " },
+                { "word": "offro la vita", "note": "Sim" },
+                { "word": "mia. x2", "note": "Re" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+ ]

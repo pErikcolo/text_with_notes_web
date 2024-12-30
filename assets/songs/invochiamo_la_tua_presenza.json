@@ -1,0 +1,253 @@
+[
+    {
+      "id": "song2",
+      "title": "Invochiamo la tua presenza",
+      "tags": ["Adorazione", "Ingresso"],
+      "sections": [
+        {
+            "type": "chords",
+            "lines": [
+                {
+                "text": "Rem  Sib  Fa  Do",
+                "tags": []
+                }
+            ]
+        },
+        {
+            "type": "chords",
+            "lines": [
+                {
+                "text": "Rem  Sib  Fa  Do",
+                "tags": []
+                }
+            ]
+        },
+        {
+          "type": "verse",
+          "lines": [
+              {
+                "text": "Invochiamo la tua presenza vieni Signor",
+                "tags": [
+                  { "word": "Invochiamo la", "note": "Rem" },
+                  { "word": "tua presenza", "note": "Sib" },
+                  { "word": "vieni", "note": "Fa" },
+                  { "word": "Si", "note": " " },
+                  { "word": "gnor", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Invochiamo la tua presenza scendi su di noi",
+                "tags": [
+                    { "word": "Invochiamo la", "note": "Rem" },
+                    { "word": "tua presenza", "note": "Sib" },
+                    { "word": "scendi su di", "note": "Fa" },
+                    { "word": "noi", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Vieni Consolatore dona pace ed umiltà",
+                "tags": [
+                    { "word": "Vieni", "note": "Solm" },
+                    { "word": "Consola", "note": " " },
+                    { "word": "tore", "note": "Rem" },
+                    { "word": "dona", "note": " " },
+                    { "word": "pace", "note": "Sib" },
+                    { "word": "ed umil", "note": " " },
+                    { "word": "tà", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Acqua viva d’amore questo cuore apriamo a te    ",
+                "tags": [
+                    { "word": "Acqua viva d’a", "note": "Solm" },
+                    { "word": "more questo", "note": "Rem" },
+                    { "word": "cuore apriamo a", "note": "Sib" },
+                    { "word": "te", "note": "La7" },
+                    { "word": "    ", "note": "La" }
+                ]
+              }
+          ]
+        },
+        {
+            "type": "chorus",
+          "lines": [
+              {
+                "text": "Vieni spirito, vieni spirito scendi su di noi",
+                "tags": [
+                  { "word": "Vieni spirito,", "note": "Rem" },
+                  { "word": "vieni spirito", "note": "Sib" },
+                  { "word": "scendi su di", "note": "Fa" },
+                  { "word": "noi", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Vieni spirito, vieni spirito scendi su di noi",
+                "tags": [
+                    { "word": "Vieni spirito,", "note": "Rem" },
+                    { "word": "vieni spirito", "note": "Sib" },
+                    { "word": "scendi su di", "note": "Fa" },
+                    { "word": "noi", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Vieni su noi maranathà, vieni su noi spirito",
+                "tags": [
+                    { "word": "Vieni su", "note": "Sib" },
+                    { "word": "noi", "note": "Do" },
+                    { "word": "marana", "note": "La" },
+                    { "word": "thà,", "note": "Rem" },
+                    { "word": "vieni su", "note": "Sib" },
+                    { "word": "noi spiri", "note": "Do" },
+                    { "word": "to", "note": "Rem" }
+                ]
+              },
+              {
+                "text": "Vieni spirito, vieni spirito scendi su di noi",
+                "tags": [
+                    { "word": "Vieni spirito,", "note": "Rem" },
+                    { "word": "vieni spirito", "note": "Sib" },
+                    { "word": "scendi su di", "note": "Fa" },
+                    { "word": "noi", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Vieni spirito, vieni spirito scendi su di noi",
+                "tags": [
+                    { "word": "Vieni spirito,", "note": "Rem" },
+                    { "word": "vieni spirito", "note": "Sib" },
+                    { "word": "scendi su di", "note": "Fa" },
+                    { "word": "noi", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Scendi su di noi",
+                "tags": [
+                    { "word": "Scendi su di", "note": " " },
+                    { "word": "noi", "note": "Rem" }
+                ]
+              }
+          ]
+        },
+        {
+            "type": "chords",
+            "lines": [
+                {
+                "text": "Rem   Sib   Fa   Do",
+                "tags": []
+                }
+            ]
+        },
+        {
+          "type": "verse",
+          "lines": [
+              {
+                "text": "Invochiamo la tua presenza vieni Signor",
+                "tags": [
+                  { "word": "Invochiamo la", "note": "Rem" },
+                  { "word": "tua presenza", "note": "Sib" },
+                  { "word": "vieni Si", "note": "Fa" },
+                  { "word": "gnor", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Invochiamo la tua presenza scendi su di noi",
+                "tags": [
+                    { "word": "Invochiamo la", "note": "Rem" },
+                    { "word": "tua presenza", "note": "Sib" },
+                    { "word": "scendi su di", "note": "Fa" },
+                    { "word": "noi", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Vieni luce dei cuori dona forza e fedeltà",
+                "tags": [
+                    { "word": "Vieni luce dei", "note": "Solm" },
+                    { "word": "cuori dona", "note": "Rem" },
+                    { "word": "forza e fedel", "note": "Sib" },
+                    { "word": "tà", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Fuoco eterno d’amore questa vita offriamo a te    ",
+                "tags": [
+                    { "word": "Fuoco eterno d’a", "note": "Solm" },
+                    { "word": "more questa", "note": "Rem" },
+                    { "word": "vita offriamo a", "note": "Sib" },
+                    { "word": "te", "note": "La7" },
+                    { "word": "    ", "note": "La" }
+                ]
+              }
+          ]
+        },
+        {
+            "type": "chorus",
+          "lines": [
+              {
+                "text": "Vieni spirito, vieni spirito scendi su di noi",
+                "tags": [
+                  { "word": "Vieni spirito,", "note": "Rem" },
+                  { "word": "vieni spirito", "note": "Sib" },
+                  { "word": "scendi su di", "note": "Fa" },
+                  { "word": "noi", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Vieni spirito, vieni spirito scendi su di noi",
+                "tags": [
+                    { "word": "Vieni spirito,", "note": "Rem" },
+                    { "word": "vieni spirito", "note": "Sib" },
+                    { "word": "scendi su di", "note": "Fa" },
+                    { "word": "noi", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Vieni su noi maranathà, vieni su noi spirito",
+                "tags": [
+                    { "word": "Vieni su", "note": "Sib" },
+                    { "word": "noi", "note": "Do" },
+                    { "word": "marana", "note": "La" },
+                    { "word": "thà,", "note": "Rem" },
+                    { "word": "vieni su", "note": "Sib" },
+                    { "word": "noi spiri", "note": "Do" },
+                    { "word": "to", "note": "Rem" }
+                ]
+              },
+              {
+                "text": "Vieni spirito, vieni spirito scendi su di noi",
+                "tags": [
+                    { "word": "Vieni spirito,", "note": "Rem" },
+                    { "word": "vieni spirito", "note": "Sib" },
+                    { "word": "scendi su di", "note": "Fa" },
+                    { "word": "noi", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Vieni spirito, vieni spirito scendi su di noi",
+                "tags": [
+                    { "word": "Vieni spirito,", "note": "Rem" },
+                    { "word": "vieni spirito", "note": "Sib" },
+                    { "word": "scendi su di", "note": "Fa" },
+                    { "word": "noi", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Scendi su di noi",
+                "tags": [
+                    { "word": "Scendi su di", "note": " " },
+                    { "word": "noi", "note": "Rem" }
+                ]
+              }
+          ]
+        },
+        {
+            "type": "chords",
+            "lines": [
+                {
+                "text": "Rem   Sib   Fa   Do",
+                "tags": []
+                }
+            ]
+        }
+      ]
+    }
+]

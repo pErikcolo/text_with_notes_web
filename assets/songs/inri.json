@@ -1,0 +1,399 @@
+[
+    {
+      "id": "song6",
+      "title": "INRI",
+      "tags": ["Comunione"],
+      "sections": [
+        {
+            "type": "verse",
+            "lines": [
+                {
+                 "text": "Capostasto al 5° tasto.",
+                 "tags": []
+                }
+            ]
+        },
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "text": "Do   Re   Sol   Mim",
+                 "tags": []
+                },
+                {
+                 "text": "Do   Re   Sol   Mim",
+                 "tags": []
+                }
+            ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "text": "Ha senso solo così,",
+                "tags": [
+                  { "word": "Ha senso solo", "note": " " },
+                  { "word": "così,", "note": "Do" }
+                ]
+              },
+              {
+                "text": "perdonando proprio tutto ",
+                "tags": [
+                    { "word": "perdo", "note": "Do" },
+                    { "word": "nando proprio", "note": "Re" },
+                    { "word": "tutto", "note": "Sol" },
+                    { "word": " ", "note": "Mim" }
+                ]
+              },
+              {
+                "text": "Ha senso solo così,",
+                "tags": [
+                    { "word": "Ha senso solo", "note": " " },
+                    { "word": "così,", "note": "Do" }
+                ]
+              },
+              {
+                "text": "amando fino in fondo ",
+                "tags": [
+                    { "word": "a", "note": " " },
+                    { "word": "mando fino in", "note": "Re" },
+                    { "word": "fondo", "note": "Sol" },
+                    { "word": " ", "note": "Mim" }
+                ]
+              },
+              {
+                "text": "Ha senso solo così,",
+                "tags": [
+                    { "word": "Ha senso solo", "note": " " },
+                    { "word": "così,", "note": "Do" }
+                ]
+              },
+              {
+                "text": "anche quando hai tutti contro ",
+                "tags": [
+                    { "word": "anche quando", "note": " " },
+                    { "word": "hai tutti", "note": "Re" },
+                    { "word": "contro", "note": "Sol" },
+                    { "word": " ", "note": "Mim" }
+                ]
+              },
+              {
+                "text": "Ha senso solo così e ora io lo difendo",
+                "tags": [
+                    { "word": "Ha senso solo", "note": " " },
+                    { "word": "così e ora", "note": "Do" },
+                    { "word": "io lo di", "note": "Re" },
+                    { "word": "fendo", "note": "Sol" }
+                ]
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "text": "Io non ritorno indietro,",
+              "tags": [
+                { "word": "Io non ritorno in", "note": "Re" },
+                { "word": "dietro,", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "io non ritorno indietro",
+              "tags": [
+                  { "word": "io non ritorno in", "note": "Re" },
+                  { "word": "dietr", "note": "Mim" },
+                  { "word": "o", "note": "Do" }
+              ]
+            },
+            {
+              "text": "Da un amore gigante così",
+              "tags": [
+                { "word": "Da un amore gi", "note": " " },
+                { "word": "gante così", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "io non posso tornare indietro",
+              "tags": [
+                { "word": "io non", "note": " " },
+                { "word": "posso tornare in", "note": "Re" },
+                { "word": "dietro", "note": "Mim" }
+              ]
+            },
+            {
+              "text": "Io non ritorno indietro,",
+              "tags": [
+                { "word": "Io non ritorno in", "note": "Do" },
+                { "word": "dietro,", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "io no che non ritorno indietro ",
+              "tags": [
+                  { "word": "io", "note": " " },
+                  { "word": "no che non ritorno in", "note": "Re" },
+                  { "word": "dietr", "note": "Mim" },
+                  { "word": "o ", "note": "Do" }
+              ]
+            },
+            {
+              "text": "A un amore gigante così",
+              "tags": [
+                { "word": "A un amore gi", "note": " " },
+                { "word": "gante così", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "io resto appesa e non scendo",
+              "tags": [
+                  { "word": "io resto a", "note": " " },
+                  { "word": "ppesa e non", "note": "Re" },
+                  { "word": "scendo", "note": "Mim" }
+              ]
+            },
+            {
+              "text": "Io non scendo  ",
+              "tags": [
+                { "word": "Io non", "note": "Do" },
+                { "word": "scend", "note": "Sol" },
+                { "word": "o  ", "note": "Re" }
+              ]
+            }
+          ]
+        },
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "text": "Mim   Do   Sol   Re  Mim  Do",
+                 "tags": []
+                }
+            ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "text": "Ha senso solo così,",
+                "tags": [
+                  { "word": "Ha senso solo", "note": " " },
+                  { "word": "così,", "note": "Do" }
+                ]
+              },
+              {
+                "text": "rischiando proprio tutto ",
+                "tags": [
+                    { "word": "rischi", "note": "" },
+                    { "word": "ando proprio", "note": "Re" },
+                    { "word": "tutto", "note": "Sol" },
+                    { "word": " ", "note": "Mim" }
+                ]
+              },
+              {
+                "text": "Ha senso solo così,",
+                "tags": [
+                    { "word": "Ha senso solo", "note": " " },
+                    { "word": "così,", "note": "Do" }
+                ]
+              },
+              {
+                "text": "continuando fino in fondo ",
+                "tags": [
+                    { "word": "continu", "note": " " },
+                    { "word": "ando fino in", "note": "Re" },
+                    { "word": "fondo", "note": "Sol" },
+                    { "word": " ", "note": "Mim" }
+                ]
+              },
+              {
+                "text": "Ha senso solo così,",
+                "tags": [
+                    { "word": "Ha senso solo", "note": " " },
+                    { "word": "così,", "note": "Do" }
+                ]
+              },
+              {
+                "text": "soprattutto quando hai il buio addosso",
+                "tags": [
+                    { "word": "soprattutto quando", "note": " " },
+                    { "word": "hai il buio addo", "note": "Re" },
+                    { "word": "sso", "note": "Sol" },
+                    { "word": " ", "note": "Mim" }
+                ]
+              },
+              {
+                "text": "Ha senso solo così e ora io lo difendo",
+                "tags": [
+                    { "word": "Ha senso solo", "note": " " },
+                    { "word": "così e ora", "note": "Do" },
+                    { "word": "io lo di", "note": "Re" },
+                    { "word": "fendo", "note": "Sol" }
+                ]
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "text": "Io non ritorno indietro,",
+              "tags": [
+                { "word": "Io non ritorno in", "note": "Re" },
+                { "word": "dietro,", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "io non ritorno indietro",
+              "tags": [
+                  { "word": "io non ritorno in", "note": "Re" },
+                  { "word": "dietr", "note": "Mim" },
+                  { "word": "o", "note": "Do" }
+              ]
+            },
+            {
+              "text": "Da un amore gigante così",
+              "tags": [
+                { "word": "Da un amore gi", "note": " " },
+                { "word": "gante così", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "io non posso tornare indietro",
+              "tags": [
+                { "word": "io non", "note": " " },
+                { "word": "posso tornare in", "note": "Re" },
+                { "word": "dietro", "note": "Mim" }
+              ]
+            },
+            {
+              "text": "Io non ritorno indietro,",
+              "tags": [
+                { "word": "Io non ritorno in", "note": "Do" },
+                { "word": "dietro,", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "io no che non ritorno indietro ",
+              "tags": [
+                  { "word": "io", "note": " " },
+                  { "word": "no che non ritorno in", "note": "Re" },
+                  { "word": "dietr", "note": "Mim" },
+                  { "word": "o ", "note": "Do" }
+              ]
+            },
+            {
+              "text": "A un amore gigante così",
+              "tags": [
+                { "word": "A un amore gi", "note": " " },
+                { "word": "gante così", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "io resto appesa e non scendo",
+              "tags": [
+                  { "word": "io resto a", "note": " " },
+                  { "word": "ppesa e non", "note": "Re" },
+                  { "word": "scendo", "note": "Mim" }
+              ]
+            },
+            {
+              "text": "Io non scendo  ",
+              "tags": [
+                { "word": "Io non", "note": "Do" },
+                { "word": "scend", "note": "Sol" },
+                { "word": "o  ", "note": "Re" }
+              ]
+            }
+          ]
+        },
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "text": "Mim   Do   Sol   Re  Mim  Do",
+                 "tags": []
+                }
+            ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "text": "E’ questa la natura del vero amore",
+                "tags": [
+                  { "word": "E’ questa la natura", "note": "Sol" },
+                  { "word": "del vero amore", "note": "Re" }
+                ]
+              },
+              {
+                "text": "l’operare da Dio",
+                "tags": [
+                    { "word": "l’operare da", "note": "Mim" },
+                    { "word": "Dio", "note": "Do" }
+                ]
+              },
+              {
+                "text": "la fermezza e non ritirarsi mai  ",
+                "tags": [
+                    { "word": "la", "note": " " },
+                    { "word": "fermezza e non ritir", "note": "Sol" },
+                    { "word": "arsi", "note": "Re" },
+                    { "word": "mai", "note": "Mim" },
+                    { "word": "  ", "note": "Do" }
+                ]
+              },
+              {
+                "text": "E’ questa la natura del vero amore",
+                "tags": [
+                    { "word": "E’ questa la natura", "note": "Sol" },
+                    { "word": "del vero amore", "note": "Re" }
+                ]
+              },
+              {
+                "text": "l’operare da Dio",
+                "tags": [
+                    { "word": "l’operare da", "note": "Mim" },
+                    { "word": "Dio", "note": "Do" }
+                ]
+              },
+              {
+                "text": "la fermezza e non ritirarsi mai",
+                "tags": [
+                    { "word": "la", "note": " " },
+                    { "word": "fermezza e non ritir", "note": "Sol" },
+                    { "word": "arsi", "note": "Re" },
+                    { "word": "mai", "note": "Mim" },
+                    { "word": "  ", "note": "Do" }
+                ]
+              },
+              {
+                "text": "a costo di qualunque sacrificio",
+                "tags": [
+                    { "word": "a", "note": " " },
+                    { "word": "costo di qualunque sacri", "note": "Do" },
+                    { "word": "ficio", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "io non ritorno indietro ",
+                "tags": [
+                    { "word": "io non ritorno indi", "note": "Re" },
+                    { "word": "etro", "note": "Mim" },
+                    { "word": " ", "note": "Do" }
+                ]
+              }
+          ]
+        },
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "text": "Sol   Re   Mim   Do",
+                 "tags": []
+                }
+            ]
+        }
+      ]
+    }
+]
