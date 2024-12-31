@@ -62,8 +62,16 @@ function showSongDetails(songId) {
     <div class="song-sections">
       ${song.sections.map(section => `
         <div class="song-section">
-          <h3>${section.type}</h3>
-          <pre>${section.lines.map(line => line.text).join('\n')}</pre>
+          ${section.lines.map(line => `
+            <div class="song-line">
+              <div class="chords">
+                ${line.tags.map(tag => tag.note || '&nbsp;').join(' ')}
+              </div>
+              <div class="lyrics">
+                ${line.text}
+              </div>
+            </div>
+          `).join('')}
         </div>
       `).join('')}
     </div>

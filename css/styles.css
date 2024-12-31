@@ -37,3 +37,27 @@ header {
   border: 1px solid #ddd;
   border-radius: 5px;
 }
+
+.song-sections {
+  margin-top: 20px;
+}
+
+.song-line {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.chords {
+  font-family: monospace;
+  font-size: 14px;
+  color: #d32f2f;
+  margin-bottom: 4px;
+  white-space: pre;
+}
+
+.lyrics {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #333;
+}
