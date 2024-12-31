@@ -64,24 +64,31 @@ function showSongDetails(songId) {
         <div class="song-section ${section.type}">
           ${section.lines.map(line => `
             <div class="song-line">
-              <div class="lyrics">
-                ${line.text.split(' ').map(word => {
-                  const tag = line.tags.find(tag => tag.word === word.trim());
-                  const note = tag?.note || '';
-                  return `
-                    <span class="word-pair">
-                      <span class="chord">${note}</span>
-                      <span class="lyric">${word}</span>
-                    </span>
-                  `;
-                }).join(' ')}
-              </div>
+              ${renderLine(line)}
             </div>
           `).join('')}
         </div>
       `).join('')}
     </div>
   `;
+}
+
+function renderLine(line) {
+  if (!line.tags || line.tags.length === 0) {
+    return `<div class="lyrics">${line.text}</div>`;
+  }
+
+  const words = line.text.split(' ');
+  return words.map(word => {
+    const tag = line.tags.find(tag => tag.word.trim() === word.trim());
+    const chord = tag?.note || '';
+    return `
+      <span class="word-pair">
+        <span class="chord">${chord}</span>
+        <span class="lyric">${word}</span>
+      </span>
+    `;
+  }).join(' ');
 }
 
 // Avvia il caricamento delle canzoni quando la pagina è pronta

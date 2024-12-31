@@ -58,7 +58,7 @@ header {
 
 .word-pair {
   display: inline-block;
-  text-align: center;
+  text-align: left;
   margin-right: 8px;
 }
 
@@ -67,6 +67,7 @@ header {
   font-size: 14px;
   color: #d32f2f;
   font-family: monospace;
+  text-align: left;
 }
 
 .word-pair .lyric {
