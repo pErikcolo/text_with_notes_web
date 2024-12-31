@@ -60,6 +60,7 @@ header {
   display: inline-block;
   text-align: left;
   margin-right: 8px;
+  position: relative;
 }
 
 .word-pair .chord {
@@ -68,6 +69,10 @@ header {
   color: #d32f2f;
   font-family: monospace;
   text-align: left;
+  position: absolute;
+  top: -20px; /* Posiziona l'accordo sopra la parola */
+  left: 0;
+  width: 100%;
 }
 
 .word-pair .lyric {
