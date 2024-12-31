@@ -1,5 +1,6 @@
+let songs = []; // Variabile globale per salvare le canzoni
+
 async function loadAllSongs() {
-  const songs = [];
   try {
     console.log("Tentativo di caricamento dell'indice...");
 
@@ -49,8 +50,24 @@ function renderSongList(songs) {
 }
 
 function showSongDetails(songId) {
+  const song = songs.find(s => s.id === songId);
+  if (!song) {
+    console.error(`Canzone con ID ${songId} non trovata.`);
+    return;
+  }
+
   const selectedSong = document.getElementById('selected-song');
-  selectedSong.innerHTML = `Dettagli della canzone con ID: ${songId}`;
+  selectedSong.innerHTML = `
+    <h2>${song.title}</h2>
+    <div class="song-sections">
+      ${song.sections.map(section => `
+        <div class="song-section">
+          <h3>${section.type}</h3>
+          <pre>${section.lines.map(line => line.text).join('\n')}</pre>
+        </div>
+      `).join('')}
+    </div>
+  `;
 }
 
 // Avvia il caricamento delle canzoni quando la pagina è pronta
