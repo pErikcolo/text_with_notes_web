@@ -2,62 +2,75 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  line-height: 1.6;
 }
 
 header {
-  background-color: #6200ea;
+  background: #673ab7;
   color: white;
-  padding: 1rem;
+  padding: 1rem 0;
   text-align: center;
 }
 
 .song-list {
-  padding: 1rem;
+  padding: 20px;
 }
 
 .song-item {
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-bottom: 0.5rem;
-  padding: 1rem;
   cursor: pointer;
-  transition: background-color 0.2s;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
 }
 
 .song-item:hover {
-  background-color: #f1f1f1;
+  background: #f4f4f4;
 }
 
 .song-details {
-  padding: 1rem;
-  margin-top: 1rem;
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  padding: 20px;
+  border-top: 1px solid #ddd;
 }
 
 .song-sections {
   margin-top: 20px;
 }
 
-.song-line {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
+.song-section.verse .lyrics {
+  font-size: 16px;
+  color: #333;
 }
 
-.chords {
+.song-section.chorus .lyrics {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.song-section.chords .lyrics {
+  font-size: 14px;
+  color: #666;
   font-family: monospace;
+}
+
+.song-line {
+  margin-bottom: 12px;
+}
+
+.word-pair {
+  display: inline-block;
+  text-align: center;
+  margin-right: 8px;
+}
+
+.word-pair .chord {
+  display: block;
   font-size: 14px;
   color: #d32f2f;
-  margin-bottom: 4px;
-  white-space: pre;
+  font-family: monospace;
 }
 
-.lyrics {
-  font-family: sans-serif;
+.word-pair .lyric {
+  display: block;
   font-size: 16px;
   color: #333;
 }

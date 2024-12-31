@@ -1,11 +1,11 @@
-let songs = []; // Variabile globale per salvare le canzoni
+const songs = [];
 
 async function loadAllSongs() {
   try {
     console.log("Tentativo di caricamento dell'indice...");
 
     // Carica l'indice
-    const response = await fetch('/text_with_notes_web/assets/songs/index.json');
+    const response = await fetch('./assets/songs/index.json');
     console.log("Indice caricato:", response);
 
     const index = await response.json();
@@ -17,7 +17,7 @@ async function loadAllSongs() {
     for (const file of songFiles) {
       try {
         console.log(`Caricamento del file: ${file}`);
-        const songResponse = await fetch(`/text_with_notes_web/assets/songs/${file}`);
+        const songResponse = await fetch(`./assets/songs/${file}`);
         const song = await songResponse.json();
         songs.push(song);
         console.log(`Canzone caricata con successo: ${song.title}`);
@@ -61,14 +61,20 @@ function showSongDetails(songId) {
     <h2>${song.title}</h2>
     <div class="song-sections">
       ${song.sections.map(section => `
-        <div class="song-section">
+        <div class="song-section ${section.type}">
           ${section.lines.map(line => `
             <div class="song-line">
-              <div class="chords">
-                ${line.tags.map(tag => tag.note || '&nbsp;').join(' ')}
-              </div>
               <div class="lyrics">
-                ${line.text}
+                ${line.text.split(' ').map(word => {
+                  const tag = line.tags.find(tag => tag.word === word.trim());
+                  const note = tag?.note || '';
+                  return `
+                    <span class="word-pair">
+                      <span class="chord">${note}</span>
+                      <span class="lyric">${word}</span>
+                    </span>
+                  `;
+                }).join(' ')}
               </div>
             </div>
           `).join('')}
