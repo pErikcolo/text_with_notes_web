@@ -2,7 +2,7 @@ async function loadAllSongs() {
   const songs = [];
   try {
     // Carica l'indice
-    const response = await fetch('./assets/songs/index.json');
+    const response = await fetch('/text_with_notes_web/assets/songs/index.json');
     const index = await response.json();
     const songFiles = index.files;
 
@@ -42,4 +42,9 @@ function showSongDetails(songId) {
 }
 
 // Avvia il caricamento delle canzoni quando la pagina è pronta
+document.addEventListener('DOMContentLoaded', loadAllSongs);
+
+console.log('Script avviato!');
+
+// Inizia il caricamento delle canzoni
 document.addEventListener('DOMContentLoaded', loadAllSongs);
