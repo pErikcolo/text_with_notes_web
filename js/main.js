@@ -1,13 +1,10 @@
-const songs = [];
-
 async function loadAllSongs() {
+  const songs = [];
   try {
     console.log("Tentativo di caricamento dell'indice...");
 
     // Carica l'indice
-    const response = await fetch('./assets/songs/index.json');
-    console.log("Indice caricato:", response);
-
+    const response = await fetch('/text_with_notes_web/assets/songs/index.json');
     const index = await response.json();
     const songFiles = index.files;
 
@@ -17,7 +14,7 @@ async function loadAllSongs() {
     for (const file of songFiles) {
       try {
         console.log(`Caricamento del file: ${file}`);
-        const songResponse = await fetch(`./assets/songs/${file}`);
+        const songResponse = await fetch(`/text_with_notes_web/assets/songs/${file}`);
         const song = await songResponse.json();
         songs.push(song);
         console.log(`Canzone caricata con successo: ${song.title}`);
@@ -49,28 +46,30 @@ function renderSongList(songs) {
     .join('');
 }
 
-function showSongDetails(songId) {
-  const song = songs.find(s => s.id === songId);
-  if (!song) {
-    console.error(`Canzone con ID ${songId} non trovata.`);
-    return;
-  }
-
+function renderSongDetails(song) {
   const selectedSong = document.getElementById('selected-song');
-  selectedSong.innerHTML = `
-    <h2>${song.title}</h2>
-    <div class="song-sections">
-      ${song.sections.map(section => `
-        <div class="song-section ${section.type}">
-          ${section.lines.map(line => `
-            <div class="song-line">
-              ${renderLine(line)}
-            </div>
-          `).join('')}
-        </div>
-      `).join('')}
-    </div>
-  `;
+  selectedSong.innerHTML = song.sections
+    .map(section => {
+      if (section.type === 'chords') {
+        return `
+          <div class="chords">
+            ${section.lines
+              .map(line => `<div class="chord-line">${line.text}</div>`)
+              .join('')}
+          </div>
+        `;
+      } else {
+        const isChorus = section.type === 'chorus';
+        return `
+          <div class="${isChorus ? 'chorus' : 'verse'}">
+            ${section.lines
+              .map(line => renderLine(line))
+              .join('<br>')}
+          </div>
+        `;
+      }
+    })
+    .join('<hr>');
 }
 
 function renderLine(line) {
@@ -78,20 +77,27 @@ function renderLine(line) {
     return `<div class="lyrics">${line.text}</div>`;
   }
 
-  const words = line.text.split(' ');
-  return words.map(word => {
-    const tag = line.tags.find(tag => tag.word.trim() === word.trim());
-    const chord = tag?.note || '';
-    return `
+  return line.tags
+    .map(tag => `
       <span class="word-pair">
-        <span class="chord">${chord}</span>
-        <span class="lyric">${word}</span>
+        <span class="chord">${tag.note}</span>
+        <span class="lyric">${tag.word}</span>
       </span>
-    `;
-  }).join(' ');
+    `)
+    .join('');
 }
 
-// Avvia il caricamento delle canzoni quando la pagina è pronta
-document.addEventListener('DOMContentLoaded', loadAllSongs);
+function showSongDetails(songId) {
+  const song = loadedSongs.find(s => s.id === songId);
+  if (!song) {
+    console.warn(`Canzone con ID ${songId} non trovata.`);
+    return;
+  }
+  renderSongDetails(song);
+}
 
-console.log('Script avviato!');
+let loadedSongs = [];
+document.addEventListener('DOMContentLoaded', async () => {
+  console.log('Script avviato!');
+  loadedSongs = await loadAllSongs();
+});
