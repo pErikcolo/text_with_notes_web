@@ -1,55 +1,51 @@
-/* Stili per le sezioni */
-.verse {
-  font-size: 16px;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
   color: #333;
-  margin-bottom: 20px;
 }
 
-.chorus {
-  font-size: 16px;
-  font-weight: bold;
-  color: #000;
-  margin-bottom: 20px;
-  background-color: #f7f7f7;
-  padding: 10px;
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav label, nav select, nav button {
+  margin: 0 5px;
+}
+
+#songList {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+#songList li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
   border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.chords {
-  font-family: monospace;
-  color: #d32f2f;
-  margin-bottom: 20px;
-}
-
-.chord-line {
-  text-align: left;
-  font-size: 14px;
-  color: #d32f2f;
-  margin-bottom: 5px;
-}
-
-/* Stili per lyrics e accordi */
-.word-pair {
-  display: inline-block;
-  text-align: left;
-  margin-right: 8px;
-  position: relative;
-}
-
-.word-pair .chord {
-  display: block;
-  font-size: 14px;
-  color: #d32f2f;
-  font-family: monospace;
-  text-align: left;
-  position: absolute;
-  top: -20px;
-  left: 0;
-  width: 100%;
-}
-
-.word-pair .lyric {
-  display: block;
-  font-size: 16px;
-  color: #333;
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: #fff;
 }

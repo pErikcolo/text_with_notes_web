@@ -1,103 +1,110 @@
-async function loadAllSongs() {
-  const songs = [];
-  try {
-    console.log("Tentativo di caricamento dell'indice...");
+document.addEventListener('DOMContentLoaded', () => {
+  const songList = document.getElementById('songList');
+  const categoryFilter = document.getElementById('categoryFilter');
+  const favoritesButton = document.getElementById('favoritesButton');
 
-    // Carica l'indice
-    const response = await fetch('/text_with_notes_web/assets/songs/index.json');
-    const index = await response.json();
-    const songFiles = index.files;
+  let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+  let songs = [];
 
-    console.log("File delle canzoni trovati:", songFiles);
+  // Carica l'elenco delle canzoni
+  fetch('assets/songs/index.json')
+      .then(response => response.json())
+      .then(data => {
+          songs = data.files;
+          loadSongs();
+          populateCategoryFilter();
+      })
+      .catch(err => console.error('Errore nel caricamento dei file JSON:', err));
 
-    // Carica ogni canzone dall'indice
-    for (const file of songFiles) {
-      try {
-        console.log(`Caricamento del file: ${file}`);
-        const songResponse = await fetch(`/text_with_notes_web/assets/songs/${file}`);
-        const song = await songResponse.json();
-        songs.push(song);
-        console.log(`Canzone caricata con successo: ${song.title}`);
-      } catch (error) {
-        console.warn(`Impossibile caricare il file: ${file}`, error);
-      }
-    }
+  // Carica le canzoni in base al filtro di categoria
+  function loadSongs() {
+      songList.innerHTML = '';
+      songs.forEach(file => {
+          fetch(`assets/songs/${file}`)
+              .then(response => response.json())
+              .then(song => {
+                  if (shouldDisplaySong(song)) {
+                      const li = document.createElement('li');
+                      li.textContent = song.title;
+                      li.dataset.id = song.id;
 
-    renderSongList(songs);
-  } catch (error) {
-    console.error("Errore nel caricamento dell'indice:", error);
+                      const favoriteButton = document.createElement('button');
+                      favoriteButton.textContent = favorites.includes(song.id) ? 'Rimuovi dai Preferiti' : 'Aggiungi ai Preferiti';
+                      favoriteButton.addEventListener('click', () => toggleFavorite(song.id, favoriteButton));
+
+                      li.appendChild(favoriteButton);
+                      songList.appendChild(li);
+                  }
+              });
+      });
   }
-}
 
-function renderSongList(songs) {
-  const songList = document.getElementById('song-list');
-  if (!songs.length) {
-    songList.innerHTML = '<p>Nessuna canzone trovata.</p>';
-    return;
+  // Controlla se visualizzare la canzone in base al filtro
+  function shouldDisplaySong(song) {
+      const selectedCategory = categoryFilter.value;
+      return !selectedCategory || song.tags.includes(selectedCategory);
   }
-  songList.innerHTML = songs
-    .map(
-      song => `
-        <div class="song-item" onclick="showSongDetails('${song.id}')">
-          ${song.title}
-        </div>
-      `
-    )
-    .join('');
-}
 
-function renderSongDetails(song) {
-  const selectedSong = document.getElementById('selected-song');
-  selectedSong.innerHTML = song.sections
-    .map(section => {
-      if (section.type === 'chords') {
-        return `
-          <div class="chords">
-            ${section.lines
-              .map(line => `<div class="chord-line">${line.text}</div>`)
-              .join('')}
-          </div>
-        `;
+  // Popola il filtro delle categorie
+  function populateCategoryFilter() {
+      const categories = new Set();
+      songs.forEach(file => {
+          fetch(`assets/songs/${file}`)
+              .then(response => response.json())
+              .then(song => {
+                  song.tags.forEach(tag => categories.add(tag));
+                  updateCategoryOptions(categories);
+              });
+      });
+  }
+
+  function updateCategoryOptions(categories) {
+      categories.forEach(category => {
+          const option = document.createElement('option');
+          option.value = category;
+          option.textContent = category;
+          categoryFilter.appendChild(option);
+      });
+  }
+
+  // Gestisce i preferiti
+  function toggleFavorite(songId, button) {
+      if (favorites.includes(songId)) {
+          favorites = favorites.filter(id => id !== songId);
+          button.textContent = 'Aggiungi ai Preferiti';
       } else {
-        const isChorus = section.type === 'chorus';
-        return `
-          <div class="${isChorus ? 'chorus' : 'verse'}">
-            ${section.lines
-              .map(line => renderLine(line))
-              .join('<br>')}
-          </div>
-        `;
+          favorites.push(songId);
+          button.textContent = 'Rimuovi dai Preferiti';
       }
-    })
-    .join('<hr>');
-}
-
-function renderLine(line) {
-  if (!line.tags || line.tags.length === 0) {
-    return `<div class="lyrics">${line.text}</div>`;
+      localStorage.setItem('favorites', JSON.stringify(favorites));
   }
 
-  return line.tags
-    .map(tag => `
-      <span class="word-pair">
-        <span class="chord">${tag.note}</span>
-        <span class="lyric">${tag.word}</span>
-      </span>
-    `)
-    .join('');
-}
+  // Visualizza i preferiti
+  favoritesButton.addEventListener('click', () => {
+      categoryFilter.value = '';
+      songList.innerHTML = '';
+      favorites.forEach(songId => {
+          fetch(`assets/songs/index.json`)
+              .then(response => response.json())
+              .then(data => {
+                  const songFile = data.files.find(file => file.includes(songId));
+                  return fetch(`assets/songs/${songFile}`);
+              })
+              .then(response => response.json())
+              .then(song => {
+                  const li = document.createElement('li');
+                  li.textContent = song.title;
 
-function showSongDetails(songId) {
-  const song = loadedSongs.find(s => s.id === songId);
-  if (!song) {
-    console.warn(`Canzone con ID ${songId} non trovata.`);
-    return;
-  }
-  renderSongDetails(song);
-}
+                  const favoriteButton = document.createElement('button');
+                  favoriteButton.textContent = 'Rimuovi dai Preferiti';
+                  favoriteButton.addEventListener('click', () => toggleFavorite(song.id, favoriteButton));
 
-let loadedSongs = [];
-document.addEventListener('DOMContentLoaded', async () => {
-  console.log('Script avviato!');
-  loadedSongs = await loadAllSongs();
+                  li.appendChild(favoriteButton);
+                  songList.appendChild(li);
+              });
+      });
+  });
+
+  // Aggiorna le canzoni quando cambia il filtro di categoria
+  categoryFilter.addEventListener('change', loadSongs);
 });
