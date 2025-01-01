@@ -28,11 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
                       li.textContent = song.title;
                       li.dataset.id = song.id;
 
-                      const favoriteButton = document.createElement('button');
-                      favoriteButton.textContent = favorites.includes(song.id) ? 'Rimuovi dai Preferiti' : 'Aggiungi ai Preferiti';
-                      favoriteButton.addEventListener('click', () => toggleFavorite(song.id, favoriteButton));
+                      // Creazione del cuoricino
+                      const heartIcon = document.createElement('span');
+                      heartIcon.classList.add('heart-icon');
+                      heartIcon.innerHTML = favorites.includes(song.id) ? '❤️' : '🤍'; // Cuore pieno o vuoto
+                      heartIcon.addEventListener('click', () => toggleFavorite(song.id, heartIcon));
 
-                      li.appendChild(favoriteButton);
+                      li.appendChild(heartIcon);
                       songList.appendChild(li);
                   }
               });
@@ -68,13 +70,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Gestisce i preferiti
-  function toggleFavorite(songId, button) {
+  function toggleFavorite(songId, heartIcon) {
       if (favorites.includes(songId)) {
           favorites = favorites.filter(id => id !== songId);
-          button.textContent = 'Aggiungi ai Preferiti';
+          heartIcon.innerHTML = '🤍'; // Cuore vuoto
       } else {
           favorites.push(songId);
-          button.textContent = 'Rimuovi dai Preferiti';
+          heartIcon.innerHTML = '❤️'; // Cuore pieno
       }
       localStorage.setItem('favorites', JSON.stringify(favorites));
   }
@@ -95,11 +97,12 @@ document.addEventListener('DOMContentLoaded', () => {
                   const li = document.createElement('li');
                   li.textContent = song.title;
 
-                  const favoriteButton = document.createElement('button');
-                  favoriteButton.textContent = 'Rimuovi dai Preferiti';
-                  favoriteButton.addEventListener('click', () => toggleFavorite(song.id, favoriteButton));
+                  const heartIcon = document.createElement('span');
+                  heartIcon.classList.add('heart-icon');
+                  heartIcon.innerHTML = '❤️'; // Cuore pieno
+                  heartIcon.addEventListener('click', () => toggleFavorite(song.id, heartIcon));
 
-                  li.appendChild(favoriteButton);
+                  li.appendChild(heartIcon);
                   songList.appendChild(li);
               });
       });

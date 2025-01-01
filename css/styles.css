@@ -41,6 +41,19 @@ nav label, nav select, nav button {
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heart-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: transform 0.2s;
+}
+
+.heart-icon:hover {
+  transform: scale(1.2); /* Ingrandisce il cuore al passaggio del mouse */
 }
 
 footer {
