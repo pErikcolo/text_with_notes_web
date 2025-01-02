@@ -25,6 +25,10 @@ nav {
   align-items: center;
 }
 
+nav.hidden {
+  display: none; /* Nasconde il menu */
+}
+
 nav label,
 nav select,
 nav button {
@@ -51,12 +55,15 @@ nav button {
 }
 
 #songContent {
-  display: none;
+  list-style: none;
+  padding: 10px; /* Margini per adattare il contenuto allo schermo */
+  margin: 0 auto; /* Centra il contenuto */
+  max-width: 100%; /* Evita overflow su schermi piccoli */
 }
 
 .song-section {
   margin: 30px 0;
-  padding: 0 10px; /* Per adattare il contenuto ai margini dello schermo */
+  padding: 0 5px; /* Per adattare il contenuto ai margini dello schermo */
   word-wrap: break-word; /* Spezza le parole lunghe */
 }
 
@@ -85,7 +92,6 @@ nav button {
   color: #d9534f;
   text-align: center;
   margin-right: 5px;
-  min-width: 20px; /* Per garantire uno spazio fisso */
 }
 
 .word {
@@ -94,7 +100,6 @@ nav button {
   color: #333;
   text-align: center;
   margin-right: 5px;
-  min-width: 20px; /* Per garantire uno spazio fisso */
 }
 
 footer {
@@ -178,11 +183,17 @@ nav select {
 
 /* Stile responsivo */
 @media (max-width: 768px) {
-  #songContent h2 {
-    font-size: 1.5rem;
+  nav label,
+  nav select,
+  nav button {
+    font-size: 0.9rem;
   }
 
-  .song-section {
-    padding: 0 5px;
+  #songContent {
+    padding: 10px; /* Margine aggiuntivo per schermi piccoli */
+  }
+
+  .line-container {
+    margin-bottom: 15px; /* Riduce lo spazio tra le righe */
   }
 }
