@@ -29,8 +29,7 @@
                 "tags": [
                   { "word": "Invochiamo la", "note": "Rem" },
                   { "word": "tua presenza", "note": "Sib" },
-                  { "word": "vieni", "note": "Fa" },
-                  { "word": "Si", "note": " " },
+                  { "word": "vieni Si", "note": "Fa" },
                   { "word": "gnor", "note": "Do" }
                 ]
               },
@@ -56,13 +55,13 @@
                 ]
               },
               {
-                "text": "Acqua viva d’amore questo cuore apriamo a te    ",
+                "text": "Acqua viva d’amore questo cuore apriamo a te.",
                 "tags": [
                     { "word": "Acqua viva d’a", "note": "Solm" },
                     { "word": "more questo", "note": "Rem" },
                     { "word": "cuore apriamo a", "note": "Sib" },
-                    { "word": "te", "note": "La7" },
-                    { "word": "    ", "note": "La" }
+                    { "word": "te.", "note": "La7" },
+                    { "word": " ", "note": "La" }
                 ]
               }
           ]

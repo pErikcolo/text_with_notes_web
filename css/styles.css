@@ -1,7 +1,6 @@
-/* Global Styles */
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
+  line-height: 1.8; /* Spaziatura tra le righe */
   margin: 0;
   padding: 0;
   color: #333;
@@ -28,10 +27,6 @@ nav {
   margin-top: 1rem;
 }
 
-nav label {
-  font-size: 1rem;
-}
-
 nav select,
 nav button {
   padding: 0.5rem;
@@ -41,10 +36,6 @@ nav button {
   background-color: #444;
   color: #fff;
   cursor: pointer;
-}
-
-nav button {
-  background-color: #555;
 }
 
 main {
@@ -60,34 +51,6 @@ footer {
   color: #fff;
 }
 
-/* Song List */
-#songList {
-  list-style: none;
-  padding: 0;
-}
-
-#songList li {
-  background-color: #fff;
-  margin: 0.5rem 0;
-  padding: 1rem;
-  border-radius: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-
-#songList li:hover {
-  background-color: #f0f0f0;
-}
-
-.heart-icon {
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-/* Song Content */
 #songContent {
   display: none;
 }
@@ -103,110 +66,105 @@ footer {
   cursor: pointer;
 }
 
-#songContent h2 {
-  font-size: 1.5rem;
-  color: #333;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-/* Section Styles */
-.song-section {
-  margin-bottom: 2rem;
-}
-
-.chords-section {
-  font-family: monospace;
-  color: #c0392b;
-  text-align: center;
-}
-
-.verse-section .chord-line,
-.verse-section .lyric-line {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.chorus-section {
-  font-weight: bold;
-}
-
-.chorus-section .chord-line,
-.chorus-section .lyric-line {
-  display: flex;
-  justify-content: flex-start;
-}
-
-/* Line Containers */
-.line-container {
-  margin-bottom: 1rem;
-}
-
-.chord-line {
+#viewModeButton {
+  font-size: 0.8rem;
+  padding: 0.3rem 0.5rem;
   margin-bottom: 0.5rem;
+  background-color: #ccc;
+  color: #333;
+  border: 1px solid #888;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#viewModeButton:hover {
+  background-color: #bbb;
+}
+
+.song-section {
+  margin-bottom: 40px; /* Aumentata la spaziatura tra le sezioni */
+}
+
+.line-container {
+  display: flex;
+  flex-direction: column; /* Imposta una colonna per accordi e testo */
+  align-items: flex-start; /* Allinea il contenuto a sinistra */
+  margin-bottom: 1.5em; /* Spaziatura tra le righe */
+}
+
+.word-wrapper {
+  display: inline-block;
+  text-align: left; /* Allinea l'accordo alla sinistra della parola */
+  margin: 0; /* Rimuove margini aggiuntivi */
+  padding: 0; /* Rimuove padding aggiuntivo */
+  position: relative;
+}
+
+.word-wrapper .chord {
+  font-weight: bold; /* Forza gli accordi sopra le lyrics a essere in grassetto */
+}
+
+.word-wrapper:last-child .word {
+  margin-right: 0; /* Evita spazi aggiuntivi sull'ultima parola */
+}
+
+.word {
+  font-size: 1.1rem; /* Aumenta la dimensione del carattere delle lyrics */
+  display: inline-block; /* Garantisce che sia trattata come testo */
+  white-space: pre; /* Preserva gli spazi esistenti e impedisce spazi aggiunti */
+  color: black;
+  letter-spacing: 0.05em; /* Aumenta leggermente la spaziatura tra i caratteri */
+  font-family: "Roboto", sans-serif;
 }
 
 .chord {
-  color: #c0392b; /* Rosso */
-  font-weight: bold; /* Grassetto */
-  font-size: 1.2rem; /* Dimensione del testo */
-  font-family: monospace; /* Famiglia di caratteri uniforme */
-  text-align: center;
-  margin-right: 8px; /* Spaziatura uniforme */
+  position: absolute;
+  top: -1.2em; /* Posizione dell'accordo sopra la parola */
+  left: -0.4em; /* Spostato ulteriormente a sinistra */
+  width: 100%; /* Assicura che l'accordo si allinei con la parola */
+  text-align: center; /* Centra l'accordo sopra la parola */
+  font-size: 0.8rem;
+  color: red;
 }
 
-
-.word {
-  text-align: center;
-  font-size: 1rem;
+.lyric-line {
+  display: inline; /* Cambiato da flex per trattare tutto come una singola linea di testo */
+  white-space: pre-wrap; /* Preserva gli spazi esistenti e consente di andare a capo */
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-  body {
-    padding: 0 1rem;
-  }
-
-  nav {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  #songContent h2 {
-    font-size: 1.2rem;
-  }
-
-  .chord-line .chord,
-  .lyric-line .word {
-    font-size: 0.9rem;
-    min-width: auto;
-    word-wrap: break-word;
-  }
-
-  .line-container {
-    overflow-wrap: break-word;
-    word-break: break-word;
-  }
+.chord-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px; /* Spazio tra gli accordi */
+  margin-bottom: -0.3em; /* Mantieni gli accordi vicini al testo */
 }
 
-@media screen and (max-width: 480px) {
-  body {
-    padding: 0 0.5rem;
-  }
-
-  nav select,
-  nav button {
-    font-size: 0.8rem;
-    padding: 0.4rem;
-  }
-
-  .chord-line .chord,
-  .lyric-line .word {
-    font-size: 0.8rem;
-    min-width: auto;
-  }
-
-  #songContent h2 {
-    font-size: 1rem;
-  }
+#songList li {
+  list-style: none;
+  background-color: #fff;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
+
+#songList li:hover {
+  background-color: #f0f0f0;
+}
+
+.chorus-section .lyric-line {
+  font-weight: bold; /* Grassetto solo per il testo */
+}
+
+.song-section .chord-line {
+  font-weight: bold; /* Non grassetto */
+  color: red;
+  font-size: 0.8rem; /* Stessa dimensione degli altri accordi */
+  text-align: left; /* Stessa disposizione orizzontale */
+  margin-bottom: 5px;
+}
+

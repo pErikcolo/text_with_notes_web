@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       songs = data.files;
       loadSongs();
-      populateCategoryFilter();
     })
     .catch(err => console.error('Errore nel caricamento dei file JSON:', err));
 
@@ -21,10 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
     songList.innerHTML = '';
     songContent.style.display = 'none';
     backButton.style.display = 'none';
-
-    // Mostra il filtro e il pulsante preferiti nella pagina principale
-    categoryFilter.style.display = 'inline';
-    favoritesButton.style.display = 'inline';
 
     const songPromises = songs.map(file =>
       fetch(`assets/songs/${file}`).then(response => response.json())
@@ -35,24 +30,22 @@ document.addEventListener('DOMContentLoaded', () => {
         songDetails.sort((a, b) => a.title.localeCompare(b.title));
 
         songDetails.forEach(song => {
-          if (shouldDisplaySong(song)) {
-            const li = document.createElement('li');
-            li.textContent = song.title;
-            li.dataset.id = song.id;
+          const li = document.createElement('li');
+          li.textContent = song.title;
+          li.dataset.id = song.id;
 
-            li.addEventListener('click', () => displaySongContent(song));
+          li.addEventListener('click', () => displaySongContent(song));
 
-            const heartIcon = document.createElement('span');
-            heartIcon.classList.add('heart-icon');
-            heartIcon.innerHTML = favorites.includes(song.id) ? '❤️' : '🤍';
-            heartIcon.addEventListener('click', (event) => {
-              event.stopPropagation();
-              toggleFavorite(song.id, heartIcon);
-            });
+          const heartIcon = document.createElement('span');
+          heartIcon.classList.add('heart-icon');
+          heartIcon.innerHTML = favorites.includes(song.id) ? '❤️' : '🤍';
+          heartIcon.addEventListener('click', (event) => {
+            event.stopPropagation();
+            toggleFavorite(song.id, heartIcon);
+          });
 
-            li.appendChild(heartIcon);
-            songList.appendChild(li);
-          }
+          li.appendChild(heartIcon);
+          songList.appendChild(li);
         });
       })
       .catch(err => console.error('Errore durante il caricamento delle canzoni:', err));
@@ -61,120 +54,99 @@ document.addEventListener('DOMContentLoaded', () => {
   function displaySongContent(song) {
     songList.innerHTML = '';
     songContent.innerHTML = '';
-  
-    // Nascondi il filtro e il pulsante preferiti nella pagina della canzone
-    categoryFilter.style.display = 'none';
-    favoritesButton.style.display = 'none';
-  
-    // Aggiungi il titolo della canzone in cima alla pagina
+
+    const toggleButton = document.createElement('button');
+    toggleButton.id = 'viewModeButton';
+    toggleButton.textContent = 'Solo testo';
+    toggleButton.dataset.mode = 'all';
+    toggleButton.addEventListener('click', toggleViewMode);
+    songContent.appendChild(toggleButton);
+
     const songTitle = document.createElement('h2');
     songTitle.textContent = song.title;
-    songTitle.style.textAlign = 'center';
-    songTitle.style.marginBottom = '20px';
-    songTitle.style.color = '#333';
     songContent.appendChild(songTitle);
-  
-    // Visualizza i contenuti delle sezioni
+
     song.sections.forEach((section) => {
       const sectionDiv = document.createElement('div');
-      sectionDiv.classList.add('song-section');
-      sectionDiv.classList.add(`${section.type}-section`);
-      sectionDiv.style.marginTop = '30px';
-  
+      sectionDiv.classList.add('song-section', `${section.type}-section`);
+
       section.lines.forEach((line) => {
         const lineContainer = document.createElement('div');
         lineContainer.classList.add('line-container');
-  
-        const chordLine = document.createElement('div');
-        chordLine.classList.add('chord-line');
-        chordLine.style.display = 'flex';
-  
-        const lyricLine = document.createElement('div');
-        lyricLine.classList.add('lyric-line');
-        lyricLine.style.display = 'flex';
-  
-        let cursor = 0;
-  
-        line.tags.forEach((tag) => {
-          const startIndex = line.text.indexOf(tag.word, cursor);
-          if (startIndex > cursor) {
-            const untaggedText = line.text.substring(cursor, startIndex);
-            const lyricSpan = document.createElement('span');
-            lyricSpan.classList.add('word');
-            lyricSpan.textContent = untaggedText;
-            lyricLine.appendChild(lyricSpan);
-  
-            const emptySpace = document.createElement('span');
-            emptySpace.classList.add('chord');
-            emptySpace.style.minWidth = `${untaggedText.length * 8}px`;
-            chordLine.appendChild(emptySpace);
-          }
-  
-          const chordSpan = document.createElement('span');
-          chordSpan.classList.add('chord');
-          chordSpan.textContent = tag.note || '';
-          chordSpan.style.minWidth = `${tag.word.length * 8}px`;
-  
-          const lyricSpan = document.createElement('span');
-          lyricSpan.classList.add('word');
-          lyricSpan.textContent = tag.word;
-          lyricSpan.style.minWidth = `${tag.word.length * 8}px`;
-  
-          chordLine.appendChild(chordSpan);
-          lyricLine.appendChild(lyricSpan);
-  
-          cursor = startIndex + tag.word.length;
-        });
-  
-        if (cursor < line.text.length) {
-          const untaggedText = line.text.substring(cursor);
-          const lyricSpan = document.createElement('span');
-          lyricSpan.classList.add('word');
-          lyricSpan.textContent = untaggedText;
-          lyricLine.appendChild(lyricSpan);
-  
-          const emptySpace = document.createElement('span');
-          emptySpace.classList.add('chord');
-          emptySpace.style.minWidth = `${untaggedText.length * 8}px`;
-          chordLine.appendChild(emptySpace);
+
+        if (section.type === 'chords') {
+          // Gestisce le righe di tipo "chords"
+          const chordLine = document.createElement('div');
+          chordLine.classList.add('chord-line');
+          chordLine.textContent = line.text; // Aggiunge il testo degli accordi
+          lineContainer.appendChild(chordLine);
+        } else {
+          // Gestisce le lyrics con accordi
+          const lyricLine = document.createElement('div');
+          lyricLine.classList.add('lyric-line');
+
+          let currentIndex = 0; // Indice corrente nel testo originale
+
+          line.tags.forEach(tag => {
+            const wordStartIndex = line.text.indexOf(tag.word, currentIndex);
+            const spaceBetween = line.text.slice(currentIndex, wordStartIndex);
+
+            // Aggiungi spazio tra le parole
+            if (spaceBetween) {
+              const spaceSpan = document.createElement('span');
+              spaceSpan.textContent = spaceBetween;
+              lyricLine.appendChild(spaceSpan);
+            }
+
+            const wordWrapper = document.createElement('span');
+            wordWrapper.classList.add('word-wrapper');
+
+            const chordSpan = document.createElement('span');
+            chordSpan.classList.add('chord');
+            chordSpan.textContent = tag.note;
+
+            const wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.textContent = tag.word;
+
+            wordWrapper.appendChild(chordSpan);
+            wordWrapper.appendChild(wordSpan);
+
+            lyricLine.appendChild(wordWrapper);
+
+            // Aggiorna l'indice corrente
+            currentIndex = wordStartIndex + tag.word.length;
+          });
+
+          lineContainer.appendChild(lyricLine);
         }
-  
-        lineContainer.appendChild(chordLine);
-        lineContainer.appendChild(lyricLine);
+
         sectionDiv.appendChild(lineContainer);
       });
-  
+
       songContent.appendChild(sectionDiv);
     });
-  
+
     songContent.style.display = 'block';
     backButton.style.display = 'inline';
   }
 
-  function shouldDisplaySong(song) {
-    const selectedCategory = categoryFilter.value;
-    return !selectedCategory || song.tags.includes(selectedCategory);
-  }
+  function toggleViewMode() {
+    const chordLines = document.querySelectorAll('.chord-line');
+    const lyricLines = document.querySelectorAll('.lyric-line');
+    const toggleButton = document.getElementById('viewModeButton');
 
-  function populateCategoryFilter() {
-    const categories = new Set();
-    songs.forEach(file => {
-      fetch(`assets/songs/${file}`)
-        .then(response => response.json())
-        .then(song => {
-          song.tags.forEach(tag => categories.add(tag));
-          updateCategoryOptions(categories);
-        });
-    });
-  }
-
-  function updateCategoryOptions(categories) {
-    categories.forEach(category => {
-      const option = document.createElement('option');
-      option.value = category;
-      option.textContent = category;
-      categoryFilter.appendChild(option);
-    });
+    if (toggleButton.dataset.mode === 'all') {
+      chordLines.forEach(line => line.style.display = 'none');
+      lyricLines.forEach(line => line.style.display = 'block');
+      toggleButton.textContent = 'Testo e accordi';
+      toggleButton.dataset.mode = 'lyrics';
+    } else {
+      chordLines.forEach(line => line.style.display = 'block');
+      lyricLines.forEach(line => line.style.display = 'block');
+      toggleButton.textContent = 'Solo testo';
+      toggleButton.dataset.mode = 'all';
+    }
   }
 
   function toggleFavorite(songId, heartIcon) {
@@ -189,5 +161,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   backButton.addEventListener('click', loadSongs);
-  categoryFilter.addEventListener('change', loadSongs);
 });
