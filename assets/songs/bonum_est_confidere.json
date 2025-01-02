@@ -7,12 +7,10 @@
           "type": "verse",
           "lines": [
               {
-                "text": "Bonum est confidere in  Do   mi   no,",
+                "text": "Bonum est confidere in  Do mi no,",
                 "tags": [
-                  { "word": "Bonum", "note": "Rem" },
-                  { "word": "est", "note": " " },
-                  { "word": "confidere", "note": "La" },
-                  { "word": "in", "note": " " },
+                  { "word": "Bonum est", "note": "Rem" },
+                  { "word": "confidere in", "note": "La" },
                   { "word": "Do", "note": "Rem" },
                   { "word": "mi", "note": "Do" },
                   { "word": "no,", "note": "Fa" }
@@ -22,10 +20,9 @@
                 "text": "Bonum sperare in  Do   mi   no.",
                 "tags": [
                     { "word": "Bonum", "note": "Solm" },
-                    { "word": "sperare", "note": "Rem" },
-                    { "word": "in", "note": " " },
-                    { "word": "Do", "note": "Solm" },
-                    { "word": "mi", "note": "La" },
+                    { "word": "sperare in", "note": "Rem" },
+                    { "word": "Do   ", "note": "Solm" },
+                    { "word": "mi   ", "note": "La" },
                     { "word": "no.", "note": "Rem" }
                 ]
               }

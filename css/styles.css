@@ -1,14 +1,14 @@
+/* Impostazioni generali */
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  background-color: #f9f9f9;
   color: #333;
 }
 
 header {
-  background: #333;
+  background-color: #333;
   color: #fff;
   padding: 10px 20px;
   display: flex;
@@ -25,18 +25,21 @@ nav {
   align-items: center;
 }
 
-nav label, nav select, nav button {
+nav label,
+nav select,
+nav button {
   margin: 0 5px;
 }
 
-#songList {
+#songList,
+#songContent {
   list-style: none;
   padding: 0;
   margin: 20px;
 }
 
 #songList li {
-  background: #fff;
+  background-color: #fff;
   margin: 10px 0;
   padding: 15px;
   border-radius: 5px;
@@ -44,21 +47,114 @@ nav label, nav select, nav button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.heart-icon {
   cursor: pointer;
-  font-size: 1.5rem;
-  transition: transform 0.2s;
 }
 
-.heart-icon:hover {
-  transform: scale(1.2); /* Ingrandisce il cuore al passaggio del mouse */
+#songContent {
+  display: none;
+}
+
+.song-section {
+  margin-bottom: 20px; /* Spazio tra le sezioni */
+}
+
+.line-container {
+  margin-bottom: 10px; /* Spazio tra le righe */
+  display: flex;
+  flex-direction: column;
+}
+
+.chord-line {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  font-family: monospace;
+  font-weight: bold;
+  color: #d9534f;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 1rem; /* Dimensione uniforme */
+}
+
+.lyric-line {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  font-weight: normal; /* Testo normale di default */
+}
+
+.song-section .line-container.chorus .lyric-line {
+  font-weight: bold; /* Grassetto per i ritornelli */
+}
+
+.chord {
+  font-family: monospace;
+  font-weight: bold;
+  color: #d9534f;
+  text-align: center;
+  margin-right: 5px;
+  min-width: 20px; /* Per garantire uno spazio fisso */
+}
+
+.word {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  margin-right: 5px;
+  min-width: 20px; /* Per garantire uno spazio fisso */
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background: #333;
+  background-color: #333;
   color: #fff;
+}
+
+.heart-icon {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#backButton {
+  display: none;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#backButton:hover {
+  background-color: #555;
+}
+
+/* Pulsanti e filtri */
+nav button {
+  padding: 5px 10px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #777;
+}
+
+nav select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Modalità preferiti */
+.favorites {
+  background-color: #ffd700;
+  color: #000;
 }
