@@ -55,11 +55,13 @@ nav button {
 }
 
 .song-section {
-  margin-bottom: 20px; /* Spazio tra le sezioni */
+  margin: 30px 0;
+  padding: 0 10px; /* Per adattare il contenuto ai margini dello schermo */
+  word-wrap: break-word; /* Spezza le parole lunghe */
 }
 
 .line-container {
-  margin-bottom: 10px; /* Spazio tra le righe */
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -68,23 +70,13 @@ nav button {
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
-  font-family: monospace;
-  font-weight: bold;
-  color: #d9534f;
-  text-align: center;
-  margin-right: 5px;
-  font-size: 1rem; /* Dimensione uniforme */
+  margin-bottom: 5px;
 }
 
 .lyric-line {
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
-  font-weight: normal; /* Testo normale di default */
-}
-
-.song-section .line-container.chorus .lyric-line {
-  font-weight: bold; /* Grassetto per i ritornelli */
 }
 
 .chord {
@@ -157,4 +149,40 @@ nav select {
 .favorites {
   background-color: #ffd700;
   color: #000;
+}
+
+/* Stile del titolo della canzone */
+#songContent h2 {
+  margin: 10px auto; /* Centrare il titolo */
+  font-size: 1.8rem;
+  text-align: center; /* Allinea il testo al centro */
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+/* Stile per le sezioni */
+.chorus-section {
+  font-weight: bold; /* Grassetto per i ritornelli */
+  color: #222; /* Colore più scuro per i ritornelli */
+}
+
+.verse-section {
+  font-weight: normal; /* Normale per le strofe */
+}
+
+.chords-section .chord-line {
+  font-family: monospace;
+  font-size: 1rem;
+  color: #d9534f;
+}
+
+/* Stile responsivo */
+@media (max-width: 768px) {
+  #songContent h2 {
+    font-size: 1.5rem;
+  }
+
+  .song-section {
+    padding: 0 5px;
+  }
 }
