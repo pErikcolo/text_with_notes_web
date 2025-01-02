@@ -1,0 +1,172 @@
+    {
+      "id": "song8",
+      "title": "Adoro te",
+      "tags": ["Apertura", "Adorazione"],
+      "sections": [
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "text": "Re",
+                 "tags": []
+                }
+            ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "text": "Sei qui davanti a me, o mio Signore,",
+                "tags": [
+                  { "word": "Sei qui davanti a me,", "note": "Re" },
+                  { "word": "o mio Signore,", "note": "La" }
+                ]
+              },
+              {
+                "text": "sei in questa brezza che ristora il cuore,",
+                "tags": [
+                    { "word": "sei in questa brezza", "note": "Sim" },
+                    { "word": "che ristora il cuore,", "note": "Fa#m" }
+                ]
+              },
+              {
+                "text": "Roveto che mai si consumerà,",
+                "tags": [
+                    { "word": "Roveto che mai si", "note": "Sol" },
+                    { "word": "consumerà", "note": "Re" }
+                ]
+              },
+              {
+                "text": "presenza che riempie l'anima.",
+                "tags": [
+                    { "word": "presenza", "note": "Do" },
+                    { "word": "che riempie", "note": "Sol" },
+                    { "word": "l'ani", "note": "La4" },
+                    { "word": "ma.", "note": "La" }
+                ]
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "text": "Adoro Te, fonte della Vita,",
+              "tags": [
+                { "word": "Adoro", "note": "Re" },
+                { "word": "Te,", "note": "Sib" },
+                { "word": "fonte della", "note": "Do" },
+                { "word": "Vita,", "note": "Fa" }
+              ]
+            },
+            {
+              "text": "adoro Te, Trinità infinità.",
+              "tags": [
+                { "word": "Adoro", "note": "Re" },
+                { "word": "Te,", "note": "Sib" },
+                { "word": "Trinità", "note": "Do" },
+                { "word": "infinità.", "note": "Fa" }
+              ]
+            },
+            {
+              "text": "I miei calzari leverò su questo santo suolo,",
+              "tags": [
+                { "word": "I miei", "note": "Lam" },
+                { "word": "calzari leverò", "note": "Rem" },
+                { "word": "su", "note": "Sib" },
+                { "word": "questo", "note": "Lam" },
+                { "word": "santo suolo,", "note": "Solm" }
+              ]
+            },
+            {
+              "text": "alla presenza Tua mi prostrerò.",
+              "tags": [
+                { "word": "alla", "note": " " },
+                { "word": "presenza Tua mi", "note": "Rem" },
+                { "word": "pro", "note": "Mi" },
+                { "word": "stre", "note": "La" },
+                { "word": "rò.", "note": "Sib" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "verse",
+        "lines": [
+            {
+              "text": "Sei qui davanti a me, o mio Signore,",
+              "tags": [
+                { "word": "Sei qui davanti a me,", "note": "Re" },
+                { "word": "o mio Signore,", "note": "La" }
+              ]
+            },
+            {
+              "text": "nella Tua grazia trovo la mia gioia.",
+              "tags": [
+                  { "word": "nella Tua grazia", "note": "Sim" },
+                  { "word": "trovo la mia gioia.", "note": "Fa#m" }
+              ]
+            },
+            {
+              "text": "Io lodo, ringrazio e prego perché",
+              "tags": [
+                  { "word": "Io lodo, ringrazio e", "note": "Sol" },
+                  { "word": "prego perché", "note": "Re" }
+              ]
+            },
+            {
+              "text": "il mondo ritorni a vivere in Te.",
+              "tags": [
+                  { "word": "il mondo", "note": "Do" },
+                  { "word": "ritorni a vivere", "note": "Sol" },
+                  { "word": "in", "note": "La4" },
+                  { "word": "Te.", "note": "La" }
+              ]
+            }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          {
+            "text": "Adoro Te, fonte della Vita,",
+            "tags": [
+              { "word": "Adoro", "note": "Re" },
+              { "word": "Te,", "note": "Sib" },
+              { "word": "fonte della", "note": "Do" },
+              { "word": "Vita,", "note": "Fa" }
+            ]
+          },
+          {
+            "text": "adoro Te, Trinità infinità.",
+            "tags": [
+              { "word": "Adoro", "note": "Re" },
+              { "word": "Te,", "note": "Sib" },
+              { "word": "Trinità", "note": "Do" },
+              { "word": "infinità.", "note": "Fa" }
+            ]
+          },
+          {
+            "text": "I miei calzari leverò su questo santo suolo,",
+            "tags": [
+              { "word": "I miei", "note": "Lam" },
+              { "word": "calzari leverò", "note": "Rem" },
+              { "word": "su", "note": "Sib" },
+              { "word": "questo", "note": "Lam" },
+              { "word": "santo suolo,", "note": "Solm" }
+            ]
+          },
+          {
+            "text": "alla presenza Tua mi prostrerò.",
+            "tags": [
+              { "word": "alla", "note": " " },
+              { "word": "presenza Tua mi", "note": "Rem" },
+              { "word": "pro", "note": "Mi" },
+              { "word": "stre", "note": "La" },
+              { "word": "rò.", "note": "Sib" }
+            ]
+          }
+        ]
+      }
+      ]
+    }
