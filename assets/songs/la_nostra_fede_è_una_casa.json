@@ -1,0 +1,341 @@
+    {
+      "id": "song11",
+      "title": "La nostra fede è una casa",
+      "tags": ["Conclusione"],
+      "sections": [
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "text": "Sol Re Mi Re Do",
+                 "tags": []
+                }
+            ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "text": "Sotto questo cielo immenso",
+                "tags": [
+                  { "word": "Sotto questo cielo immenso", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "accanto a queste immense mura",
+                "tags": [
+                    { "word": "accanto a queste immense mura", "note": "Do" }
+                ]
+              },
+              {
+                "text": "io dico sì.",
+                "tags": [
+                    { "word": "io", "note": "Mim" },
+                    { "word": "dico", "note": "Re" },
+                    { "word": "sì.", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Davanti a questo amore eterno",
+                "tags": [
+                  { "word": "Davanti a questo amore eterno", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "davanti a questo eterno dono",
+                "tags": [
+                  { "word": "davanti a questo eterno dono", "note": "Sol" }
+                ]
+              },
+              {
+                "text": "io dico sì",
+                "tags": [
+                  { "word": "io", "note": "Mim" },
+                    { "word": "dico", "note": "Re" },
+                    { "word": "sì.", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Ad un amore che è più grande di me",
+                "tags": [
+                  { "word": "Ad un a", "note": " " },
+                  { "word": "more che è più", "note": "Mim" },
+                  { "word": "grande di", "note": "Re" },
+                  { "word": "me", "note": "Do" }
+                ]
+              },
+              {
+                "text": "Ad un progetto che ha vita solo in te ",
+                "tags": [
+                  { "word": "Ad un pro", "note": " " },
+                  { "word": "getto che ha", "note": "Mim" },
+                  { "word": "vita solo in", "note": "Do" },
+                  { "word": "te", "note": "Re" },
+                  { "word": " ", "note": "Re7" }
+                ]
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "text": "La nostra fede è una casa ",
+              "tags": [
+                { "word": "La nostra", "note": "Sol" },
+                { "word": "fede è una", "note": "Re" },
+                { "word": "casa", "note": "Mim" },
+                { "word": " ", "note": "Do" }
+              ]
+            },
+            {
+              "text": "tempio d'oro di paure e speranze ",
+              "tags": [
+                { "word": "tempio", "note": " " },
+                { "word": "d'oro di pa", "note": "Sol" },
+                { "word": "ure e spe", "note": "Re" },
+                { "word": "ranze", "note": "Mim" },
+                { "word": " ", "note": "Do" }
+              ]
+            },
+            {
+              "text": "dimora di fratelli fragili,",
+              "tags": [
+                { "word": "dimora", "note": " " },
+                { "word": "di fra", "note": "Sol" },
+                { "word": "telli", "note": "Re" },
+                { "word": "fragi", "note": "Mim" },
+                { "word": "li,", "note": "Do" }
+              ]
+            },
+            {
+              "text": "ma uniti da Colui che è la roccia.",
+              "tags": [
+                { "word": "ma u", "note": " " },
+                { "word": "niti da Co", "note": "Sol" },
+                { "word": "lui che è la", "note": "Re" },
+                { "word": "roccia.", "note": "Do" }
+              ]
+            },
+            {
+              "text": "Irrompa il tuo sì, o Maria ",
+              "tags": [
+                { "word": "Ir", "note": " " },
+                { "word": "rompa il tuo", "note": "Sol" },
+                { "word": "sì, o Ma", "note": "Re" },
+                { "word": "ria", "note": "Mim" },
+                { "word": " ", "note": "Do" }
+              ]
+            },
+            {
+              "text": "in questo mondo assetato di Dio.",
+              "tags": [
+                { "word": "in questo", "note": " " },
+                { "word": "mondo asse", "note": "Sol" },
+                { "word": "tato di", "note": "Re" },
+                { "word": "Dio.", "note": "Mim" },
+                { "word": " ", "note": "Do" }
+              ]
+            },
+            {
+              "text": "Tu Onnipotente per grazia sollevaci",
+              "tags": [
+                { "word": "Tu Onnipo", "note": " " },
+                { "word": "tente per", "note": "Sol" },
+                { "word": "grazia sol", "note": "Re" },
+                { "word": "leva", "note": "Mim" },
+                { "word": "ci", "note": "Do" }
+              ]
+            },
+            {
+              "text": "e portaci al tuo Figlio Gesù.",
+              "tags": [
+                { "word": "e", "note": " " },
+                { "word": "portaci al tuo", "note": "Sib" },
+                { "word": "Figlio", "note": "Do" },
+                { "word": "more.", "note": "Rem" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "lines": [
+              {
+               "text": "Sol Re Mi Re Do",
+               "tags": []
+              }
+          ]
+        },
+        {
+          "type": "verse",
+        "lines": [
+            {
+              "text": "E nella gioia e nel dolore,",
+              "tags": [
+                { "word": "E nella gioia e nel dolore,", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "nelle fatiche e nella pace",
+              "tags": [
+                  { "word": "nelle fatiche e nella pace", "note": "Do" }
+              ]
+            },
+            {
+              "text": "io dico sì.",
+              "tags": [
+                  { "word": "io", "note": "Mim" },
+                  { "word": "dico", "note": "Re" },
+                  { "word": "sì.", "note": "Do" }
+              ]
+            },
+            {
+              "text": "Inondami del tuo sorriso,",
+              "tags": [
+                { "word": "Inondami del tuo sorriso,", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "perché l'eterno sia il presente",
+              "tags": [
+                { "word": "perché l'eterno sia il presente", "note": "Sol" }
+              ]
+            },
+            {
+              "text": "io dico sì",
+              "tags": [
+                { "word": "io", "note": "Mim" },
+                  { "word": "dico", "note": "Re" },
+                  { "word": "sì.", "note": "Do" }
+              ]
+            },
+            {
+              "text": "Ad un amore che è più grande di me",
+              "tags": [
+                { "word": "Ad un a", "note": " " },
+                { "word": "more che è più", "note": "Mim" },
+                { "word": "grande di", "note": "Re" },
+                { "word": "me", "note": "Do" }
+              ]
+            },
+            {
+              "text": "Ad un progetto che ha vita solo in te ",
+              "tags": [
+                { "word": "Ad un pro", "note": " " },
+                { "word": "getto che ha", "note": "Mim" },
+                { "word": "vita solo in", "note": "Do" },
+                { "word": "te", "note": "Re" },
+                { "word": " ", "note": "Re7" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "text": "La nostra fede è una casa ",
+              "tags": [
+                { "word": "La nostra", "note": "Sol" },
+                { "word": "fede è una", "note": "Re" },
+                { "word": "casa", "note": "Mim" },
+                { "word": " ", "note": "Do" }
+              ]
+            },
+            {
+              "text": "tempio d'oro di paure e speranze ",
+              "tags": [
+                { "word": "tempio", "note": " " },
+                { "word": "d'oro di pa", "note": "Sol" },
+                { "word": "ure e spe", "note": "Re" },
+                { "word": "ranze", "note": "Mim" },
+                { "word": " ", "note": "Do" }
+              ]
+            },
+            {
+              "text": "dimora di fratelli fragili,",
+              "tags": [
+                { "word": "dimora", "note": " " },
+                { "word": "di fra", "note": "Sol" },
+                { "word": "telli", "note": "Re" },
+                { "word": "fragi", "note": "Mim" },
+                { "word": "li,", "note": "Do" }
+              ]
+            },
+            {
+              "text": "ma uniti da Colui che è la roccia.",
+              "tags": [
+                { "word": "ma u", "note": " " },
+                { "word": "niti da Co", "note": "Sol" },
+                { "word": "lui che è la", "note": "Re" },
+                { "word": "roccia.", "note": "Do" }
+              ]
+            },
+            {
+              "text": "Irrompa il tuo sì, o Maria ",
+              "tags": [
+                { "word": "Ir", "note": " " },
+                { "word": "rompa il tuo", "note": "Sol" },
+                { "word": "sì, o Ma", "note": "Re" },
+                { "word": "ria", "note": "Mim" },
+                { "word": " ", "note": "Do" }
+              ]
+            },
+            {
+              "text": "in questo mondo assetato di Dio.",
+              "tags": [
+                { "word": "in questo", "note": " " },
+                { "word": "mondo asse", "note": "Sol" },
+                { "word": "tato di", "note": "Re" },
+                { "word": "Dio.", "note": "Mim" },
+                { "word": " ", "note": "Do" }
+              ]
+            },
+            {
+              "text": "Tu Onnipotente per grazia sollevaci",
+              "tags": [
+                { "word": "Tu Onnipo", "note": " " },
+                { "word": "tente per", "note": "Sol" },
+                { "word": "grazia sol", "note": "Re" },
+                { "word": "leva", "note": "Mim" },
+                { "word": "ci", "note": "Do" }
+              ]
+            },
+            {
+              "text": "e portaci al tuo Figlio Gesù.",
+              "tags": [
+                { "word": "e", "note": " " },
+                { "word": "portaci al tuo", "note": "Sib" },
+                { "word": "Figlio", "note": "Do" },
+                { "word": "more.", "note": "Rem" }
+              ]
+            }
+          ]
+        },
+        {
+        "type": "chorus",
+        "lines": [
+            {
+              "text": "Tu Onnipotente per grazia sollevaci",
+              "tags": [
+                { "word": "Tu Onnipo", "note": " " },
+                { "word": "tente per", "note": "Sol" },
+                { "word": "grazia sol", "note": "Re" },
+                { "word": "leva", "note": "Mim" },
+                { "word": "ci", "note": "Do" }
+              ]
+            },
+            {
+              "text": "e portaci al tuo Figlio Gesù.",
+              "tags": [
+                { "word": "e", "note": " " },
+                { "word": "portaci al tuo", "note": "Sib" },
+                { "word": "Figlio", "note": "Do" },
+                { "word": "more.", "note": "Rem" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
