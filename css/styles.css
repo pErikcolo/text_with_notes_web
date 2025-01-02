@@ -109,11 +109,11 @@ footer {
 }
 
 .word {
-  font-size: 1.1rem; /* Aumenta la dimensione del carattere delle lyrics */
+  font-size: 1.8rem; /* Aumenta la dimensione del carattere delle lyrics */
   display: inline-block; /* Garantisce che sia trattata come testo */
   white-space: pre; /* Preserva gli spazi esistenti e impedisce spazi aggiunti */
   color: black;
-  letter-spacing: 0.05em; /* Aumenta leggermente la spaziatura tra i caratteri */
+  letter-spacing: 0.08em; /* Aumenta leggermente la spaziatura tra i caratteri */
   font-family: "Roboto", sans-serif;
 }
 
@@ -123,17 +123,18 @@ footer {
   left: -0.4em; /* Spostato ulteriormente a sinistra */
   width: 100%; /* Assicura che l'accordo si allinei con la parola */
   text-align: center; /* Centra l'accordo sopra la parola */
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   color: red;
+  font-family: "Source Code Pro", monospace;
 }
 
 .lyric-line {
-  display: inline; /* Cambiato da flex per trattare tutto come una singola linea di testo */
+  display: block; /* Cambiato da flex per trattare tutto come una singola linea di testo */
   white-space: pre-wrap; /* Preserva gli spazi esistenti e consente di andare a capo */
 }
 
 .chord-line {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   gap: 4px; /* Spazio tra gli accordi */
   margin-bottom: -0.3em; /* Mantieni gli accordi vicini al testo */
@@ -160,11 +161,21 @@ footer {
   font-weight: bold; /* Grassetto solo per il testo */
 }
 
+#songContent .song-section.chorus-section .lyric-line {
+  font-size: 1.4rem !important; /* Forza l'applicazione */
+}
+
+
 .song-section .chord-line {
   font-weight: bold; /* Non grassetto */
   color: red;
-  font-size: 0.8rem; /* Stessa dimensione degli altri accordi */
+  font-size: 1.2rem; /* Stessa dimensione degli altri accordi */
   text-align: left; /* Stessa disposizione orizzontale */
   margin-bottom: 5px;
+}
+
+.song-section.chorus-section .lyric-line {
+  font-size: 1.4rem !important; /* Modifica la dimensione */
+  font-weight: bold !important; /* Mantieni il grassetto */
 }
 

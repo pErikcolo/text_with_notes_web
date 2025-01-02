@@ -132,22 +132,28 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function toggleViewMode() {
-    const chordLines = document.querySelectorAll('.chord-line');
-    const lyricLines = document.querySelectorAll('.lyric-line');
+    const chordLines = document.querySelectorAll('.chord-line'); // Righe di accordi
+    const lyricLines = document.querySelectorAll('.lyric-line'); // Lyrics
+    const chordsInLyrics = document.querySelectorAll('.word-wrapper .chord'); // Accordi sopra le lyrics
     const toggleButton = document.getElementById('viewModeButton');
-
+  
     if (toggleButton.dataset.mode === 'all') {
-      chordLines.forEach(line => line.style.display = 'none');
-      lyricLines.forEach(line => line.style.display = 'block');
+      // Nascondi gli accordi
+      chordLines.forEach(line => line.style.display = 'none'); // Nasconde righe di accordi
+      chordsInLyrics.forEach(chord => chord.style.display = 'none'); // Nasconde accordi sopra lyrics
+      lyricLines.forEach(line => line.style.display = 'block'); // Mostra solo lyrics
       toggleButton.textContent = 'Testo e accordi';
       toggleButton.dataset.mode = 'lyrics';
     } else {
-      chordLines.forEach(line => line.style.display = 'block');
-      lyricLines.forEach(line => line.style.display = 'block');
+      // Mostra accordi
+      chordLines.forEach(line => line.style.display = 'block'); // Mostra righe di accordi
+      chordsInLyrics.forEach(chord => chord.style.display = 'block'); // Mostra accordi sopra lyrics
+      lyricLines.forEach(line => line.style.display = 'block'); // Mostra lyrics con accordi
       toggleButton.textContent = 'Solo testo';
       toggleButton.dataset.mode = 'all';
     }
   }
+  
 
   function toggleFavorite(songId, heartIcon) {
     if (favorites.includes(songId)) {
