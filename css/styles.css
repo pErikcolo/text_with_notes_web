@@ -147,10 +147,14 @@ footer {
 }
 
 .chord {
-  color: #e74c3c;
+  color: #c0392b; /* Rosso */
+  font-weight: bold; /* Grassetto */
+  font-size: 1.2rem; /* Dimensione del testo */
+  font-family: monospace; /* Famiglia di caratteri uniforme */
   text-align: center;
-  font-size: 1rem;
+  margin-right: 8px; /* Spaziatura uniforme */
 }
+
 
 .word {
   text-align: center;
