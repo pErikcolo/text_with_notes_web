@@ -7,113 +7,150 @@
             "type": "chords",
             "lines": [
                 {
-                 "text": "Do   Sol   Fa   Mi",
+                 "text": "Mi",
                  "tags": []
                 }
             ]
         },
         {
-            "type": "chorus",
+            "type": "verse",
           "lines": [
               {
-                "text": "Alleluia, allelu alleluia, alleluia, alleluia  ",
+                "text": "Gesù parola viva e vera",
                 "tags": [
-                  { "word": "Allel", "note": "Do" },
-                  { "word": "uia, alle", "note": "Mim" },
-                  { "word": "lu allelu", "note": "Fa" },
-                  { "word": "ia,", "note": "Do" },
-                  { "word": "allelu", "note": "Fa" },
-                  { "word": "ia, alle", "note": "Do" },
-                  { "word": "luia", "note": "Sol7" },
-                  { "word": "  ", "note": "Sol" }
+                  { "word": "Gesù parola viva e", "note": "Mi" },
+                  { "word": "vera", "note": "Si" }
                 ]
               },
               {
-                "text": "Alleluia, allelu alleluia, alleluia, alleluia   ",
+                "text": "sorgente che disseta e cura ogni ferita.",
                 "tags": [
-                    { "word": "Allel", "note": "Do" },
-                    { "word": "uia, alle", "note": "Mim" },
-                    { "word": "lu allelu", "note": "Fa" },
-                    { "word": "ia,", "note": "Do" },
-                    { "word": "allelu", "note": "Fa" },
-                    { "word": "ia, alle", "note": "Do" },
-                    { "word": "luia", "note": "Sol" },
-                    { "word": "  ", "note": "Do" }
+                    { "word": "sorgente che", "note": " " },
+                    { "word": "disseta e cura ogni", "note": "Do#m" },
+                    { "word": "ferita.", "note": "La" }
+                ]
+              },
+              {
+                "text": "Ferma su di me i tuoi occhi",
+                "tags": [
+                    { "word": "Ferma su di me i tuoi", "note": "Mi" },
+                    { "word": "occhi", "note": "Si" }
+                ]
+              },
+              {
+                "text": "la tua mano stendi e donami la vita",
+                "tags": [
+                    { "word": "la tua mano", "note": " " },
+                    { "word": "stendi e donami la", "note": "Do#m" },
+                    { "word": "vita", "note": "La" }
                 ]
               }
           ]
         },
         {
-          "type": "verse",
+          "type": "chorus",
           "lines": [
             {
-              "text": "Canto per Cristo che mi libererà",
+              "text": "Abbracciami Dio dell’eternità",
               "tags": [
-                { "word": "Canto per", "note": "Do" },
-                { "word": "Cristo che", "note": "Mim" },
-                { "word": "mi liber", "note": "Fa" },
-                { "word": "erà", "note": "Do" }
+                { "word": "Abbracciami Dio dell’", "note": "Mi" },
+                { "word": "eternità", "note": "Si" }
               ]
             },
             {
-              "text": "quando verrà nella gloria, ",
+              "text": "rifugio dell’anima grazie che opera",
               "tags": [
-                { "word": "quando", "note": "Fa" },
-                { "word": "verrà nella", "note": "Do" },
-                { "word": "gloria,", "note": "Sol7" },
-                { "word": " ", "note": "Sol" }
+                { "word": "rifugio dell’", "note": " " },
+                { "word": "anima grazie che", "note": "Do#m" },
+                { "word": "opera", "note": "La" }
               ]
             },
             {
-              "text": "quando la vita con Lui rinascerà",
+              "text": "riscaldami fuoco che libera",
               "tags": [
-                { "word": "quando la", "note": "Do" },
-                { "word": "vita con", "note": "Mim" },
-                { "word": "Lui rinasc", "note": "Fa" },
-                { "word": "erà", "note": "Do" }
+                { "word": "riscaldami fuoco che", "note": "Mi" },
+                { "word": "libera", "note": "Si" }
               ]
             },
             {
-              "text": "alleluia, alleluia  ",
+              "text": "manda il tuo Spirito Maranathà Gesù",
               "tags": [
-                { "word": "allelu", "note": "Fa" },
-                { "word": "ia, all", "note": "Do" },
-                { "word": "eluia", "note": "Sol" },
-                { "word": "  ", "note": "Do" }
+                { "word": "manda il tuo", "note": " " },
+                { "word": "Spirito Marana", "note": "Do#m" },
+                { "word": "thà Gesù", "note": "La" }
               ]
             }
           ]
         },
         {
-            "type": "chorus",
-          "lines": [
-              {
-                "text": "Alleluia, allelu alleluia, alleluia, alleluia  ",
-                "tags": [
-                  { "word": "Allel", "note": "Do" },
-                  { "word": "uia, alle", "note": "Mim" },
-                  { "word": "lu allelu", "note": "Fa" },
-                  { "word": "ia,", "note": "Do" },
-                  { "word": "allelu", "note": "Fa" },
-                  { "word": "ia, alle", "note": "Do" },
-                  { "word": "luia", "note": "Sol7" },
-                  { "word": "  ", "note": "Sol" }
-                ]
-              },
-              {
-                "text": "Alleluia, allelu alleluia, alleluia, alleluia   ",
-                "tags": [
-                    { "word": "Allel", "note": "Do" },
-                    { "word": "uia, alle", "note": "Mim" },
-                    { "word": "lu allelu", "note": "Fa" },
-                    { "word": "ia,", "note": "Do" },
-                    { "word": "allelu", "note": "Fa" },
-                    { "word": "ia, alle", "note": "Do" },
-                    { "word": "luia", "note": "Sol" },
-                    { "word": "  ", "note": "Do" }
-                ]
-              }
-          ]
-        }
+          "type": "verse",
+        "lines": [
+            {
+              "text": "Gesù asciuga il nostro pianto",
+              "tags": [
+                { "word": "Gesù asciuga il nostro", "note": "Mi" },
+                { "word": "pianto", "note": "Si" }
+              ]
+            },
+            {
+              "text": "leone vincitore della tribù di Giuda.",
+              "tags": [
+                  { "word": "leone vinci", "note": " " },
+                  { "word": "tore della tribù di", "note": "Do#m" },
+                  { "word": "Giuda.", "note": "La" }
+              ]
+            },
+            {
+              "text": "Vieni nella tua potenzaquesto cuore sciogli",
+              "tags": [
+                  { "word": "Vieni nella tua", "note": "Mi" },
+                  { "word": "potenza", "note": "Si" }
+              ]
+            },
+            {
+              "text": "questo cuore sciogli con ogni sua paura",
+              "tags": [
+                  { "word": "questo cuore", "note": " " },
+                  { "word": "sciogli con ogni sua", "note": "Do#m" },
+                  { "word": "paura", "note": "La" }
+              ]
+            }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          {
+            "text": "Abbracciami Dio dell’eternità",
+            "tags": [
+              { "word": "Abbracciami Dio dell’", "note": "Mi" },
+              { "word": "eternità", "note": "Si" }
+            ]
+          },
+          {
+            "text": "rifugio dell’anima grazie che opera",
+            "tags": [
+              { "word": "rifugio dell’", "note": " " },
+              { "word": "anima grazie che", "note": "Do#m" },
+              { "word": "opera", "note": "La" }
+            ]
+          },
+          {
+            "text": "riscaldami fuoco che libera",
+            "tags": [
+              { "word": "riscaldami fuoco che", "note": "Mi" },
+              { "word": "libera", "note": "Si" }
+            ]
+          },
+          {
+            "text": "manda il tuo Spirito Maranathà Gesù",
+            "tags": [
+              { "word": "manda il tuo", "note": " " },
+              { "word": "Spirito Marana", "note": "Do#m" },
+              { "word": "thà Gesù", "note": "La" }
+            ]
+          }
+        ]
+      }
       ]
     }

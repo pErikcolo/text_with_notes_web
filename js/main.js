@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const backButton = document.getElementById('backButton');
   const categoryFilter = document.getElementById('categoryFilter');
   const favoritesButton = document.getElementById('favoritesButton');
-  const nav = document.querySelector('nav');
 
   let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
   let songs = [];
@@ -22,7 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
     songList.innerHTML = '';
     songContent.style.display = 'none';
     backButton.style.display = 'none';
-    nav.classList.remove('hidden'); // Mostra il menu nella pagina principale
+
+    // Mostra il filtro e il pulsante preferiti nella pagina principale
+    categoryFilter.style.display = 'inline';
+    favoritesButton.style.display = 'inline';
 
     const songPromises = songs.map(file =>
       fetch(`assets/songs/${file}`).then(response => response.json())
@@ -59,7 +61,10 @@ document.addEventListener('DOMContentLoaded', () => {
   function displaySongContent(song) {
     songList.innerHTML = '';
     songContent.innerHTML = '';
-    nav.classList.add('hidden'); // Nasconde il menu nella pagina della canzone
+  
+    // Nascondi il filtro e il pulsante preferiti nella pagina della canzone
+    categoryFilter.style.display = 'none';
+    favoritesButton.style.display = 'none';
   
     // Aggiungi il titolo della canzone in cima alla pagina
     const songTitle = document.createElement('h2');
@@ -98,54 +103,50 @@ document.addEventListener('DOMContentLoaded', () => {
             lyricSpan.classList.add('word');
             lyricSpan.textContent = untaggedText;
             lyricLine.appendChild(lyricSpan);
-
+  
             const emptySpace = document.createElement('span');
             emptySpace.classList.add('chord');
             emptySpace.style.minWidth = `${untaggedText.length * 8}px`;
             chordLine.appendChild(emptySpace);
           }
-
+  
           const chordSpan = document.createElement('span');
           chordSpan.classList.add('chord');
           chordSpan.textContent = tag.note || '';
           chordSpan.style.minWidth = `${tag.word.length * 8}px`;
-
+  
           const lyricSpan = document.createElement('span');
           lyricSpan.classList.add('word');
           lyricSpan.textContent = tag.word;
           lyricSpan.style.minWidth = `${tag.word.length * 8}px`;
-
-          if (section.type === 'chorus') {
-            lyricSpan.style.fontWeight = 'bold'; // Imposta il grassetto per i ritornelli
-          }
-
+  
           chordLine.appendChild(chordSpan);
           lyricLine.appendChild(lyricSpan);
-
+  
           cursor = startIndex + tag.word.length;
         });
-
+  
         if (cursor < line.text.length) {
           const untaggedText = line.text.substring(cursor);
           const lyricSpan = document.createElement('span');
           lyricSpan.classList.add('word');
           lyricSpan.textContent = untaggedText;
           lyricLine.appendChild(lyricSpan);
-
+  
           const emptySpace = document.createElement('span');
           emptySpace.classList.add('chord');
           emptySpace.style.minWidth = `${untaggedText.length * 8}px`;
           chordLine.appendChild(emptySpace);
         }
-
+  
         lineContainer.appendChild(chordLine);
         lineContainer.appendChild(lyricLine);
         sectionDiv.appendChild(lineContainer);
       });
-
+  
       songContent.appendChild(sectionDiv);
     });
-
+  
     songContent.style.display = 'block';
     backButton.style.display = 'inline';
   }
