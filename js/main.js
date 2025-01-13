@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('touchend', (event) => {
         const now = new Date().getTime();
         if (now - lastTouchEnd <= 300) {
-            event.preventDefault(); // Impedisce lo zoom sul doppio tap
+            event.preventDefault();
         }
         lastTouchEnd = now;
     }, false);
@@ -43,12 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log("Controlli caricati:", controls);
 
     let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    let fontSize = 16;
     let allSongs = [];
 
-    console.log("Favorites caricati dal localStorage:", favorites);
-
-    // Nascondi i controlli inizialmente
     document.body.classList.remove('song-page');
     elements.controlsContainer.style.display = 'none';
     elements.songContent.style.display = 'none';
@@ -65,31 +61,21 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('assets/songs/index.json')
         .then(response => response.json())
         .then(data => {
-            console.log("File index.json caricato:", data);
             const promises = data.files.map(file =>
                 fetch(`assets/songs/${file}`).then(res => res.json())
             );
             return Promise.all(promises);
         })
         .then(songs => {
-            console.log("Canzoni caricate:", songs);
             allSongs = songs.sort((a, b) => a.title.localeCompare(b.title));
-
             populateSongList(allSongs, elements, favorites);
             loadTags(elements.categoryFilter);
-
-            console.log("Filtro per categoria popolato.");
-
-            // Adatta il layout per mobile
             adaptMobileView();
-            console.log("Layout mobile adattato.");
         })
         .catch(err => console.error("Errore nel caricamento delle canzoni:", err));
 
     elements.categoryFilter.addEventListener('change', () => {
         const selectedCategory = elements.categoryFilter.value;
-        console.log("Categoria selezionata:", selectedCategory);
-
         const filteredSongs = selectedCategory
             ? allSongs.filter(song => song.tags && song.tags.includes(selectedCategory))
             : allSongs;
@@ -97,102 +83,55 @@ document.addEventListener('DOMContentLoaded', () => {
         populateSongList(filteredSongs, elements, favorites);
     });
 
-    elements.favoritesButton.addEventListener('click', () => {
-        console.log("Accesso al menu preferiti.");
-        const favoriteSongs = allSongs.filter(song => favorites.includes(song.id));
+    // Listener per i pulsanti dei controlli
+    if (controls.transposeUp) {
+        controls.transposeUp.addEventListener('click', () => {
+            console.log("T+ cliccato.");
+            transposeChords(1);
+        });
+    }
+    if (controls.transposeDown) {
+        controls.transposeDown.addEventListener('click', () => {
+            console.log("T- cliccato.");
+            transposeChords(-1);
+        });
+    }
+    if (controls.increaseFontSize) {
+        controls.increaseFontSize.addEventListener('click', () => {
+            console.log("A+ cliccato.");
+            changeFontSize(2);
+        });
+    }
+    if (controls.decreaseFontSize) {
+        controls.decreaseFontSize.addEventListener('click', () => {
+            console.log("A- cliccato.");
+            changeFontSize(-2);
+        });
+    }
+    if (controls.viewModeButton) {
+        controls.viewModeButton.addEventListener('click', () => {
+            console.log("Solo testo cliccato.");
+            const isTextOnly = controls.viewModeButton.textContent === 'Solo testo';
+            const chordLines = elements.songContent.querySelectorAll('.chord-line');
 
-        if (favoriteSongs.length === 0) {
-            elements.songList.innerHTML = '<li>Menu preferiti vuoto</li>';
-        } else {
-            populateSongList(favoriteSongs, elements, favorites);
-        }
+            chordLines.forEach(line => {
+                line.style.display = isTextOnly ? 'none' : 'block';
+            });
 
-        elements.clearFavoritesButton.style.display = 'inline-block';
-        elements.backButton.style.display = 'inline-block';
-    });
-
-    elements.clearFavoritesButton.addEventListener('click', () => {
-        console.log("Cancellazione dei preferiti.");
-        favorites = [];
-        localStorage.setItem('favorites', JSON.stringify(favorites));
-        elements.clearFavoritesButton.style.display = 'none';
-
-        elements.songList.innerHTML = '<li>Menu preferiti vuoto</li>';
-    });
+            controls.viewModeButton.textContent = isTextOnly ? 'Testo + Accordi' : 'Solo testo';
+        });
+    }
 
     elements.backButton.addEventListener('click', () => {
-        console.log("Torna alla lista principale.");
-
         stopScrolling();
-
+        document.body.classList.remove('song-page');
         elements.songList.style.display = 'block';
         elements.categoryFilter.style.display = 'block';
         elements.categoryLabel.style.display = 'inline';
         elements.favoritesButton.style.display = 'inline-block';
         elements.clearFavoritesButton.style.display = 'none';
-
-        // Rimuove la classe e nasconde i controlli
-        document.body.classList.remove('song-page');
-
-        const projectTitle = document.querySelector('header h1');
-        if (projectTitle) {
-            projectTitle.textContent = 'Text With Notes';
-            console.log("Titolo ripristinato a: Text With Notes");
-        }
-
-        populateSongList(allSongs, elements, favorites);
-
-        // Adatta nuovamente il layout per mobile
-        adaptMobileView();
+        elements.controlsContainer.style.display = 'none';
+        elements.songContent.style.display = 'none';
+        elements.backButton.style.display = 'none';
     });
-
-    function populateSongList(songs, elements, favorites) {
-        const { songList, controlsContainer, backButton, songContent } = elements;
-        songList.innerHTML = '';
-    
-        songs.forEach(song => {
-            const li = document.createElement('li');
-            li.textContent = song.title;
-            li.dataset.categories = song.tags ? song.tags.join(',') : '';
-            li.dataset.songId = song.id;
-    
-            const heartIcon = document.createElement('span');
-            heartIcon.className = 'favorite-icon';
-            heartIcon.innerHTML = favorites.includes(song.id) ? '❤️' : '🤍';
-            heartIcon.addEventListener('click', (event) => {
-                event.stopPropagation();
-                toggleFavorite(song.id, heartIcon, favorites);
-            });
-    
-            li.appendChild(heartIcon);
-    
-            li.addEventListener('click', () => {
-                console.log(`Canzone selezionata: ${song.title}`);
-    
-                // Aggiunge la classe per attivare i controlli
-                document.body.classList.add('song-page');
-    
-                // Mostra i controlli e il pulsante "Torna alla lista"
-                controlsContainer.style.display = 'flex';
-                backButton.style.display = 'inline-block';
-    
-                // Nasconde la lista delle canzoni
-                songList.style.display = 'none';
-    
-                // Mostra il contenuto della canzone
-                songContent.style.display = 'block';
-    
-                // Mostra il contenuto della canzone
-                displaySongContent(song, elements);
-    
-                // Adatta il layout per mobile
-                adaptMobileView();
-            });
-    
-            songList.appendChild(li);
-        });
-    
-        console.log("Lista delle canzoni popolata:", songList.innerHTML);
-    }
-    
 });
