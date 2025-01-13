@@ -89,6 +89,17 @@ footer {
   font-weight: bold;
 }
 
+/* Mostra i controlli solo nelle pagine delle canzoni */
+.song-page #controlsContainer {
+  display: flex; /* Ripristina il layout dei pulsanti */
+  flex-direction: row;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: var(--main-bg-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: flex-start;
+}
+
 .chord-line, .lyric-line {
   font-family: monospace; /* Usa caratteri a spaziatura fissa */
   font-size: 16px;
