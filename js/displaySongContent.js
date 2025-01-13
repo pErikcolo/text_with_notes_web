@@ -1,30 +1,29 @@
 export function displaySongContent(song, elements) {
-    const { songContent, categoryFilter, categoryLabel, favoritesButton } = elements;
-    const controlsContainer = document.getElementById('controlsContainer');
-    const backButton = document.getElementById('backButton');
+    const { songContent, categoryFilter, categoryLabel, favoritesButton, songList, controlsContainer, backButton } = elements;
 
     if (!song || !songContent) {
         console.error("Errore: song o songContent non definiti.", { song, songContent });
         return;
     }
 
-    // Aggiorna il titolo del progetto
-    const projectTitle = document.querySelector('header h1');
-    if (projectTitle) {
-        projectTitle.textContent = song.title;
-    }
+    console.log(`Rendering contenuto della canzone: ${song.title}`);
 
-    // Aggiunge la classe per attivare i controlli
-    document.body.classList.add('song-page');
-
-    // Nasconde elementi della pagina principale
+    // Nascondi la lista delle canzoni e gli elementi principali
+    songList.style.display = 'none';
     if (categoryFilter) categoryFilter.style.display = 'none';
     if (categoryLabel) categoryLabel.style.display = 'none';
     if (favoritesButton) favoritesButton.style.display = 'none';
 
+    // Mostra i controlli e il pulsante "Torna alla lista"
+    controlsContainer.style.display = 'flex';
+    backButton.style.display = 'inline-block';
+
     // Mostra il contenuto della canzone
     songContent.style.display = 'block';
     songContent.innerHTML = ''; // Pulisce il contenuto precedente
+
+    // Aggiungi la classe `song-page` al body
+    document.body.classList.add('song-page');
 
     let chordCount = 0, lyricCount = 0;
     song.sections.forEach((section) => {

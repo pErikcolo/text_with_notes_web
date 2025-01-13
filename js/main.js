@@ -147,15 +147,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function populateSongList(songs, elements, favorites) {
-        const { songList } = elements;
+        const { songList, controlsContainer, backButton, songContent } = elements;
         songList.innerHTML = '';
-
+    
         songs.forEach(song => {
             const li = document.createElement('li');
             li.textContent = song.title;
             li.dataset.categories = song.tags ? song.tags.join(',') : '';
             li.dataset.songId = song.id;
-
+    
             const heartIcon = document.createElement('span');
             heartIcon.className = 'favorite-icon';
             heartIcon.innerHTML = favorites.includes(song.id) ? '❤️' : '🤍';
@@ -163,24 +163,35 @@ document.addEventListener('DOMContentLoaded', () => {
                 event.stopPropagation();
                 toggleFavorite(song.id, heartIcon, favorites);
             });
-
+    
             li.appendChild(heartIcon);
-
+    
             li.addEventListener('click', () => {
-                console.log("Canzone selezionata:", song.title);
-
-                // Aggiunge la classe per mostrare i controlli
+                console.log(`Canzone selezionata: ${song.title}`);
+    
+                // Aggiunge la classe per attivare i controlli
                 document.body.classList.add('song-page');
-
+    
+                // Mostra i controlli e il pulsante "Torna alla lista"
+                controlsContainer.style.display = 'flex';
+                backButton.style.display = 'inline-block';
+    
+                // Nasconde la lista delle canzoni
+                songList.style.display = 'none';
+    
+                // Mostra il contenuto della canzone
+                songContent.style.display = 'block';
+    
+                // Mostra il contenuto della canzone
                 displaySongContent(song, elements);
-
+    
                 // Adatta il layout per mobile
                 adaptMobileView();
             });
-
+    
             songList.appendChild(li);
         });
-
+    
         console.log("Lista delle canzoni popolata:", songList.innerHTML);
     }
-});
+    
