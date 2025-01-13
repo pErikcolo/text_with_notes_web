@@ -195,3 +195,4 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log("Lista delle canzoni popolata:", songList.innerHTML);
     }
     
+});
