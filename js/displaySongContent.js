@@ -14,25 +14,15 @@ export function displaySongContent(song, elements) {
         projectTitle.textContent = song.title;
     }
 
+    // Aggiunge la classe per attivare i controlli
+    document.body.classList.add('song-page');
+
     // Nasconde elementi della pagina principale
     if (categoryFilter) categoryFilter.style.display = 'none';
     if (categoryLabel) categoryLabel.style.display = 'none';
     if (favoritesButton) favoritesButton.style.display = 'none';
 
-    // Mostra i controlli specifici per la visualizzazione della canzone
-    if (controlsContainer) {
-        controlsContainer.style.display = 'flex';
-    }
-
-    // Mostra il pulsante "Torna alla lista"
-    if (backButton) {
-        backButton.style.display = 'block';
-    }
-
-    // Aggiungi la classe `song-page`
-    document.body.classList.add('song-page');
-
-    // Rendering del contenuto della canzone
+    // Mostra il contenuto della canzone
     songContent.style.display = 'block';
     songContent.innerHTML = ''; // Pulisce il contenuto precedente
 
