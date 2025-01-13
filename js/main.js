@@ -145,6 +145,43 @@ document.addEventListener('DOMContentLoaded', () => {
         adaptMobileView();
     });
 
+    // Funzione per tornare alla lista delle canzoni
+    function handleBackButton() {
+        const songContent = document.getElementById('songContent');
+        const categoryFilter = document.getElementById('categoryFilter');
+        const categoryLabel = document.querySelector('label[for="categoryFilter"]');
+        const favoritesButton = document.getElementById('favoritesButton');
+        const controlsContainer = document.getElementById('controlsContainer');
+        const backButton = document.getElementById('backButton');
+
+        // Nascondi il contenuto della canzone
+        if (songContent) {
+            songContent.style.display = 'none';
+            songContent.innerHTML = ''; // Pulisce il contenuto
+        }
+
+        // Mostra gli elementi della pagina principale
+        if (categoryFilter) categoryFilter.style.display = 'block';
+        if (categoryLabel) categoryLabel.style.display = 'block';
+        if (favoritesButton) favoritesButton.style.display = 'block';
+
+        // Nascondi i controlli
+        if (controlsContainer) {
+            controlsContainer.style.display = 'none';
+        }
+
+        // Nascondi il pulsante "Torna alla lista"
+        if (backButton) {
+            backButton.style.display = 'none';
+        }
+
+        // Rimuovi la classe `song-page`
+        document.body.classList.remove('song-page');
+    }
+
+    // Aggiungi l'evento al pulsante
+    document.getElementById('backButton').addEventListener('click', handleBackButton);
+
     if (controls.transposeUp) {
         controls.transposeUp.addEventListener('click', () => {
             console.log("Trasposizione verso l’alto.");

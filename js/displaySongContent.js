@@ -1,31 +1,42 @@
 export function displaySongContent(song, elements) {
     const { songContent, categoryFilter, categoryLabel, favoritesButton } = elements;
-
-    console.log("Rendering contenuto della canzone:", song.title);
+    const controlsContainer = document.getElementById('controlsContainer');
+    const backButton = document.getElementById('backButton');
 
     if (!song || !songContent) {
         console.error("Errore: song o songContent non definiti.", { song, songContent });
         return;
     }
 
-    songContent.innerHTML = ''; // Pulisce il contenuto precedente
-
     // Aggiorna il titolo del progetto
     const projectTitle = document.querySelector('header h1');
     if (projectTitle) {
         projectTitle.textContent = song.title;
-        console.log("Titolo aggiornato:", song.title);
     }
 
-    // Nasconde elementi non necessari
+    // Nasconde elementi della pagina principale
     if (categoryFilter) categoryFilter.style.display = 'none';
     if (categoryLabel) categoryLabel.style.display = 'none';
     if (favoritesButton) favoritesButton.style.display = 'none';
 
-    // Rendi visibile il contenitore della canzone
-    songContent.style.display = 'block';
+    // Mostra i controlli specifici per la visualizzazione della canzone
+    if (controlsContainer) {
+        controlsContainer.style.display = 'flex';
+    }
 
-    let chordCount = 0, lyricCount = 0; // Contatori per log
+    // Mostra il pulsante "Torna alla lista"
+    if (backButton) {
+        backButton.style.display = 'block';
+    }
+
+    // Aggiungi la classe `song-page`
+    document.body.classList.add('song-page');
+
+    // Rendering del contenuto della canzone
+    songContent.style.display = 'block';
+    songContent.innerHTML = ''; // Pulisce il contenuto precedente
+
+    let chordCount = 0, lyricCount = 0;
     song.sections.forEach((section) => {
         const sectionDiv = document.createElement('div');
         sectionDiv.classList.add('song-section', section.type);
@@ -34,7 +45,6 @@ export function displaySongContent(song, elements) {
             const lineContainer = document.createElement('div');
             lineContainer.classList.add('line-container');
 
-            // Creazione degli elementi
             const chordLine = document.createElement('div');
             chordLine.textContent = line.chords || '';
             chordLine.classList.add('chord-line');
@@ -47,7 +57,6 @@ export function displaySongContent(song, elements) {
 
             lineContainer.appendChild(chordLine);
             lineContainer.appendChild(lyricLine);
-
             sectionDiv.appendChild(lineContainer);
         });
 
