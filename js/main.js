@@ -134,4 +134,41 @@ document.addEventListener('DOMContentLoaded', () => {
         elements.songContent.style.display = 'none';
         elements.backButton.style.display = 'none';
     });
+
+    function populateSongList(songs, elements, favorites) {
+        const { songList, controlsContainer, backButton, songContent } = elements;
+        songList.innerHTML = '';
+    
+        songs.forEach(song => {
+            const li = document.createElement('li');
+            li.textContent = song.title;
+            li.dataset.categories = song.tags ? song.tags.join(',') : '';
+            li.dataset.songId = song.id;
+    
+            const heartIcon = document.createElement('span');
+            heartIcon.className = 'favorite-icon';
+            heartIcon.innerHTML = favorites.includes(song.id) ? '❤️' : '🤍';
+            heartIcon.addEventListener('click', (event) => {
+                event.stopPropagation();
+                toggleFavorite(song.id, heartIcon, favorites);
+            });
+    
+            li.appendChild(heartIcon);
+    
+            li.addEventListener('click', () => {
+                console.log(`Canzone selezionata: ${song.title}`);
+                document.body.classList.add('song-page');
+                controlsContainer.style.display = 'flex';
+                backButton.style.display = 'inline-block';
+                songList.style.display = 'none';
+                songContent.style.display = 'block';
+                displaySongContent(song, elements);
+            });
+    
+            songList.appendChild(li);
+        });
+    
+        console.log("Lista delle canzoni popolata:", songList.innerHTML);
+    }
+    
 });
