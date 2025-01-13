@@ -1,0 +1,268 @@
+:root {
+  --main-bg-color: #f8f8f8;
+  --main-text-color: #333;
+  --header-bg-color: #333;
+  --header-text-color: #fff;
+  --button-bg-color: #444;
+  --button-hover-bg-color: #666;
+  --button-text-color: #fff;
+  --accent-color: red;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  overflow-x: hidden;
+}
+
+header {
+  background-color: var(--header-bg-color);
+  color: var(--header-text-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav select,
+nav button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+
+main {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--header-bg-color);
+  color: var(--header-text-color);
+}
+
+/* Lista canzoni */
+#songList li {
+  list-style: none;
+  background-color: #fff;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+#songList li:hover {
+  background-color: #f0f0f0;
+}
+
+.song-section.chorus .lyric-line {
+  font-weight: bold;
+}
+
+.chord-line, .lyric-line {
+  font-family: monospace; /* Usa caratteri a spaziatura fissa */
+  font-size: 16px;
+  white-space: pre; /* Mantiene gli spazi del JSON */
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Adatta alla larghezza del contenitore */
+  overflow-wrap: break-word; /* Permette il wrapping del testo */
+}
+
+.chord-line {
+  color: var(--accent-color); /* Colore degli accordi */
+  margin-bottom: -5px; /* Avvicina accordi e lyrics */
+}
+
+.word-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra accordi sopra le lyrics */
+  text-align: center;
+  margin: 0 0.5rem;
+}
+
+.chord {
+  font-family: monospace;
+  font-size: 0.9em;
+  color: var(--accent-color);
+  margin-bottom: 0.2em; /* Spazio tra accordo e lyric */
+}
+
+.lyric {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  color: var(--main-text-color);
+}
+
+.line-container {
+  display: flex;
+  flex-wrap: wrap; /* Permette il wrapping quando necessario */
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+
+/* Contenitore dei pulsanti */
+#controlsContainer {
+  display: none;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: var(--main-bg-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  justify-content: flex-start; /* Allinea i pulsanti a sinistra */
+  border: 1px solid #ccc;
+}
+
+/* Pulsanti */
+#controlsContainer button {
+  padding: 0.5rem;
+  border: none;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#controlsContainer button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+
+#songContent {
+  overflow-y: auto; /* Abilita lo scrolling verticale */
+  max-height: calc(100vh - 200px); /* Altezza massima adattata per pulsanti e header */
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* Posizionamento del contenitore sotto "Torna alla lista" */
+#controlsContainer {
+  margin-top: 1rem; /* Spazio tra il pulsante "Torna alla lista" e i controlli */
+  margin-bottom: 1rem; /* Spazio tra i controlli e il contenuto della canzone */
+}
+
+.line-wrapper {
+  display: flex;
+  flex-direction: column; /* Allinea accordi sopra le lyrics */
+  width: 100%; /* Adatta al contenitore */
+}
+
+.line-wrapper .chord-line,
+.line-wrapper .lyric-line {
+  white-space: pre-wrap; /* Permette il wrapping del testo */
+  word-wrap: break-word;
+}
+
+.line-wrapper .chord-line {
+  color: var(--accent-color);
+  text-align: left; /* Allinea a sinistra per mobile */
+}
+
+.line-wrapper .lyric-line {
+  color: var(--main-text-color);
+  text-align: left; /* Allinea a sinistra per mobile */
+}
+
+#songContent .chord-line, #songContent .lyric-line {
+  font-size: inherit; /* Consente la modifica dinamica */
+  white-space: pre-wrap; /* Permette il wrapping su mobile */
+}
+
+/* Stili specifici per dispositivi mobili */
+@media screen and (max-width: 768px) {
+  /* Adatta il titolo */
+  header h1 {
+      font-size: 1.4rem;
+  }
+
+  /* Pulsanti */
+  #controlsContainer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: var(--main-bg-color);
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.8rem;
+      box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 1000; /* Sempre visibile */
+  }
+
+  #controlsContainer button {
+      font-size: 0.9rem;
+      padding: 0.6rem 1rem;
+  }
+
+  /* Testo della canzone */
+  #songContent {
+      font-size: 14px;
+      padding: 0.8rem;
+      max-height: calc(100vh - 120px); /* Spazio per header e controlli */
+      overflow-y: auto;
+  }
+
+  /* Lista canzoni */
+  #songList {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+
+  #songList li {
+      padding: 0.6rem;
+      margin: 0.5rem 0;
+      font-size: 1rem;
+  }
+
+  /* Adatta accordi e testo */
+  .chord-line, .lyric-line {
+      font-size: 14px;
+      line-height: 1.5;
+  }
+
+  /* Nascondi elementi non necessari */
+  nav select, #favoritesButton {
+      display: none;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 769px) {
+  #controlsContainer {
+    position: static; /* Posiziona i pulsanti staticamente nella pagina */
+    margin: 0; /* Reset margini per allineare il layout */
+  }
+}

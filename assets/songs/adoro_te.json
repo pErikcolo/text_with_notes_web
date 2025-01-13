@@ -1,0 +1,100 @@
+    {
+      "id": "song8",
+      "title": "Adoro te",
+      "tags": ["Apertura", "Adorazione"],
+      "sections": [
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "chords": "Re",
+                 "lyrics": ""
+                }
+            ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "chords": "Re                    La",
+                "lyrics": "Sei qui davanti a me, o mio Signore,"
+              },
+              {
+                "chords": "Sim                  Fa#m",
+                "lyrics": "sei in questa brezza che ristora il cuore,"
+              },
+              {
+                "chords": "Sol               Re",
+                "lyrics": "Roveto che mai si consumerà,"
+              },
+              {
+                "chords": "Do       Sol           La4 La",
+                "lyrics": "presenza che riempie l'anima."
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "chords": "Re    Sib Do          Fa",
+              "lyrics": "Adoro Te, fonte della Vita,"
+            },
+            {
+              "chords": "Re    Sib Do         Fa",
+              "lyrics": "adoro Te, Trinità infinità."
+            },
+            {
+              "chords": "       Lam         Rem   Sib.   Lam   Solm",
+              "lyrics": "I miei calzari leverò su questo santo suolo,"
+            },
+            {
+              "chords": "         Rem         Mi La  Sib",
+              "lyrics": "alla presenza Tua mi prostrerò."
+            }
+          ]
+        },
+        {
+          "type": "verse",
+        "lines": [
+            {
+              "chords": "Re                    La",
+              "lyrics": "Sei qui davanti a me, o mio Signore,"
+            },
+            {
+              "chords": "Sim              Fa#m",
+              "lyrics": "nella Tua grazia trovo la mia gioia."
+            },
+            {
+              "chords": "Sol                  Re",
+              "lyrics": "Io lodo, ringrazio e prego perché"
+            },
+            {
+              "chords": "Do       Sol              La4 La",
+              "lyrics": "il mondo ritorni a vivere in Te."
+            }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          {
+            "chords": "Re    Sib Do          Fa",
+            "lyrics": "Adoro Te, fonte della Vita,"
+          },
+          {
+            "chords": "Re    Sib Do         Fa",
+            "lyrics": "adoro Te, Trinità infinità."
+          },
+          {
+            "chords": "       Lam         Rem   Sib.   Lam   Solm",
+            "lyrics": "I miei calzari leverò su questo santo suolo,"
+          },
+          {
+            "chords": "         Rem         Mi La  Sib",
+            "lyrics": "alla presenza Tua mi prostrerò."
+          }
+        ]
+      }
+      ]
+    }
