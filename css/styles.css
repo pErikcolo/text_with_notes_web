@@ -71,13 +71,16 @@ footer {
 #songList li {
   list-style: none;
   background-color: #fff;
-  margin: 0.5rem 0;
+  margin: 0 auto; /* Allinea il contenitore al centro */
   padding: 1rem;
   border-radius: 5px;
+  justify-content: space-between; /* Spazia gli elementi agli estremi */
   display: flex;
+  max-width: 550px; /* Imposta la larghezza massima desiderata */
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Allinea il testo a sinistra */
   cursor: pointer;
 }
 
@@ -87,17 +90,6 @@ footer {
 
 .song-section.chorus .lyric-line {
   font-weight: bold;
-}
-
-/* Mostra i controlli solo nelle pagine delle canzoni */
-.song-page #controlsContainer {
-  display: flex; /* Ripristina il layout dei pulsanti */
-  flex-direction: row;
-  gap: 0.5rem;
-  padding: 0.5rem;
-  background-color: var(--main-bg-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  justify-content: flex-start;
 }
 
 .chord-line, .lyric-line {
@@ -211,69 +203,3 @@ footer {
   white-space: pre-wrap; /* Permette il wrapping su mobile */
 }
 
-/* Stili specifici per dispositivi mobili */
-@media screen and (max-width: 768px) {
-  /* Adatta il titolo */
-  header h1 {
-      font-size: 1.4rem;
-  }
-
-  /* Pulsanti */
-  #controlsContainer {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background-color: var(--main-bg-color);
-      display: flex;
-      justify-content: center;
-      gap: 0.5rem;
-      padding: 0.8rem;
-      box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-      z-index: 1000; /* Sempre visibile */
-  }
-
-  #controlsContainer button {
-      font-size: 0.9rem;
-      padding: 0.6rem 1rem;
-  }
-
-  /* Testo della canzone */
-  #songContent {
-      font-size: 14px;
-      padding: 0.8rem;
-      max-height: calc(100vh - 120px); /* Spazio per header e controlli */
-      overflow-y: auto;
-  }
-
-  /* Lista canzoni */
-  #songList {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-  }
-
-  #songList li {
-      padding: 0.6rem;
-      margin: 0.5rem 0;
-      font-size: 1rem;
-  }
-
-  /* Adatta accordi e testo */
-  .chord-line, .lyric-line {
-      font-size: 14px;
-      line-height: 1.5;
-  }
-
-  /* Nascondi elementi non necessari */
-  nav select, #favoritesButton {
-      display: none;
-  }
-}
-
-/* Desktop */
-@media screen and (min-width: 769px) {
-  #controlsContainer {
-    position: static; /* Posiziona i pulsanti staticamente nella pagina */
-    margin: 0; /* Reset margini per allineare il layout */
-  }
-}
