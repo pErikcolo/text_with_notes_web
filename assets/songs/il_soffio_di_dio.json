@@ -1,0 +1,148 @@
+{
+    "id": "song15",
+    "title": "Madre di Dio",
+    "tags": ["Conclusione, Mariani"],
+    "sections": [
+      {
+        "type": "chords",
+        "lines": [
+          {
+            "chords": "La Mi Fa#m Re4",
+            "lyrics": ""
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          {
+            "chords": "La  Mi   Fa#m  Re",
+            "lyrics": "Quando intorno sembra nero"
+          },
+          {
+            "chords": "La    Mi    Fa#m  Re",
+            "lyrics": "credi di sentirti solo"
+          },
+          {
+            "chords": "La Mi  Fa#m      Re         La",
+            "lyrics": "lo so, ti puoi alzare amico mio"
+          },
+          {
+            "chords": "   Mi  Fa#m       Re        La Mi",
+            "lyrics": "perché non è così che vuole Dio."
+          },{
+            "chords": "La Mi Fa#m      Re             La",
+            "lyrics": "Ora   guarda un poco intorno a Te"
+          },
+          {
+            "chords": "  Mi  Fa#m   Re          La",
+            "lyrics": "vedi  guarda quanta vita c'è"
+          },
+          {
+            "chords": "  Mi Fa#m         Re",
+            "lyrics": "e tu  non puoi sentirti solo"
+          },
+          {
+            "chords": "La     Mi Fa#m       Re",
+            "lyrics": "sai perché  tu non c'eri quando"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          {
+            "chords": "La  Mi",
+            "lyrics": "Dio ha creato il mondo"
+          },
+          {
+            "chords": "Fa#m           Re",
+            "lyrics": "Dio ha fatto l'universo"
+          },
+          {
+            "chords": "La         Mi         Fa#m",
+            "lyrics": "Dio ha soffiato su di Te"
+          },
+          {
+            "chords": "        Re        La",
+            "lyrics": "e ti ha fatto vivere"
+          },
+          {
+            "chords": "Mi Fa#m  Re        La Mi",
+            "lyrics": "e  ti ha fatto vivere"
+          }
+        ]
+      },
+      {
+        "type": "chords",
+        "lines": [
+          {
+            "chords": "Fa#m  Re",
+            "lyrics": ""
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          {
+            "chords": "La   Mi Fa#m    Re",
+            "lyrics": "Puoi tu dire al sole sorgi"
+          },
+          {
+            "chords": "La     Mi Fa#m    Re      La",
+            "lyrics": "puoi tu dire al mare calmati"
+          },
+          {
+            "chords": "      Mi  Fa#m      Re",
+            "lyrics": "ce la fai a placare una tempesta"
+          },
+          {
+            "chords": "La   Mi  Fa#m         Re",
+            "lyrics": "cosa sei di fronte ad un tramonto."
+          },{
+            "chords": "La  Mi Fa#m      Re",
+            "lyrics": "Lui sa i sogni di un bambino"
+          },
+          {
+            "chords": "La  Mi  Fa#m   Re",
+            "lyrics": "Lui dà vita ad ogni cosa"
+          },
+          {
+            "chords": "La  Mi Fa#m Re",
+            "lyrics": "Lui è  luce nelle tenebre"
+          },
+          {
+            "chords": "La   Mi            Fa#m Re",
+            "lyrics": "vuoi che non si accorga ti Te"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          {
+            "chords": "La  Mi",
+            "lyrics": "Dio ha creato il mondo"
+          },
+          {
+            "chords": "Fa#m           Re",
+            "lyrics": "Dio ha fatto l'universo"
+          },
+          {
+            "chords": "La         Mi         Fa#m",
+            "lyrics": "Dio ha soffiato su di Te"
+          },
+          {
+            "chords": "        Re        La",
+            "lyrics": "e ti ha fatto vivere"
+          },
+          {
+            "chords": "Mi Fa#m  Re        La Mi",
+            "lyrics": "e  ti ha fatto vivere"
+          }
+        ]
+      }
+    ]
+  }
+  
