@@ -1,0 +1,117 @@
+    {
+      "id": "song5",
+      "title": "Contigo Maria",
+      "tags": ["Canti a Maria", "Canti di conclusione"],
+      "sections": [
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "chords":"Re   Sol   Re   Sol",
+                 "lyrics":""
+                }
+            ]
+        },
+        {
+          "type": "verse",
+          "lines": [
+              {
+                "chords": "Re                      Sol",
+                "lyrics": "Voglio camminare con te Maria"
+              },
+              {
+                "chords": "Re                         Sol",
+                "lyrics": "sii per me una luce o madre mia"
+              },
+              {
+                "chords": "La                                Sol",
+                "lyrics": "brilla innanzi a me il tuo grande esempio"
+              },
+              {
+                "chords": "        Re         La",
+                "lyrics": "di santità, di umiltà"
+              },
+              {
+                "chords": "Re                      Sol",
+                "lyrics": "Voglio camminare con te Maria"
+              },
+              {
+                "chords": "Re                        Sol",
+                "lyrics": "faro di bellezza lungo la via"
+              },
+              {
+                "chords": "La                         Sol",
+                "lyrics": "ho bisogno del tuo amor di madre"
+              },
+              {
+                "chords": "          Re           La",
+                "lyrics": "prega per me, il mio Signor"
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "chords": "             Re     Sol        Re  La",
+              "lyrics": "Guida i miei passi, portami al cielo, "
+            },
+            {
+              "chords": "             Sim   Sol      ReLa",
+              "lyrics": "sotto il tuo manto nulla io temo "
+            },
+            {
+              "chords": "         Re     Sol  Re La",
+              "lyrics": "piena di grazia, Ave Maria  "
+            },
+            {
+              "chords": "        Sim           Re",
+              "lyrics": "oggi ti offro la vita mia."
+            }
+          ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "chords": "Re                      Sol",
+                "lyrics": "Voglio camminare con te Maria"
+              },
+              {
+                "chords": "Re                      Sol",
+                "lyrics": "madre di dolore e gioia mia"
+              },
+              {
+                "chords": "La                       Sol",
+                "lyrics": "tu la donna fedele del mistero"
+              },
+              {
+                "chords": "          Re           La",
+                "lyrics": "sei stata lì, grembo d’amor."
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "chords": "             Re     Sol        Re  La",
+              "lyrics": "Guida i miei passi, portami al cielo, "
+            },
+            {
+              "chords": "             Sim   Sol      ReLa",
+              "lyrics": "sotto il tuo manto nulla io temo "
+            },
+            {
+              "chords": "         Re     Sol  Re La",
+              "lyrics": "piena di grazia, Ave Maria  "
+            },
+            {
+              "chords": "        Sim           Re",
+              "lyrics": "oggi ti offro la vita mia."
+            }
+          ]
+        }
+      ]
+    }
+ 

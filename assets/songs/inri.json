@@ -1,0 +1,241 @@
+    {
+      "id": "song6",
+      "title": "INRI",
+      "tags": ["Comunione"],
+      "sections": [
+        {
+            "type": "verse",
+            "lines": [
+                {
+                 "chords": "",
+                 "lyrics": "Capostasto al 5° tasto."
+                }
+            ]
+        },
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "chords": "Do   Re   Sol   Mim",
+                 "lyrics": ""
+                },
+                {
+                 "chords": "Do   Re   Sol   Mim",
+                 "lyrics": ""
+                }
+            ]
+        },
+        {
+          "type": "verse",
+          "lines": [
+              {
+                "chords": "              Do",
+                "lyrics": "Ha senso solo così,"
+              },
+              {
+                "chords": "Do    Re.          Sol Mim",
+                "lyrics": "perdonando proprio tutto "
+              },
+              {
+                "chords": "              Do",
+                "lyrics": "Ha senso solo così,"
+              },
+              {
+                "chords": " Re            SolMim",
+                "lyrics": "amando fino in fondo "
+              },
+              {
+                "chords": "              Do",
+                "lyrics": "Ha senso solo così,"
+              },
+              {
+                "chords": "             Re        Sol  Mim",
+                "lyrics": "anche quando hai tutti contro "
+              },
+              {
+                "chords": "              Do         Re      Sol",
+                "lyrics": "Ha senso solo così e ora io lo difendo"
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "chords": "Re               Sol",
+              "lyrics": "Io non ritorno indietro,"
+            },
+            {
+              "chords": "Re               Mim Do",
+              "lyrics": "io non ritorno indietro"
+            },
+            {
+              "chords": "              Sol",
+              "lyrics": "Da un amore gigante così"
+            },
+            {
+              "chords": "       Re              Mim",
+              "lyrics": "io non posso tornare indietro"
+            },
+            {
+              "chords": "Do                Sol",
+              "lyrics": "Io non ritorno indietro,"
+            },
+            {
+              "chords": "   Re                   Mim Do",
+              "lyrics": "io no che non ritorno indietro "
+            },
+            {
+              "chords": "             Sol",
+              "lyrics": "A un amore gigante così"
+            },
+            {
+              "chords": "           Re         Mim",
+              "lyrics": "io resto appesa e non scendo"
+            },
+            {
+              "chords": "Do     Sol  Re",
+              "lyrics": "Io non scendo  "
+            }
+          ]
+        },
+        {
+            "chord": "chords",
+            "lines": [
+                {
+                 "chords": "Mim   Do   Sol   Re  Mim  Do",
+                 "lyrics": ""
+                }
+            ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "chords": "              Do",
+                "lyrics": "Ha senso solo così,"
+              },
+              {
+                "chords": "      Re           Sol Mim",
+                "lyrics": "rischiando proprio tutto "
+              },
+              {
+                "chords": "              Do",
+                "lyrics": "Ha senso solo così,"
+              },
+              {
+                "chords": "       Re           SolMim",
+                "lyrics": "continuando fino in fondo "
+              },
+              {
+                "chords": "              Do",
+                "lyrics": "Ha senso solo così,"
+              },
+              {
+                "chords": "                   Re              So Mim",
+                "lyrics": "soprattutto quando hai il buio addosso"
+              },
+              {
+                "chords": "              Do         Re      Sol",
+                "lyrics": "Ha senso solo così e ora io lo difendo"
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "chords": "Re               Sol",
+              "lyrics": "Io non ritorno indietro,"
+            },
+            {
+              "chords": "Re               Mim Do",
+              "lyrics": "io non ritorno indietro"
+            },
+            {
+              "chords": "              Sol",
+              "lyrics": "Da un amore gigante così"
+            },
+            {
+              "chords": "       Re              Mim",
+              "lyrics": "io non posso tornare indietro"
+            },
+            {
+              "chords": "Do                Sol",
+              "lyrics": "Io non ritorno indietro,"
+            },
+            {
+              "chords": "   Re                   Mim Do",
+              "lyrics": "io no che non ritorno indietro "
+            },
+            {
+              "chords": "             Sol",
+              "lyrics": "A un amore gigante così"
+            },
+            {
+              "chords": "           Re         Mim",
+              "lyrics": "io resto appesa e non scendo"
+            },
+            {
+              "chords": "Do     Sol  Re",
+              "lyrics": "Io non scendo  "
+            }
+          ]
+        },
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "chords": "Mim   Do   Sol   Re  Mim  Do",
+                 "lyrics": ""
+                }
+            ]
+        },
+        {
+            "type": "verse",
+          "lines": [
+              {
+                "chords":  "Sol                 Re",
+                "lyrics": "E’ questa la natura del vero amore"
+              },
+              {
+                "chords":  "Mim          Do",
+                "lyrics": "l’operare da Dio"
+              },
+              {
+                "chords":  "   Sol                Re    Mim Do",
+                "lyrics": "la fermezza e non ritirarsi mai  "
+              },
+              {
+                "chords": "Sol                 Re",
+                "lyrics": "E’ questa la natura del vero amore"
+              },
+              {
+                "chords": "Mim          Do",
+                "lyrics": "l’operare da Dio"
+              },
+              {
+                "chords": "   Sol                Re    Mim Do",
+                "lyrics": "la fermezza e non ritirarsi mai  "
+              },
+              {
+                "chords": "  Do                      Sol",
+                "lyrics": "a costo di qualunque sacrificio"
+              },
+              {
+                "chords": "Re                Mim Do",
+                "lyrics": "io non ritorno indietro "
+              }
+          ]
+        },
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "chords": "Sol   Re   Mim   Do",
+                 "lyrics": ""
+                }
+            ]
+        }
+      ]
+    }

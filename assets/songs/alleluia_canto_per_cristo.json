@@ -1,0 +1,63 @@
+{
+  "id": "song3",
+  "title": "Alleluia (Canto per Cristo)",
+  "tags": ["Alleluia", "Canti al Vangelo"],
+  "sections": [
+    {
+      "type": "chords",
+      "lines": [
+        {
+          "chords": "Do   Sol   Fa   Mi",
+          "lyrics": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "lines": [
+        {
+          "chords": "Do    Mim     Fa       Do  Fa    Do      Sol7 Sol",
+          "lyrics": "Alleluia, allelu alleluia, alleluia, allelu--ia"
+        },
+        {
+          "chords": "Do    Mim     Fa       Do  Fa    Do      Sol Do",
+          "lyrics": "Alleluia, allelu alleluia, alleluia, allelu--ia"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "lines": [
+        {
+          "chords": "Do        Mim        Fa       Do",
+          "lyrics": "Canto per Cristo che mi libererà"
+        },
+        {
+          "chords": "Fa        Do       Sol7 Sol",
+          "lyrics": "quando verrà nella gloria,"
+        },
+        {
+          "chords": "Do        Mim      Fa         Do",
+          "lyrics": "quando la vita con Lui rinascerà"
+        },
+        {
+          "chords": "Fa    Do      Sol  Do",
+          "lyrics": "alleluia, allelu--ia"
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "lines": [
+        {
+          "chords": "Do    Mim     Fa       Do  Fa    Do      Sol7 Sol",
+          "lyrics": "Alleluia, allelu alleluia, alleluia, allelu--ia"
+        },
+        {
+          "chords": "Do    Mim     Fa       Do  Fa    Do      Sol Do",
+          "lyrics": "Alleluia, allelu alleluia, alleluia, allelu--ia"
+        }
+      ]
+    }
+  ]
+}

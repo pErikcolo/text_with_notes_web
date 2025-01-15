@@ -1,0 +1,50 @@
+{
+    "id": "song13",
+    "title": "Io vedo il Re",
+    "tags": [""],
+    "sections": [
+      {
+        "type": "chords",
+        "lines": [
+          {
+            "chords": "La7",
+            "lyrics": ""
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          {
+            "chords": "           Re           Sol",
+            "lyrics": "Io vedo il Re, il mio Signor"
+          },
+          {
+            "chords": "   Sim        Fa#m",
+            "lyrics": "Adorato sulla terra"
+          },
+          {
+            "chords": "     Sol         La4 La",
+            "lyrics": "Innalzato su nel ciel"
+          },
+          {
+            "chords": "           Re           Sol",
+            "lyrics": "Io vedo il Re, il mio Signor"
+          },
+          {
+            "chords": "Sol    Sim                Fa#m",
+            "lyrics": "I miei occhi han visto il Re"
+          },
+          {
+            "chords": "   Sol             Sim",
+            "lyrics": "L'Agnello, il Salvator"
+          },
+          {
+            "chords": "           La4   Sim La",
+            "lyrics": "Che sempre re--gnerà"
+          }
+        ]
+      }
+    ]
+  }
+  
