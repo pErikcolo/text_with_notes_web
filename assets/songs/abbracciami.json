@@ -1,155 +1,530 @@
 {
-  "id": "song7",
-  "title": "Abbracciami",
-  "tags": ["Apertura", "Adorazione"],
-  "sections": [
-    {
-      "type": "chords",
-      "lines": [
+    "song": [
         {
-          "chords": "Mi",
-          "lyrics": ""
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "",
+                    "position": 0
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Gesù parola viva e ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "vera",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "sorgente che dis",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "seta e cura ogni fe",
+                    "position": 17
+                },
+                {
+                    "chords": "La",
+                    "lyric": "rita.",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Ferma su di me i tuoi ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "occhi",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "la tua mano ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "stendi e donami la ",
+                    "position": 13
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "vita",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ab",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "bracciami Dio dell’e",
+                    "position": 3
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "ternità",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "rifugio dell’",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "anima grazie che ",
+                    "position": 14
+                },
+                {
+                    "chords": "La",
+                    "lyric": "opera",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ri",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "scaldami fuoco che ",
+                    "position": 3
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "libera",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "manda il tuo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "Spirito Marana",
+                    "position": 14
+                },
+                {
+                    "chords": "La",
+                    "lyric": "thà Gesù",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "",
+                    "position": 0
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Gesù asciuga il nostro ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "pianto",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "leone vinci",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "tore della tribù di ",
+                    "position": 12
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Giuda.",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Vieni nella tua po",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "tenza",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "questo cuore ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "sciogli con ogni sua pa",
+                    "position": 14
+                },
+                {
+                    "chords": "La",
+                    "lyric": "ura",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ab",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "bracciami Dio dell’e",
+                    "position": 3
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "ternità",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "rifugio dell’",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "anima grazie che ",
+                    "position": 14
+                },
+                {
+                    "chords": "La",
+                    "lyric": "opera",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ri",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "scaldami fuoco che ",
+                    "position": 3
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "libera",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "manda il tuo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "Spirito Marana",
+                    "position": 14
+                },
+                {
+                    "chords": "La",
+                    "lyric": "thà Gesù",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Per sempre io cante",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "rò",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "la ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "tua immensa fedeltà.",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Il tuo spirito in ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "me",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "in eterno ti lode",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "rà",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Per sempre io cante",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "rò",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "la ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "tua immensa fedeltà.",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Il tuo spirito in ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "me",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "in eterno ti lode",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "rà",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ab",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "bracciami Dio dell’e",
+                    "position": 3
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "ternità",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "rifugio dell’",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "anima grazie che ",
+                    "position": 14
+                },
+                {
+                    "chords": "La",
+                    "lyric": "opera",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ri",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "scaldami fuoco che ",
+                    "position": 3
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "libera",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "manda il tuo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "Spirito Marana",
+                    "position": 14
+                },
+                {
+                    "chords": "La",
+                    "lyric": "thà Gesù",
+                    "position": 28
+                }
+            ]
         }
-      ]
-    },
-    {
-      "type": "verse",
-      "lines": [
-        {
-          "chords": "Mi                 Si",
-          "lyrics": "Gesù parola viva e vera"
-        },
-        {
-          "chords": "                Do#m                La",
-          "lyrics": "sorgente che disseta e cura ogni ferita."
-        },
-        {
-          "chords": "Mi                    Si",
-          "lyrics": "Ferma su di me i tuoi occhi"
-        },
-        {
-          "chords": "            Do#m               La",
-          "lyrics": "la tua mano stendi e donami la vita"
-        }
-      ]
-    },
-    {
-      "type": "chorus",
-      "lines": [
-        {
-          "chords": "  Mi                  Si",
-          "lyrics": "Abbracciami Dio dell’eternità"
-        },
-        {
-          "chords": "             Do#m             La",
-          "lyrics": "rifugio dell’anima grazie che opera"
-        },
-        {
-          "chords": "   Mi                Si",
-          "lyrics": "riscaldami fuoco che libera"
-        },
-        {
-          "chords": "             Do#m          La",
-          "lyrics": "manda il tuo Spirito Maranathà Gesù"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "lines": [
-        {
-          "chords": "Mi                     Si",
-          "lyrics": "Gesù asciuga il nostro pianto"
-        },
-        {
-          "chords": "           Do#m                La",
-          "lyrics": "leone vincitore della tribù di Giuda."
-        },
-        {
-          "chords": "Mi                Si                 Do#m",
-          "lyrics": "Vieni nella tua potenza questo cuore sciogli"
-        },
-        {
-          "chords": "               La",
-          "lyrics": "con ogni sua paura"
-        }
-      ]
-    },
-    {
-      "type": "chorus",
-      "lines": [
-        {
-          "chords": "  Mi                  Si",
-          "lyrics": "Abbracciami Dio dell’eternità"
-        },
-        {
-          "chords": "             Do#m             La",
-          "lyrics": "rifugio dell’anima grazie che opera"
-        },
-        {
-          "chords": "   Mi                Si",
-          "lyrics": "riscaldami fuoco che libera"
-        },
-        {
-          "chords": "             Do#m          La",
-          "lyrics": "manda il tuo Spirito Maranathà Gesù"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "lines": [
-        {
-          "chords": "Mi                 Si",
-          "lyrics": "Per sempre io canterò"
-        },
-        {
-          "chords": "   La",
-          "lyrics": "la tua immensa fedeltà."
-        },
-        {
-          "chords": "Mi                Si                  La",
-          "lyrics": "Il tuo spirito in me in eterno ti loderà"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "lines": [
-        {
-          "chords": "Mi                 Si",
-          "lyrics": "Per sempre io canterò"
-        },
-        {
-          "chords": "   La",
-          "lyrics": "la tua immensa fedeltà."
-        },
-        {
-          "chords": "Mi                Si                  La",
-          "lyrics": "Il tuo spirito in me in eterno ti loderà"
-        }
-      ]
-    },
-    {
-      "type": "chorus",
-      "lines": [
-        {
-          "chords": "  Mi                  Si",
-          "lyrics": "Abbracciami Dio dell’eternità"
-        },
-        {
-          "chords": "             Do#m             La",
-          "lyrics": "rifugio dell’anima grazie che opera"
-        },
-        {
-          "chords": "   Mi                Si",
-          "lyrics": "riscaldami fuoco che libera"
-        },
-        {
-          "chords": "             Do#m          La",
-          "lyrics": "manda il tuo Spirito Maranathà Gesù"
-        }
-      ]
-    }
-  ]
+    ],
+    "id": "0008",
+    "title": "Abbracciami",
+    "author": "RnS",
+    "categories": [
+        "Apertura"
+    ]
 }

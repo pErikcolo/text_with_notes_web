@@ -1,186 +1,845 @@
-    {
-      "id": "song11",
-      "title": "La nostra fede è una casa",
-      "tags": ["Conclusione"],
-      "sections": [
+{
+    "song": [
         {
-            "type": "chords",
+            "section": "chords",
             "lines": [
                 {
-                 "chords": "Sol Re Mi Re Do",
-                 "lyrics": ""
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": " ",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 15
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 20
                 }
             ]
         },
         {
-            "type": "verse",
-          "lines": [
-              {
-                "chords": "Sol",
-                "lyrics": "Sotto questo cielo immenso"
-              },
-              {
-                "chords": "Re",
-                "lyrics": "accanto a queste immense mura"
-              },
-              {
-                "chords": "Mim  Re   Do",
-                "lyrics": "io   dico sì."
-              },
-              {
-                "chords": "Sol",
-                "lyrics": "Davanti a questo amore eterno"
-              },
-              {
-                "chords": "Re",
-                "lyrics": "davanti a questo eterno dono"
-              },
-              {
-                "chords": "Mim  Re   Do",
-                "lyrics": "io   dico sì."
-              },
-              {
-                "chords": "       Mim            Re        Do",
-                "lyrics": "Ad un amore che è più grande di me"
-              },
-              {
-                "chords": "         Mim          Re          Do Re7",
-                "lyrics": "Ad un progetto che ha vita solo in te "
-              }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Sotto questo cielo immenso",
+                    "position": 0
+                }
+            ]
         },
         {
-          "type": "chorus",
-          "lines": [
-            {
-              "chords": "Sol       Re         Mim Do",
-              "lyrics": "La nostra fede è una casa "
-            },
-            {
-              "chords": "       Sol        Re       Mim Do",
-              "lyrics": "tempio d'oro di paure e speranze "
-            },
-            {
-              "chords": "       Sol   Re    Mim  Do",
-              "lyrics": "dimora di fratelli fragili,"
-            },
-            {
-              "chords": "    Sol       Re           Do",
-              "lyrics": "ma uniti da Colui che è la roccia."
-            },
-            {
-              "chords": "  Sol          Re    Mim Do",
-              "lyrics": "Irrompa il tuo sì, o Maria "
-            },
-            {
-              "chords": "          Sol       Re      Mim Do",
-              "lyrics": "in questo mondo assetato di Dio."
-            },
-            {
-              "chords": "         Sol       Re        Mim Do",
-              "lyrics": "Tu Onnipotente per grazia sollevaci"
-            },
-            {
-              "chords": "  Sol            Mim    Do",
-              "lyrics": "e portaci al tuo Figlio Gesù."
-            }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "accanto a queste immense mura",
+                    "position": 0
+                }
+            ]
         },
         {
-          "type": "chords",
-          "lines": [
-              {
-               "chords": "Sol Re Mi Re Do",
-               "lyrics": ""
-              }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "io   ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "dico ",
+                    "position": 6
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "sì.",
+                    "position": 11
+                }
+            ]
         },
         {
-          "type": "verse",
-        "lines": [
-            {
-              "chords": "Sol",
-              "lyrics": "E nella gioia e nel dolore,"
-            },
-            {
-              "chords": "Re",
-              "lyrics": "nelle fatiche e nella pace"
-            },
-            {
-              "chords": "Mim  Re   Do",
-              "lyrics": "io   dico sì."
-            },
-            {
-              "chords": "Sol",
-              "lyrics": "Inondami del tuo sorriso,"
-            },
-            {
-              "chords": "Re",
-              "lyrics": "perché l'eterno sia il presente"
-            },
-            {
-              "chords": "Mim  Re   Do",
-              "lyrics": "io dico sì."
-            },
-            {
-              "chords": "       Mim            Re        Do",
-              "lyrics": "Ad un amore che è più grande di me"
-            },
-            {
-              "chords": "       Mim            Re        Do",
-              "lyrics": "Ad un progetto che ha vita solo in te "
-            }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Davanti a questo amore eterno",
+                    "position": 0
+                }
+            ]
         },
         {
-          "type": "chorus",
-          "lines": [
-            {
-              "chords": "Sol       Re         Mim Do",
-              "lyrics": "La nostra fede è una casa "
-            },
-            {
-              "chords": "       Sol        Re       Mim Do",
-              "lyrics": "tempio d'oro di paure e speranze "
-            },
-            {
-              "chords": "       Sol   Re    Mim  Do",
-              "lyrics": "dimora di fratelli fragili,"
-            },
-            {
-              "chords": "    Sol       Re           Do",
-              "lyrics": "ma uniti da Colui che è la roccia."
-            },
-            {
-              "chords": "  Sol          Re    Mim Do",
-              "lyrics": "Irrompa il tuo sì, o Maria "
-            },
-            {
-              "chords": "          Sol       Re      Mim Do",
-              "lyrics": "in questo mondo assetato di Dio."
-            },
-            {
-              "chords": "         Sol       Re        Mim Do",
-              "lyrics": "Tu Onnipotente per grazia sollevaci"
-            },
-            {
-              "chords": "  Sol            Mim    Do",
-              "lyrics": "e portaci al tuo Figlio Gesù."
-            }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "davanti a questo eterno dono",
+                    "position": 0
+                }
+            ]
         },
         {
-        "type": "chorus",
-        "lines": [
-          {
-            "chords": "         Sol       Re        Mim Do",
-            "lyrics": "Tu Onnipotente per grazia sollevaci"
-          },
-          {
-            "chords": "  Sol            Mim    Do",
-            "lyrics": "e portaci al tuo Figlio Gesù."
-          }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "io   ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "dico ",
+                    "position": 6
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "sì.",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ad un a",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "more che è più ",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "grande di ",
+                    "position": 23
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ad un pro",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "getto che ha ",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "vita solo in ",
+                    "position": 23
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te ",
+                    "position": 36
+                },
+                {
+                    "chords": "Re7",
+                    "lyric": ".",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "La nostra ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "fede è una ",
+                    "position": 11
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "casa",
+                    "position": 22
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "-",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "tempio d'",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "oro di pa",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ure e spe",
+                    "position": 19
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ranze",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "-",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "dimora ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "di fra",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "telli ",
+                    "position": 14
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "fragi",
+                    "position": 20
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "li,",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ma u",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "niti da Co",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "lui che è la ",
+                    "position": 15
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "roccia.",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ir",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "rompa il tuo ",
+                    "position": 3
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "sì, o ",
+                    "position": 16
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Mari",
+                    "position": 22
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "a",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "in questo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "mondo asse",
+                    "position": 11
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tato di ",
+                    "position": 21
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Dio ",
+                    "position": 29
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ".",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu Onnipo",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "tente per ",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "grazia sol",
+                    "position": 20
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "leva",
+                    "position": 30
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ci",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "portaci al tuo ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Figlio ",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Gesù.",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": " ",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 15
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "E nella gioia e nel dolore,",
+                    "position": 0
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "nelle fatiche e nella pace",
+                    "position": 0
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "io   ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "dico ",
+                    "position": 6
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "sì.",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Inondami del tuo sorriso,",
+                    "position": 0
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "perché l'eterno sia il presente",
+                    "position": 0
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "io   ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "dico ",
+                    "position": 6
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "sì.",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ad un a",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "more che è più ",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "grande di ",
+                    "position": 23
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ad un pro",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "getto che ha ",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "vita solo in ",
+                    "position": 23
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te ",
+                    "position": 36
+                },
+                {
+                    "chords": "Re7",
+                    "lyric": ".",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "La nostra ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "fede è una ",
+                    "position": 11
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "casa",
+                    "position": 22
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "-",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "tempio d'",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "oro di pa",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ure e spe",
+                    "position": 19
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ranze",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "-",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "dimora ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "di fra",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "telli ",
+                    "position": 14
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "fragi",
+                    "position": 20
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "li,",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ma u",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "niti da Co",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "lui che è la ",
+                    "position": 15
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "roccia.",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ir",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "rompa il tuo ",
+                    "position": 3
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "sì, o ",
+                    "position": 16
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Mari",
+                    "position": 22
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "a",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "in questo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "mondo asse",
+                    "position": 11
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tato di ",
+                    "position": 21
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Dio ",
+                    "position": 29
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ".",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu Onnipo",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "tente per ",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "grazia sol",
+                    "position": 20
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "leva",
+                    "position": 30
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ci",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "portaci al tuo ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Figlio ",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Gesù.",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu Onnipo",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "tente per ",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "grazia sol",
+                    "position": 20
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "leva",
+                    "position": 30
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ci",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "portaci al tuo ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Figlio ",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Gesù.",
+                    "position": 25
+                }
+            ]
         }
-      ]
-    }
+    ],
+    "id": "0006",
+    "title": "La nostra fede è una casa",
+    "author": "Officina del sole",
+    "categories": [
+        "Conclusione"
+    ]
+}

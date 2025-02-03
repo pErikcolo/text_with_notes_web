@@ -1,63 +1,316 @@
 {
-  "id": "song3",
-  "title": "Alleluia (Canto per Cristo)",
-  "tags": ["Alleluia", "Canti al Vangelo"],
-  "sections": [
-    {
-      "type": "chords",
-      "lines": [
+    "song": [
         {
-          "chords": "Do   Sol   Fa   Mi",
-          "lyrics": ""
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 10
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Allelu",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ia, alle",
+                    "position": 7
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "lu allelu",
+                    "position": 15
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ia, ",
+                    "position": 24
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "allelu",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ia, alle",
+                    "position": 34
+                },
+                {
+                    "chords": "Sol7",
+                    "lyric": "lu----",
+                    "position": 42
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "ia",
+                    "position": 48
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Allelu",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ia, alle",
+                    "position": 7
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "lu allelu",
+                    "position": 15
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ia, ",
+                    "position": 24
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "allelu",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ia, alle",
+                    "position": 34
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "lu----",
+                    "position": 42
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ia  ",
+                    "position": 48
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Canto per ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Cristo che ",
+                    "position": 11
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "mi libere",
+                    "position": 22
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "rà",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "quando ver",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "rà nella ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol7",
+                    "lyric": "glor-",
+                    "position": 20
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "ia,",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "quando la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "vita con ",
+                    "position": 11
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "Lui rinasce",
+                    "position": 20
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "rà",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "allelu",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ia, alle",
+                    "position": 7
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "lu--",
+                    "position": 15
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ia",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Allelu",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ia, alle",
+                    "position": 7
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "lu allelu",
+                    "position": 15
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ia, ",
+                    "position": 24
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "allelu",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ia, alle",
+                    "position": 34
+                },
+                {
+                    "chords": "Sol7",
+                    "lyric": "lu----",
+                    "position": 42
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "ia",
+                    "position": 48
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Allelu",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ia, alle",
+                    "position": 7
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "lu allelu",
+                    "position": 15
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ia, ",
+                    "position": 24
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "allelu",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ia, alle",
+                    "position": 34
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "lu----",
+                    "position": 42
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ia",
+                    "position": 48
+                }
+            ]
         }
-      ]
-    },
-    {
-      "type": "chorus",
-      "lines": [
-        {
-          "chords": "Do    Mim     Fa       Do  Fa    Do      Sol7 Sol",
-          "lyrics": "Alleluia, allelu alleluia, alleluia, allelu--ia"
-        },
-        {
-          "chords": "Do    Mim     Fa       Do  Fa    Do      Sol Do",
-          "lyrics": "Alleluia, allelu alleluia, alleluia, allelu--ia"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "lines": [
-        {
-          "chords": "Do        Mim        Fa       Do",
-          "lyrics": "Canto per Cristo che mi libererà"
-        },
-        {
-          "chords": "Fa        Do       Sol7 Sol",
-          "lyrics": "quando verrà nella gloria,"
-        },
-        {
-          "chords": "Do        Mim      Fa         Do",
-          "lyrics": "quando la vita con Lui rinascerà"
-        },
-        {
-          "chords": "Fa    Do      Sol  Do",
-          "lyrics": "alleluia, allelu--ia"
-        }
-      ]
-    },
-    {
-      "type": "chorus",
-      "lines": [
-        {
-          "chords": "Do    Mim     Fa       Do  Fa    Do      Sol7 Sol",
-          "lyrics": "Alleluia, allelu alleluia, alleluia, allelu--ia"
-        },
-        {
-          "chords": "Do    Mim     Fa       Do  Fa    Do      Sol Do",
-          "lyrics": "Alleluia, allelu alleluia, alleluia, allelu--ia"
-        }
-      ]
-    }
-  ]
+    ],
+    "id": "0001",
+    "title": "Alleluia (Canto per Cristo)",
+    "author": "Enrico Costa",
+    "categories": [
+        "Canto al Vangelo",
+        "Alleluia"
+    ]
 }

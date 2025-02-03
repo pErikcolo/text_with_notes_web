@@ -1,146 +1,621 @@
-    {
-      "id": "song2",
-      "title": "Invochiamo la tua presenza",
-      "tags": ["Adorazione", "Ingresso"],
-      "sections": [
+{
+    "song": [
         {
-            "type": "chords",
+            "section": "chords",
             "lines": [
                 {
-                "chords": "Rem  Sib  Fa  Do",
-                "lyrics": ""
+                    "chords": "Rem",
+                    "lyric": " ",
+                    "position": 0
                 },
                 {
-                  "chords": "Rem  Sib  Fa  Do",
-                  "lyrics": ""
+                    "chords": "Sib",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 10
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 15
                 }
             ]
         },
         {
-          "type": "verse",
-          "lines": [
-              {
-                "chords": "Rem           Sib          Fa      Do",
-                "lyrics": "Invochiamo la tua presenza vieni Signor"
-              },
-              {
-                "chords": "Rem           Sib          Fa           Do",
-                "lyrics": "Invochiamo la tua presenza scendi su di noi"
-              },
-              {
-                "chords": "Solm         Rem       Sib         Do",
-                "lyrics": "Vieni Consolatore dona pace ed umiltà"
-              },
-              {
-                "chords": "Solm         Rem          Sib            La4 La",
-                "lyrics": "Acqua viva d’amore questo cuore apriamo a te."
-              }
-          ]
-        },
-        {
-            "type": "chorus",
-          "lines": [
-              {
-                "chords": "Rem            Sib           Fa           Do",
-                "lyrics": "Vieni spirito, vieni spirito scendi su di noi"
-              },
-              {
-                "chords": "Rem            Sib           Fa           Do",
-                "lyrics": "Vieni spirito, vieni spirito scendi su di noi"
-              },
-              {
-                "chords": "Sib      Do  La    Rem  Sib      Do      Rem",
-                "lyrics": "Vieni su noi maranathà, vieni su noi spirito"
-              },
-              {
-                "chords": "Rem            Sib           Fa           Do",
-                "lyrics": "Vieni spirito, vieni spirito scendi su di noi"
-              },
-              {
-                "chords": "Rem            Sib           Fa           Do",
-                "lyrics": "Vieni spirito, vieni spirito scendi su di noi"
-              },
-              {
-                "chords": "            Rem",
-                "lyrics": "Scendi su di noi",
-                "tags": [
-                    { "word": "Scendi su di", "note": " " },
-                    { "word": "noi", "note": "Rem" }
-                ]
-              }
-          ]
-        },
-        {
-            "type": "chords",
+            "section": "chords",
             "lines": [
                 {
-                "chords": "Rem  Sib  Fa  Do",
-                "lyrics": ""
+                    "chords": "Rem",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 10
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 15
                 }
             ]
         },
         {
-          "type": "verse",
-          "lines": [
-              {
-                "chords": "Rem           Sib          Fa      Do",
-                "lyrics": "Invochiamo la tua presenza vieni Signor"
-              },
-              {
-                "chords": "Rem           Sib          Fa           Do",
-                "lyrics": "Invochiamo la tua presenza scendi su di noi"
-              },
-              {
-                "chords": "Solm           Rem        Sib          Do",
-                "lyrics": "Vieni luce dei cuori dona forza e fedeltà"
-              },
-              {
-                "chords": "Solm            Rem         Sib            La4 La",
-                "lyrics": "Fuoco eterno d’amore questa vita offriamo a te    "
-              }
-          ]
-        },
-        {
-            "type": "chorus",
-          "lines": [
-              {
-                "chords": "Rem            Sib           Fa           Do",
-                "lyrics": "Vieni spirito, vieni spirito scendi su di noi"
-              },
-              {
-                "chords": "Rem            Sib           Fa           Do",
-                "lyrics": "Vieni spirito, vieni spirito scendi su di noi"
-              },
-              {
-                "chords": "Sib      Do  La    Rem  Sib      Do      Rem",
-                "lyrics": "Vieni su noi maranathà, vieni su noi spirito"
-              },
-              {
-                "chords": "Rem            Sib           Fa           Do",
-                "lyrics": "Vieni spirito, vieni spirito scendi su di noi"
-              },
-              {
-                "chords": "Rem            Sib           Fa           Do",
-                "lyrics": "Vieni spirito, vieni spirito scendi su di noi"
-              },
-              {
-                "chords": "            Rem",
-                "lyrics": "Scendi su di noi",
-                "tags": [
-                    { "word": "Scendi su di", "note": " " },
-                    { "word": "noi", "note": "Rem" }
-                ]
-              }
-          ]
-        },
-        {
-            "type": "chords",
+            "section": "verse",
             "lines": [
                 {
-                "chords": "Rem  Sib  Fa  Do",
-                "lyrics": ""
+                    "chords": "Rem",
+                    "lyric": "Invochiamo la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "tua presenza ",
+                    "position": 15
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "vieni Si",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "gnor",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Invochiamo la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "tua presenza ",
+                    "position": 15
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "scendi su di ",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi",
+                    "position": 41
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Solm",
+                    "lyric": "Vieni Consola",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tore dona ",
+                    "position": 14
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "pace ed umil",
+                    "position": 24
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tà",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Solm",
+                    "lyric": "Acqua viva d’a",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "more questo ",
+                    "position": 15
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "cuore apriamo a ",
+                    "position": 27
+                },
+                {
+                    "chords": "La4",
+                    "lyric": "te   ",
+                    "position": 43
+                },
+                {
+                    "chords": "La",
+                    "lyric": ".",
+                    "position": 48
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Vieni spirito, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vieni spirito ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "scendi su di ",
+                    "position": 30
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi",
+                    "position": 43
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Vieni spirito, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vieni spirito ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "scendi su di ",
+                    "position": 30
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi",
+                    "position": 43
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": "Vieni su ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi ",
+                    "position": 10
+                },
+                {
+                    "chords": "La",
+                    "lyric": "marana",
+                    "position": 14
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "thà, ",
+                    "position": 20
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vieni su ",
+                    "position": 25
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi spir",
+                    "position": 34
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "ito",
+                    "position": 42
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Vieni spirito, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vieni spirito ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "scendi su di ",
+                    "position": 30
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi",
+                    "position": 43
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Vieni spirito, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vieni spirito ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "scendi su di ",
+                    "position": 30
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi",
+                    "position": 43
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "noi",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 10
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Invochiamo la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "tua presenza ",
+                    "position": 15
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "vieni Si",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "gnor",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Invochiamo la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "tua presenza ",
+                    "position": 15
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "scendi su di ",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi",
+                    "position": 41
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Solm",
+                    "lyric": "Vieni luce dei ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "cuori dona ",
+                    "position": 16
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "forza e fedel",
+                    "position": 27
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tà",
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Solm",
+                    "lyric": "Fuoco eterno d’a",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "more questa ",
+                    "position": 17
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vita offriamo a ",
+                    "position": 29
+                },
+                {
+                    "chords": "La4",
+                    "lyric": "te   ",
+                    "position": 45
+                },
+                {
+                    "chords": "La",
+                    "lyric": ".",
+                    "position": 50
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Vieni spirito, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vieni spirito ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "scendi su di ",
+                    "position": 30
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi",
+                    "position": 43
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Vieni spirito, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vieni spirito ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "scendi su di ",
+                    "position": 30
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi",
+                    "position": 43
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": "Vieni su ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi ",
+                    "position": 10
+                },
+                {
+                    "chords": "La",
+                    "lyric": "marana",
+                    "position": 14
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "thà, ",
+                    "position": 20
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vieni su ",
+                    "position": 25
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi spir",
+                    "position": 34
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "ito",
+                    "position": 42
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Vieni spirito, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vieni spirito ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "scendi su di ",
+                    "position": 30
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi",
+                    "position": 43
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Vieni spirito, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vieni spirito ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "scendi su di ",
+                    "position": 30
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "noi",
+                    "position": 43
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "noi",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 10
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 15
                 }
             ]
         }
-      ]
-    }
+    ],
+    "id": "0004",
+    "title": "Invochiamo la tua presenza",
+    "author": "RnS",
+    "categories": [
+        "Apertura",
+        "Adorazione"
+    ]
+}

@@ -9,6 +9,7 @@
   --accent-color: red;
 }
 
+/* Stile del corpo */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.8;
@@ -19,6 +20,7 @@ body {
   overflow-x: hidden;
 }
 
+/* Header */
 header {
   background-color: var(--header-bg-color);
   color: var(--header-text-color);
@@ -31,10 +33,10 @@ header h1 {
   font-size: 1.8rem;
 }
 
+/* Navigazione */
 nav {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 1rem;
 }
 
@@ -53,6 +55,7 @@ nav button:hover {
   background-color: var(--button-hover-bg-color);
 }
 
+/* Contenuto principale */
 main {
   max-width: 100%;
   margin: 0 auto;
@@ -60,27 +63,17 @@ main {
   box-sizing: border-box;
 }
 
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: var(--header-bg-color);
-  color: var(--header-text-color);
-}
-
-/* Lista canzoni */
+/* Lista delle canzoni */
 #songList li {
   list-style: none;
   background-color: #fff;
-  margin: 0 auto; /* Allinea il contenitore al centro */
+  margin: 1rem auto;
   padding: 1rem;
   border-radius: 5px;
-  justify-content: space-between; /* Spazia gli elementi agli estremi */
   display: flex;
-  max-width: 550px; /* Imposta la larghezza massima desiderata */
   justify-content: space-between;
-  align-items: center;
+  max-width: 550px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: left; /* Allinea il testo a sinistra */
   cursor: pointer;
 }
 
@@ -88,118 +81,172 @@ footer {
   background-color: #f0f0f0;
 }
 
-.song-section.chorus .lyric-line {
+/* Contenuto della canzone */
+#songContent {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  min-height: 400px;
+  max-height: 80vh; /* Limita l'altezza al 80% della viewport */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;  /* Forza lo scrolling verticale se il contenuto supera l'altezza */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  position: relative; /* Necessario per posizionamenti assoluti */
+  font-family: "Fira Code", monospace;
+}
+
+/* Righe di lyrics e accordi */
+#songContent .chord-row,
+#songContent .lyric-row {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+/* Lyrics */
+#songContent .lyric {
+  display: inline-block; /* Gli accordi si posizionano rispetto a questa */
+  white-space: pre-wrap; /* Allow wrapping */
+  word-wrap: break-word; /* Ensure words break correctly */
+}
+
+/* Accordi */
+#songContent .chord {
+  position: absolute;
+  top: -1.2em; /* Posiziona gli accordi sopra le lyrics */
+  color: red;
+  white-space: pre-wrap; /* Allow wrapping */
+  word-wrap: break-word; /* Ensure words break correctly */
+}
+
+/* Spaziatura tra le sezioni */
+.song-section {
+  margin-bottom: 1.5rem; /* Spaziatura tra tutte le sezioni */
+}
+
+.song-section.verse {
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+/* Aggiunge più spazio sopra e sotto le sezioni di tipo chorus */
+.song-section.chorus {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Lyrics del chorus in grassetto */
+.song-section.chorus .lyric {
+  font-weight: bold; /* Grassetto per le lyrics del chorus */
+}
+
+/* Elementi della pagina principale */
+#mainTitle,
+#categoryFilter,
+#favoritesButton {
+  display: none; /* Nascondili di default */
+}
+
+/* Titolo della canzone */
+#songTitle {
+  font-size: 1.8rem;
   font-weight: bold;
-}
-
-.chord-line, .lyric-line {
-  font-family: monospace; /* Usa caratteri a spaziatura fissa */
-  font-size: 16px;
-  white-space: pre; /* Mantiene gli spazi del JSON */
-  margin: 0;
-  padding: 0;
-  width: 100%; /* Adatta alla larghezza del contenitore */
-  overflow-wrap: break-word; /* Permette il wrapping del testo */
-}
-
-.chord-line {
-  color: var(--accent-color); /* Colore degli accordi */
-  margin-bottom: -5px; /* Avvicina accordi e lyrics */
-}
-
-.word-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centra accordi sopra le lyrics */
+  margin-bottom: 0.5rem;
   text-align: center;
-  margin: 0 0.5rem;
 }
 
-.chord {
-  font-family: monospace;
-  font-size: 0.9em;
-  color: var(--accent-color);
-  margin-bottom: 0.2em; /* Spazio tra accordo e lyric */
-}
-
-.lyric {
-  font-family: Arial, sans-serif;
-  font-size: 1em;
-  color: var(--main-text-color);
-}
-
-.line-container {
-  display: flex;
-  flex-wrap: wrap; /* Permette il wrapping quando necessario */
-  gap: 0.5rem;
+/* Autore della canzone */
+#songAuthor {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
   margin-bottom: 1rem;
+  text-align: center;
 }
-
-
-/* Contenitore dei pulsanti */
+/* Stile per i pulsanti della pagina della canzone */
 #controlsContainer {
-  display: none;
-  flex-direction: row;
-  gap: 0.5rem;
-  padding: 0.5rem;
-  background-color: var(--main-bg-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-top: 1rem;
-  justify-content: flex-start; /* Allinea i pulsanti a sinistra */
-  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;  /* Centra i pulsanti orizzontalmente */
+  align-items: center;
+  gap: 10px;
+  background-color: var(--header-bg-color); /* Stesso nero opaco della barra del titolo */
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px auto;  /* Spazio sopra e sotto */
+  width: fit-content;  /* Adatta la larghezza ai pulsanti */
 }
 
-/* Pulsanti */
+/* Stile per i pulsanti */
 #controlsContainer button {
-  padding: 0.5rem;
-  border: none;
-  background-color: var(--button-bg-color);
-  color: var(--button-text-color);
-  cursor: pointer;
+  background-color: var(--header-bg-color);
+  color: var(--header-text-color);
+  border: 2px solid var(--header-text-color);
+  padding: 8px 12px;
   border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 #controlsContainer button:hover {
   background-color: var(--button-hover-bg-color);
+  transform: scale(1.05);
 }
 
-#songContent {
-  overflow-y: auto; /* Abilita lo scrolling verticale */
-  max-height: calc(100vh - 200px); /* Altezza massima adattata per pulsanti e header */
-  padding: 1rem;
-  margin-top: 1rem;
+#backButton {
+  display: none; /* Nascondilo di default */
+  background-color: var(--header-bg-color);
+  color: var(--header-text-color);
+  border: 2px solid var(--header-text-color);
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
+  width: fit-content;
+  text-align: center;
+  margin: 10px auto; /* Lo centra orizzontalmente */
+  position: relative;
+  display: block;
 }
 
-/* Posizionamento del contenitore sotto "Torna alla lista" */
-#controlsContainer {
-  margin-top: 1rem; /* Spazio tra il pulsante "Torna alla lista" e i controlli */
-  margin-bottom: 1rem; /* Spazio tra i controlli e il contenuto della canzone */
+#scrollingButton {
+  display: inline-block;
+  color: black; /* Forza il colore del testo a nero */
+  z-index: 1000; /* Assicura che il pulsante sia sopra il contenuto */
 }
 
-.line-wrapper {
+#backButton:hover {
+  background-color: var(--button-hover-bg-color);
+  transform: scale(1.05);
+}
+
+/* Assicura che il pulsante sia centrato */
+#backButtonContainer {
   display: flex;
-  flex-direction: column; /* Allinea accordi sopra le lyrics */
-  width: 100%; /* Adatta al contenitore */
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
-.line-wrapper .chord-line,
-.line-wrapper .lyric-line {
-  white-space: pre-wrap; /* Permette il wrapping del testo */
-  word-wrap: break-word;
-}
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
 
-.line-wrapper .chord-line {
-  color: var(--accent-color);
-  text-align: left; /* Allinea a sinistra per mobile */
-}
+  #songList li {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+  }
 
-.line-wrapper .lyric-line {
-  color: var(--main-text-color);
-  text-align: left; /* Allinea a sinistra per mobile */
-}
+  #songContent {
+    padding: 1rem;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
 
-#songContent .chord-line, #songContent .lyric-line {
-  font-size: inherit; /* Consente la modifica dinamica */
-  white-space: pre-wrap; /* Permette il wrapping su mobile */
-}
+  .song-section {
+    margin-bottom: 1rem; /* Adjust spacing for mobile */
+  }
 
+}

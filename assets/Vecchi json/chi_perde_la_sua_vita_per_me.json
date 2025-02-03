@@ -1,0 +1,84 @@
+    {
+      "id": "song4",
+      "title": "Chi perde la sua vita per me",
+      "tags": ["Adorazione", "Silenzio"],
+      "sections": [
+        {
+            "type": "chords",
+            "lines": [
+                {
+                 "chords": "Re   La   Sim   La",
+                 "lyrics": ""
+                }
+            ]
+        },
+        {
+            "type": "verse",
+            "lines": [
+              {
+              "chords": "    Re           La      Sim",
+              "lyrics": "Chi perde la sua vita per me"
+              },
+              {
+                "chords": "   La   Sol         La          Re",
+                "lyrics": "la troverà, la troverà, la troverà"
+              },
+              {
+                "chords": "    Re                La       Sim",
+                "lyrics": "Chi lascia il proprio padre per me,"
+              },
+              {
+                "chords": "           La       Sol          La          Re",
+                "lyrics": "la propria madre per me, mi troverà, mi troverà"
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "chords": "    La   Sim        La   Sol",
+              "lyrics": "Non tema nulla, non tema nulla:"
+            },
+            {
+              "chords": "        La           Re",
+              "lyrics": "Io sono qui, Io sono qui. x2"
+            }
+          ]
+        },
+        {
+            "type": "verse",
+            "lines": [
+              {
+                "chords": "    Re            La      Sim",
+                "lyrics": "Chi lascia la sua casa per me,"
+              },
+              {
+                "chords": "       La       Sol                  La         Re",
+                "lyrics": "i suoi beni per me, i suoi figli per me mi troverà."
+              },
+              {
+                "chords": "    La   Sim    La     Sol",
+                "lyrics": "Non tema nulla, io conosco chi ho"
+              },
+              {
+                "chords": "           La                    Re",
+                "lyrics": "scelto per me, chi ho scelto per me!"
+              }
+          ]
+        },
+        {
+          "type": "chorus",
+          "lines": [
+            {
+              "chords": "    La   Sim        La   Sol",
+              "lyrics": "Non tema nulla, non tema nulla:"
+            },
+            {
+              "chords": "        La           Re",
+              "lyrics": "Io sono qui, Io sono qui. x2"
+            }
+          ]
+        }
+      ]
+    }

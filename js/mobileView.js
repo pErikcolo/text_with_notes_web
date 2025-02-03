@@ -7,14 +7,19 @@ export function adaptMobileView() {
         songContent.style.fontSize = '14px';
         songContent.style.padding = '1rem';
         songContent.style.maxHeight = 'calc(100vh - 120px)'; // Adatta altezza per pulsanti
-        controlsContainer.style.position = 'fixed';
-        controlsContainer.style.bottom = '0';
+        controlsContainer.style.position = 'relative';
+        controlsContainer.style.bottom = 'auto';
+        controlsContainer.style.marginBottom = '1rem';
+        controlsContainer.style.textAlign = 'center'; // Center the buttons
     } else {
         // Ripristina impostazioni desktop
         songContent.style.fontSize = '';
         songContent.style.padding = '';
+        songContent.style.maxHeight = '';
         controlsContainer.style.position = '';
         controlsContainer.style.bottom = '';
+        controlsContainer.style.marginBottom = '';
+        controlsContainer.style.textAlign = '';
     }
 }
 

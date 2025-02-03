@@ -5,6 +5,7 @@ import { transposeChords } from './transpose.js';
 import { toggleScrolling, initializeScrollingButton, watchContentHeight, stopScrolling } from './scrolling.js';
 import { changeFontSize } from './changeFontSize.js';
 import { adaptMobileView } from './mobileView.js';
+import { toggleViewMode } from './toggleViewMode.js'; // Importa la funzione toggleViewMode
 
 document.addEventListener('DOMContentLoaded', () => {
     let lastTouchEnd = 0;
@@ -13,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('touchend', (event) => {
         const now = new Date().getTime();
         if (now - lastTouchEnd <= 300) {
-            event.preventDefault(); // Impedisce lo zoom sul doppio tap
+            event.preventDefault(); // Impedisce lo zoom con il doppio tap
         }
         lastTouchEnd = now;
     }, false);
@@ -27,9 +28,18 @@ document.addEventListener('DOMContentLoaded', () => {
         favoritesButton: document.getElementById('favoritesButton'),
         clearFavoritesButton: document.getElementById('clearFavoritesButton'),
         controlsContainer: document.getElementById('controlsContainer'),
-    };
+        mainTitle: document.getElementById('mainTitle'),
+        songHeader: document.getElementById('songHeader'),
+        songTitle: document.getElementById('songTitle'),
+        songAuthor: document.getElementById('songAuthor'),
+    };    
 
     console.log("Elementi caricati:", elements);
+
+    // Forza la visibilità del titolo, del filtro per categoria e del menu preferiti
+    elements.mainTitle.style.display = 'block';
+    elements.categoryFilter.style.display = 'block';
+    elements.favoritesButton.style.display = 'inline-block';
 
     const controls = {
         transposeUp: document.getElementById('transposeUp'),
@@ -48,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log("Favorites caricati dal localStorage:", favorites);
 
+    // Inizialmente nascondi altri elementi
     elements.controlsContainer.style.display = 'none';
     elements.songContent.style.display = 'none';
     elements.backButton.style.display = 'none';
@@ -56,10 +67,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (controls.scrollingButton) {
         controls.scrollingButton.addEventListener('click', toggleScrolling);
     }
-
+    
     initializeScrollingButton();
     watchContentHeight();
 
+    // Caricamento delle canzoni
     fetch('assets/songs/index.json')
         .then(response => response.json())
         .then(data => {
@@ -72,7 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(songs => {
             console.log("Canzoni caricate:", songs);
             allSongs = songs.sort((a, b) => a.title.localeCompare(b.title));
-
+            // Salva le canzoni in una variabile globale per il filtro
+            window.allSongs = allSongs;
+            
             populateSongList(allSongs, elements, favorites);
             loadTags(elements.categoryFilter);
 
@@ -89,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log("Categoria selezionata:", selectedCategory);
 
         const filteredSongs = selectedCategory
-            ? allSongs.filter(song => song.tags && song.tags.includes(selectedCategory))
+            ? allSongs.filter(song => (song.tags || song.categories || []).includes(selectedCategory))
             : allSongs;
 
         populateSongList(filteredSongs, elements, favorites);
@@ -147,39 +161,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Funzione per tornare alla lista delle canzoni
     function handleBackButton() {
-        const songContent = document.getElementById('songContent');
-        const categoryFilter = document.getElementById('categoryFilter');
-        const categoryLabel = document.querySelector('label[for="categoryFilter"]');
-        const favoritesButton = document.getElementById('favoritesButton');
-        const controlsContainer = document.getElementById('controlsContainer');
-        const backButton = document.getElementById('backButton');
-
-        // Nascondi il contenuto della canzone
-        if (songContent) {
-            songContent.style.display = 'none';
-            songContent.innerHTML = ''; // Pulisce il contenuto
-        }
-
+        console.log("Torna alla lista principale.");
+    
+        stopScrolling();
+    
+        const elementsToShow = ['categoryFilter', 'favoritesButton', 'mainTitle'];
+        const elementsToHide = ['songContent', 'controlsContainer', 'backButton', 'songHeader'];
+    
         // Mostra gli elementi della pagina principale
-        if (categoryFilter) categoryFilter.style.display = 'block';
-        if (categoryLabel) categoryLabel.style.display = 'block';
-        if (favoritesButton) favoritesButton.style.display = 'block';
-
-        // Nascondi i controlli
-        if (controlsContainer) {
-            controlsContainer.style.display = 'none';
-        }
-
-        // Nascondi il pulsante "Torna alla lista"
-        if (backButton) {
-            backButton.style.display = 'none';
-        }
-
-        // Rimuovi la classe `song-page`
+        elementsToShow.forEach(id => {
+            const element = document.getElementById(id);
+            if (element) element.style.display = 'block';
+        });
+    
+        // Nasconde gli elementi della canzone selezionata
+        elementsToHide.forEach(id => {
+            const element = document.getElementById(id);
+            if (element) {
+                element.style.display = 'none';
+                if (id === 'songContent') element.innerHTML = ''; // Pulisce il contenuto
+            }
+        });
+    
+        // Ripristina la classe principale
         document.body.classList.remove('song-page');
-    }
+    }    
 
-    // Aggiungi l'evento al pulsante
+    // Aggiungi l'evento al pulsante back
     document.getElementById('backButton').addEventListener('click', handleBackButton);
 
     if (controls.transposeUp) {
@@ -213,39 +221,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }    
 
-    function handleFontIncrease(event) {
-        event.preventDefault(); // Evita comportamenti indesiderati
-        console.log("A+ cliccato."); // Log per verificare il clic
-        changeFontSize(2); // Incrementa di 2px
-    }
-
-    function handleFontDecrease(event) {
-        event.preventDefault(); // Evita comportamenti indesiderati
-        console.log("A- cliccato."); // Log per verificare il clic
-        changeFontSize(-2); // Decrementa di 2px
-    }  
-
+    // Aggiungi il listener per il pulsante che alterna la visualizzazione (testo + accordi vs solo testo)
     if (controls.viewModeButton) {
-        controls.viewModeButton.addEventListener('click', () => {
-            const chordLines = elements.songContent.querySelectorAll('.chord-line');
-    
-            if (chordLines.length === 0) {
-                console.warn("Nessuna linea di accordo trovata. Verifica il rendering della canzone.");
-                return;
-            }
-    
-            const isTextOnly = controls.viewModeButton.textContent === 'Solo testo';
-    
-            chordLines.forEach(line => {
-                line.style.display = isTextOnly ? 'none' : 'block';
-            });
-    
-            controls.viewModeButton.textContent = isTextOnly ? 'Testo + Accordi' : 'Solo testo';
-            console.log(`Modalità ${isTextOnly ? "Solo testo" : "Testo + Accordi"} attivata.`);
-        });
+        controls.viewModeButton.addEventListener('click', toggleViewMode);
     }
     
-
     // Aggiunge un listener per il resize per riadattare il layout mobile
     window.addEventListener('resize', () => {
         adaptMobileView();
@@ -254,13 +234,13 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function populateSongList(songs, elements, favorites) {
-    const { songList } = elements;
+    const { songList, controlsContainer } = elements;
     songList.innerHTML = '';
 
     songs.forEach(song => {
         const li = document.createElement('li');
         li.textContent = song.title;
-        li.dataset.categories = song.tags ? song.tags.join(',') : '';
+        li.dataset.categories = song.tags ? song.tags.join(',') : (song.categories ? song.categories.join(',') : '');
         li.dataset.songId = song.id;
 
         const heartIcon = document.createElement('span');
@@ -276,14 +256,31 @@ function populateSongList(songs, elements, favorites) {
         li.addEventListener('click', () => {
             console.log("Canzone selezionata:", song.title);
 
-            // Nasconde la lista delle canzoni e visualizza la canzone selezionata
-            songList.style.display = 'none';
-            elements.controlsContainer.style.display = 'flex';
+            // Salva i dati della canzone in una variabile globale
+            window.currentSongData = song;
+
+            // Nasconde gli elementi della pagina principale
+            elements.songList.style.display = 'none';
+            elements.categoryFilter.style.display = 'none';
+            elements.categoryLabel.style.display = 'none';
+            elements.favoritesButton.style.display = 'none';
+            elements.mainTitle.style.display = 'none';
+
+            // Mostra solo gli elementi relativi alla canzone selezionata
+            elements.controlsContainer.style.display = 'flex';  // Mostra i pulsanti
             elements.backButton.style.display = 'inline-block';
+            elements.songContent.style.display = 'block';
+            elements.songHeader.style.display = 'block';
 
-            displaySongContent(song, elements);
+            // Imposta il titolo e l'autore della canzone
+            elements.songTitle.textContent = song.title || 'Titolo non disponibile';
+            elements.songAuthor.textContent = song.author || 'Autore sconosciuto';
 
-            // Adatta il layout per mobile
+            // Visualizza il contenuto della canzone
+            displaySongContent(song);
+
+            console.log("window.currentSongData:", window.currentSongData);
+
             adaptMobileView();
         });
 
@@ -291,4 +288,37 @@ function populateSongList(songs, elements, favorites) {
     });
 
     console.log("Lista delle canzoni popolata:", songList.innerHTML);
+
+    // Nasconde i controlli all'avvio
+    controlsContainer.style.display = 'none';
 }
+
+// Responsive Design Script
+function adaptViewForMobile() {
+  const isMobile = window.innerWidth <= 768;
+  const songContent = document.getElementById('songContent');
+  
+  if (isMobile) {
+    songContent.classList.add('mobile-friendly');
+  } else {
+    songContent.classList.remove('mobile-friendly');
+  }
+}
+
+window.addEventListener('resize', adaptViewForMobile);
+window.addEventListener('load', adaptViewForMobile);
+
+// Responsive Design Script for Main Page
+function adaptMainPageForMobile() {
+  const isMobile = window.innerWidth <= 768;
+  const nav = document.querySelector('nav');
+
+  if (isMobile) {
+    nav.style.flexWrap = 'wrap';
+  } else {
+    nav.style.flexWrap = 'nowrap';
+  }
+}
+
+window.addEventListener('resize', adaptMainPageForMobile);
+window.addEventListener('load', adaptMainPageForMobile);

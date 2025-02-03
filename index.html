@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="it">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <title>Text With Notes</title>
@@ -8,7 +9,11 @@
     </head>      
 <body>
     <header>
-        <h1>Text With Notes</h1> <!-- Questo sarà sostituito con il titolo della canzone -->
+        <h1 id="mainTitle">Text With Notes</h1> <!-- ID per il titolo principale -->
+        <div id="songHeader" style="display: none;">
+            <h1 id="songTitle"></h1>
+            <h2 id="songAuthor"></h2>
+        </div>
         <nav>
             <label for="categoryFilter">Filtra per categoria:</label>
             <select id="categoryFilter">
@@ -17,11 +22,13 @@
             <button id="favoritesButton">Preferiti</button>
             <button id="clearFavoritesButton" style="display: none;">Svuota preferiti</button>
         </nav>
-    </header>    
+    </header>      
+
     <main>
-        <button id="backButton" style="display: none;">Torna alla lista</button>
-        <!-- Contenitore dei pulsanti -->
-        <div id="controlsContainer">
+        <div id="backButtonContainer">
+            <button id="backButton" style="display: none;">Torna alla lista</button>
+        </div>
+        <div id="controlsContainer" style="display: none;">
             <button id="transposeUp">T+</button>
             <button id="transposeDown">T-</button>
             <button id="scrollingButton" class="play">▶</button>
@@ -29,20 +36,14 @@
             <button id="decreaseFontSize">A-</button>
             <button id="viewModeButton">Solo testo</button>
         </div>
+
         <ul id="songList"></ul>
+
         <div id="songContent">
             <p>Seleziona una canzone per iniziare.</p>
         </div>
     </main>    
-    <!-- Contenitore unico per i controlli -->
-    <div id="controlsContainer">
-        <button id="transposeUp">T+</button>
-        <button id="transposeDown">T-</button>
-        <button id="scrollingButton" class="play">▶</button>
-        <button id="increaseFontSize">A+</button>
-        <button id="decreaseFontSize">A-</button>
-        <button id="viewModeButton">Solo testo</button>
-    </div>
+
     <script type="module" src="js/main.js"></script>
 </body>
 </html>

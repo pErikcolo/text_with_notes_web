@@ -1,100 +1,391 @@
-    {
-      "id": "song8",
-      "title": "Adoro te",
-      "tags": ["Apertura", "Adorazione"],
-      "sections": [
+{
+    "song": [
         {
-            "type": "chords",
+            "section": "chords",
             "lines": [
                 {
-                 "chords": "Re",
-                 "lyrics": ""
+                    "chords": "Re",
+                    "lyric": "",
+                    "position": 0
                 }
             ]
         },
         {
-            "type": "verse",
-          "lines": [
-              {
-                "chords": "Re                    La",
-                "lyrics": "Sei qui davanti a me, o mio Signore,"
-              },
-              {
-                "chords": "Sim                  Fa#m",
-                "lyrics": "sei in questa brezza che ristora il cuore,"
-              },
-              {
-                "chords": "Sol               Re",
-                "lyrics": "Roveto che mai si consumerà,"
-              },
-              {
-                "chords": "Do       Sol           La4 La",
-                "lyrics": "presenza che riempie l'anima."
-              }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Sei qui davanti a me, ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "o mio Signore,",
+                    "position": 23
+                }
+            ]
         },
         {
-          "type": "chorus",
-          "lines": [
-            {
-              "chords": "Re    Sib Do          Fa",
-              "lyrics": "Adoro Te, fonte della Vita,"
-            },
-            {
-              "chords": "Re    Sib Do         Fa",
-              "lyrics": "adoro Te, Trinità infinità."
-            },
-            {
-              "chords": "       Lam         Rem   Sib.   Lam   Solm",
-              "lyrics": "I miei calzari leverò su questo santo suolo,"
-            },
-            {
-              "chords": "         Rem         Mi La  Sib",
-              "lyrics": "alla presenza Tua mi prostrerò."
-            }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": "sei in questa brezza ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "che ristora il cuore,",
+                    "position": 22
+                }
+            ]
         },
         {
-          "type": "verse",
-        "lines": [
-            {
-              "chords": "Re                    La",
-              "lyrics": "Sei qui davanti a me, o mio Signore,"
-            },
-            {
-              "chords": "Sim              Fa#m",
-              "lyrics": "nella Tua grazia trovo la mia gioia."
-            },
-            {
-              "chords": "Sol                  Re",
-              "lyrics": "Io lodo, ringrazio e prego perché"
-            },
-            {
-              "chords": "Do       Sol              La4 La",
-              "lyrics": "il mondo ritorni a vivere in Te."
-            }
-        ]
-      },
-      {
-        "type": "chorus",
-        "lines": [
-          {
-            "chords": "Re    Sib Do          Fa",
-            "lyrics": "Adoro Te, fonte della Vita,"
-          },
-          {
-            "chords": "Re    Sib Do         Fa",
-            "lyrics": "adoro Te, Trinità infinità."
-          },
-          {
-            "chords": "       Lam         Rem   Sib.   Lam   Solm",
-            "lyrics": "I miei calzari leverò su questo santo suolo,"
-          },
-          {
-            "chords": "         Rem         Mi La  Sib",
-            "lyrics": "alla presenza Tua mi prostrerò."
-          }
-        ]
-      }
-      ]
-    }
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Roveto che mai si ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "consumerà,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "presenza ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "che riempie l'",
+                    "position": 10
+                },
+                {
+                    "chords": "La4",
+                    "lyric": "anima",
+                    "position": 24
+                },
+                {
+                    "chords": "La",
+                    "lyric": ".",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Adoro ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "Te, ",
+                    "position": 7
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "fonte della ",
+                    "position": 11
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "Vita,",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Adoro ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "Te, ",
+                    "position": 7
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Trinità infi",
+                    "position": 11
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "nità.",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "I miei ",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "calzari leve",
+                    "position": 8
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "rò su ",
+                    "position": 20
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "questo ",
+                    "position": 26
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "santo ",
+                    "position": 33
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "suolo,",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "alla pre",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "senza Tua mi ",
+                    "position": 9
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "pro",
+                    "position": 22
+                },
+                {
+                    "chords": "La",
+                    "lyric": "stre",
+                    "position": 25
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "rò.",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Sei qui davanti a me, ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "o mio Signore,",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": "nella Tua grazia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "trovo la mia gioia.",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Io lodo, ringrazio e ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "prego perché",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "il mondo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "ritorni a vivere ",
+                    "position": 10
+                },
+                {
+                    "chords": "La4",
+                    "lyric": "in ",
+                    "position": 27
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Te.",
+                    "position": 30
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Adoro ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "Te, ",
+                    "position": 7
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "fonte della ",
+                    "position": 11
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "Vita,",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Adoro ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "Te, ",
+                    "position": 7
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Trinità infi",
+                    "position": 11
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "nità.",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "I miei ",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "calzari leve",
+                    "position": 8
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "rò su ",
+                    "position": 20
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "questo ",
+                    "position": 26
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "santo ",
+                    "position": 33
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "suolo,",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "alla pre",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "senza Tua mi ",
+                    "position": 9
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "pro",
+                    "position": 22
+                },
+                {
+                    "chords": "La",
+                    "lyric": "stre",
+                    "position": 25
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "rò.",
+                    "position": 29
+                }
+            ]
+        }
+    ],
+    "id": "0002",
+    "title": "Adoro te",
+    "author": "RnS",
+    "categories": [
+        "Adorazione",
+        "Apertura"
+    ]
+}

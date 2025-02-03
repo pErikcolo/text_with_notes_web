@@ -1,262 +1,540 @@
-    {
-      "id": "song9",
-      "title": "Servire è regnare",
-      "tags": ["Offertorio"],
-      "sections": [
+{
+    "song": [
         {
-            "type": "chords",
+            "section": "chords",
             "lines": [
                 {
-                 "text": "Rem Sib Fa Do",
-                 "tags": []
+                    "chords": "Rem",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 10
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 15
                 }
             ]
         },
         {
-            "type": "verse",
-          "lines": [
-              {
-                "text": "Guardiamo a te che sei",
-                "tags": [
-                  { "word": "Guar", "note": " " },
-                  { "word": "diamo a te che", "note": "Rem" },
-                  { "word": "sei", "note": "Sib" }
-                ]
-              },
-              {
-                "text": "maestro e Signore.",
-                "tags": [
-                    { "word": "maestro e Si", "note": "Fa" },
-                    { "word": "gnore.", "note": "Do" }
-                ]
-              },
-              {
-                "text": "Chinato a terra stai,",
-                "tags": [
-                    { "word": "Chinato a terra", "note": "Rem" },
-                    { "word": "stai,", "note": "Sib" }
-                ]
-              },
-              {
-                "text": "ci mostri che l'amore",
-                "tags": [
-                    { "word": "ci", "note": " " },
-                    { "word": "mostri che l'a", "note": "Fa" },
-                    { "word": "more", "note": "Do" }
-                ]
-              },
-              {
-                "text": "è cingersi il grembiule,",
-                "tags": [
-                  { "word": "è", "note": " " },
-                  { "word": "cingersi il grem", "note": "Rem" },
-                  { "word": "biule,", "note": "Sib" }
-                ]
-              },
-              {
-                "text": "sapersi inginocchiare,",
-                "tags": [
-                  { "word": "sa", "note": " " },
-                  { "word": "persi ingino", "note": "Fa" },
-                  { "word": "cchiare,", "note": "Do" }
-                ]
-              },
-              {
-                "text": "c'insegni che amare   è servire.",
-                "tags": [
-                    { "word": "c'in", "note": " " },
-                    { "word": "segni che a", "note": "Rem" },
-                    { "word": "mare", "note": "Sib" },
-                    { "word": "  è ser", "note": "Do" },
-                    { "word": "vire.", "note": "Rem" }
-                ]
-              }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Guar",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "diamo a te che ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "sei",
+                    "position": 20
+                }
+            ]
         },
         {
-          "type": "chords",
-          "lines": [
-              {
-               "text": "Do",
-               "tags": []
-              }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "maestro e Si",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "gnore.",
+                    "position": 13
+                }
+            ]
         },
         {
-          "type": "chorus",
-          "lines": [
-            {
-              "text": "Fa che impariamo, Signore, da Te",
-              "tags": [
-                { "word": "Fa che impa", "note": "Fa" },
-                { "word": "riamo, Si", "note": "Do" },
-                { "word": "nore, da", "note": "Solm" },
-                { "word": "Te", "note": "Rem" }
-              ]
-            },
-            {
-              "text": "che il più grande è chi più sa servire, ",
-              "tags": [
-                { "word": "che il più", "note": " " },
-                { "word": "grande è chi più", "note": "Sib" },
-                { "word": "sa ser", "note": "Solm" },
-                { "word": "vire,", "note": "La4" },
-                { "word": " ", "note": "La" }
-              ]
-            },
-            {
-              "text": "chi s'abbassa e chi si sa piega--re,",
-              "tags": [
-                { "word": "chi s'a", "note": " " },
-                { "word": "bbassa e chi si", "note": "Rem" },
-                { "word": "sa", "note": "Sib" },
-                { "word": "piega--", "note": "Fa" },
-                { "word": "re,", "note": "Do" }
-              ]
-            },
-            {
-              "text": "perché grande è soltanto l'Amore.",
-              "tags": [
-                { "word": "perché", "note": " " },
-                { "word": "grande è sol", "note": "Sib" },
-                { "word": "tanto l'A", "note": "Do" },
-                { "word": "more.", "note": "Rem" }
-              ]
-            }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Chinato a terra ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "stai,",
+                    "position": 17
+                }
+            ]
         },
         {
-          "type": "chords",
-          "lines": [
-              {
-               "text": "Sib Fa Do",
-               "tags": []
-              }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ci ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "mostri che l'a",
+                    "position": 4
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "more",
+                    "position": 18
+                }
+            ]
         },
         {
-          "type": "verse",
-        "lines": [
-            {
-              "text": "E ti vediamo poi,",
-              "tags": [
-                { "word": "E", "note": " " },
-                { "word": "ti vediamo", "note": "Rem" },
-                { "word": "poi,", "note": "Sib" }
-              ]
-            },
-            {
-              "text": "maestro e Signore,",
-              "tags": [
-                  { "word": "ma", "note": " " },
-                  { "word": "estro e Si", "note": "Fa" },
-                  { "word": "gnore.", "note": "Do" }
-              ]
-            },
-            {
-              "text": "che lavi i piedi a noi",
-              "tags": [
-                  { "word": "che", "note": " " },  
-                  { "word": "lavi i piedi a", "note": "Rem" },
-                  { "word": "noi", "note": "Sib" }
-              ]
-            },
-            {
-              "text": "che siamo tue creature",
-              "tags": [
-                  { "word": "che", "note": " " },
-                  { "word": "siamo tue crea", "note": "Fa" },
-                  { "word": "ture", "note": "Do" }
-              ]
-            },
-            {
-              "text": "e cinto del grembiule,",
-              "tags": [
-                { "word": "e", "note": " " },
-                { "word": "cinto del grem", "note": "Rem" },
-                { "word": "biule,", "note": "Sib" }
-              ]
-            },
-            {
-              "text": "che è il manto tuo regale,",
-              "tags": [
-                { "word": "che è il", "note": " " },
-                { "word": "manto tuo re", "note": "Fa" },
-                { "word": "gale,", "note": "Do" }
-              ]
-            },
-            {
-              "text": "c'insegni che servire   è regnare.",
-              "tags": [
-                  { "word": "c'in", "note": " " },
-                  { "word": "segni che ser", "note": "Rem" },
-                  { "word": "vire", "note": "Sib" },
-                  { "word": "  è re", "note": "Do" },
-                  { "word": "gnare.", "note": "Rem" }
-              ]
-            }
-        ]
-      },
-      {
-        "type": "chords",
-        "lines": [
-            {
-             "text": "Do",
-             "tags": []
-            }
-        ]
-      },
-      {
-        "type": "chorus",
-        "lines": [
-          {
-            "text": "Fa che impariamo, Signore, da Te",
-            "tags": [
-              { "word": "Fa che impa", "note": "Fa" },
-              { "word": "riamo, Si", "note": "Do" },
-              { "word": "nore, da", "note": "Solm" },
-              { "word": "Te", "note": "Rem" }
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "cingersi il grem",
+                    "position": 3
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "biule,",
+                    "position": 19
+                }
             ]
-          },
-          {
-            "text": "che il più grande è chi più sa servire, ",
-            "tags": [
-              { "word": "che il più", "note": " " },
-              { "word": "grande è chi più", "note": "Sib" },
-              { "word": "sa ser", "note": "Solm" },
-              { "word": "vire,", "note": "La4" },
-              { "word": " ", "note": "La" }
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "sa",
+                    "position": 0
+                },
+                {
+                    "chords": "Fas",
+                    "lyric": "persi ingino",
+                    "position": 3
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "cchiare,",
+                    "position": 15
+                }
             ]
-          },
-          {
-            "text": "chi s'abbassa e chi si sa piega--re,",
-            "tags": [
-              { "word": "chi s'a", "note": " " },
-              { "word": "bbassa e chi si", "note": "Rem" },
-              { "word": "sa", "note": "Sib" },
-              { "word": "piega--", "note": "Fa" },
-              { "word": "re,", "note": "Do" }
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "c'in",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "segni che a",
+                    "position": 5
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "mare ",
+                    "position": 16
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "è ser",
+                    "position": 21
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "vire",
+                    "position": 26
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ".",
+                    "position": 30
+                }
             ]
-          },
-          {
-            "text": "perché grande è soltanto l'Amore.",
-            "tags": [
-              { "word": "perché", "note": " " },
-              { "word": "grande è sol", "note": "Sib" },
-              { "word": "tanto l'A", "note": "Do" },
-              { "word": "more.", "note": "Rem" }
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "Fa che impa",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "riamo, Si",
+                    "position": 12
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "gnore, da ",
+                    "position": 21
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "Te",
+                    "position": 31
+                }
             ]
-          }
-        ]
-      },
-      {
-        "type": "chords",
-        "lines": [
-            {
-             "text": "Rem Sib Fa Do Rem",
-             "tags": []
-            }
-        ]
-      }
-      ]
-    }
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "che il più ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "grande è chi più ",
+                    "position": 12
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "sa ser",
+                    "position": 29
+                },
+                {
+                    "chords": "La4",
+                    "lyric": "vire",
+                    "position": 35
+                },
+                {
+                    "chords": "La",
+                    "lyric": ",",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "chi s'ab",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "bassa e chi si ",
+                    "position": 9
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "sa ",
+                    "position": 24
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "piega--",
+                    "position": 27
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "re,",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "perché ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "grande è sol",
+                    "position": 8
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tanto l'A",
+                    "position": 20
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "more.",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "E ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "ti vediamo ",
+                    "position": 3
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "poi,",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "maestro e Si",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "gnore,",
+                    "position": 13
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "lavi i piedi a ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "noi",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "siamo tue crea",
+                    "position": 5
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ture",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "cinto del grem",
+                    "position": 3
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "biule,",
+                    "position": 17
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "che è il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "manto tuo re",
+                    "position": 10
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "gale,",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "c'in",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "segni che ser",
+                    "position": 5
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vire   è re",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "gnare.",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "Fa che impa",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "riamo, Si",
+                    "position": 12
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "gnore, da ",
+                    "position": 21
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "Te",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "che il più ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "grande è chi più ",
+                    "position": 12
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "sa ser",
+                    "position": 29
+                },
+                {
+                    "chords": "La4",
+                    "lyric": "vire",
+                    "position": 35
+                },
+                {
+                    "chords": "La",
+                    "lyric": ",",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "chi s'ab",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "bassa e chi si ",
+                    "position": 9
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "sa ",
+                    "position": 24
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "piega--",
+                    "position": 27
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "re,",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "perché ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "grande è sol",
+                    "position": 8
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tanto l'A",
+                    "position": 20
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "more.",
+                    "position": 29
+                }
+            ]
+        }
+    ],
+    "id": "0013",
+    "title": "Servire è regnare",
+    "author": "Gen verde",
+    "categories": [
+        "Offertorio"
+    ]
+}

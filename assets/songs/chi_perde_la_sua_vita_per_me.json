@@ -1,84 +1,350 @@
-    {
-      "id": "song4",
-      "title": "Chi perde la sua vita per me",
-      "tags": ["Adorazione", "Silenzio"],
-      "sections": [
+{
+    "song": [
         {
-            "type": "chords",
+            "section": "chords",
             "lines": [
                 {
-                 "chords": "Re   La   Sim   La",
-                 "lyrics": ""
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": " ",
+                    "position": 10
+                },
+                {
+                    "chords": "La",
+                    "lyric": "",
+                    "position": 15
                 }
             ]
         },
         {
-            "type": "verse",
+            "section": "verse",
             "lines": [
-              {
-              "chords": "    Re           La      Sim",
-              "lyrics": "Chi perde la sua vita per me"
-              },
-              {
-                "chords": "   La   Sol         La          Re",
-                "lyrics": "la troverà, la troverà, la troverà"
-              },
-              {
-                "chords": "    Re                La       Sim",
-                "lyrics": "Chi lascia il proprio padre per me,"
-              },
-              {
-                "chords": "           La       Sol          La          Re",
-                "lyrics": "la propria madre per me, mi troverà, mi troverà"
-              }
-          ]
+                {
+                    "chords": "",
+                    "lyric": "Chi ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "perde la sua ",
+                    "position": 5
+                },
+                {
+                    "chords": "La",
+                    "lyric": "vita per ",
+                    "position": 18
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "me",
+                    "position": 27
+                }
+            ]
         },
         {
-          "type": "chorus",
-          "lines": [
-            {
-              "chords": "    La   Sim        La   Sol",
-              "lyrics": "Non tema nulla, non tema nulla:"
-            },
-            {
-              "chords": "        La           Re",
-              "lyrics": "Io sono qui, Io sono qui. x2"
-            }
-          ]
-        },
-        {
-            "type": "verse",
+            "section": "verse",
             "lines": [
-              {
-                "chords": "    Re            La      Sim",
-                "lyrics": "Chi lascia la sua casa per me,"
-              },
-              {
-                "chords": "       La       Sol                  La         Re",
-                "lyrics": "i suoi beni per me, i suoi figli per me mi troverà."
-              },
-              {
-                "chords": "    La   Sim    La     Sol",
-                "lyrics": "Non tema nulla, io conosco chi ho"
-              },
-              {
-                "chords": "           La                    Re",
-                "lyrics": "scelto per me, chi ho scelto per me!"
-              }
-          ]
+                {
+                    "chords": "",
+                    "lyric": "la ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "trove",
+                    "position": 4
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "rà, la trove",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "rà, la trove",
+                    "position": 21
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rà",
+                    "position": 33
+                }
+            ]
         },
         {
-          "type": "chorus",
-          "lines": [
-            {
-              "chords": "    La   Sim        La   Sol",
-              "lyrics": "Non tema nulla, non tema nulla:"
-            },
-            {
-              "chords": "        La           Re",
-              "lyrics": "Io sono qui, Io sono qui. x2"
-            }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Chi ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "lascia il proprio ",
+                    "position": 5
+                },
+                {
+                    "chords": "La",
+                    "lyric": "padre per ",
+                    "position": 23
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "me,",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "la propria ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "madre per ",
+                    "position": 12
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "me, mi trove",
+                    "position": 22
+                },
+                {
+                    "chords": "La",
+                    "lyric": "rà, mi trove",
+                    "position": 34
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rà",
+                    "position": 46
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Non ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "tema ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "nulla, non ",
+                    "position": 10
+                },
+                {
+                    "chords": "La",
+                    "lyric": "tema ",
+                    "position": 21
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "nulla:",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Io sono ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "qui, Io sono ",
+                    "position": 9
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "qui. x2",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Chi ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "lascia la sua ",
+                    "position": 5
+                },
+                {
+                    "chords": "La",
+                    "lyric": "casa per ",
+                    "position": 19
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "me,",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "i suoi ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "beni per ",
+                    "position": 8
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "me, i suoi figli per ",
+                    "position": 17
+                },
+                {
+                    "chords": "La",
+                    "lyric": "me mi trove",
+                    "position": 38
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rà.",
+                    "position": 49
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Non ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "tema ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "nulla, ",
+                    "position": 10
+                },
+                {
+                    "chords": "La",
+                    "lyric": "io cono",
+                    "position": 17
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sco chi ho",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "scelto per ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "me, chi ho scelto per ",
+                    "position": 12
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "me!",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Non ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "tema ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "nulla, non ",
+                    "position": 10
+                },
+                {
+                    "chords": "La",
+                    "lyric": "tema ",
+                    "position": 21
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "nulla:",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Io sono ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "qui, Io sono ",
+                    "position": 9
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "qui. x2",
+                    "position": 22
+                }
+            ]
         }
-      ]
-    }
+    ],
+    "id": "0005",
+    "title": "Chi perde la sua vita per me",
+    "author": "Sr. Hermana Glenda",
+    "categories": [
+        "Silenzio"
+    ]
+}

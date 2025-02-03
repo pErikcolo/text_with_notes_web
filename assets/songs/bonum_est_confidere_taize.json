@@ -1,0 +1,70 @@
+{
+    "song": [
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Bonum est con",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "fidere in  ",
+                    "position": 14
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "Do   ",
+                    "position": 25
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "mi   ",
+                    "position": 30
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "no,",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Solm",
+                    "lyric": "Bonum spe",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "rare in  ",
+                    "position": 10
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "Do   ",
+                    "position": 19
+                },
+                {
+                    "chords": "La",
+                    "lyric": "mi   ",
+                    "position": 24
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "no.",
+                    "position": 29
+                }
+            ]
+        }
+    ],
+    "id": "0010",
+    "title": "Bonum est confidere",
+    "author": "Jacques Berthier",
+    "categories": [
+        "Canoni Taizè"
+    ]
+}

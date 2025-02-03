@@ -1,148 +1,680 @@
 {
-    "id": "song17",
+    "song": [
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": " ",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Quan",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "do in",
+                    "position": 5
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "torno ",
+                    "position": 10
+                },
+                {
+                    "chords": "La",
+                    "lyric": "sembra nero",
+                    "position": 16
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "credi ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "di sen",
+                    "position": 7
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "tirti ",
+                    "position": 13
+                },
+                {
+                    "chords": "La",
+                    "lyric": "solo",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "lo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "so, ",
+                    "position": 4
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "ti puoi al",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "zare amico ",
+                    "position": 18
+                },
+                {
+                    "chords": "La",
+                    "lyric": "mio",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "per",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "ché ",
+                    "position": 4
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "non è così ",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "che vuole ",
+                    "position": 19
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Dio",
+                    "position": 29
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Ora ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "  ",
+                    "position": 5
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "guarda un ",
+                    "position": 7
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "poco intorno a ",
+                    "position": 17
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Te",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ve",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "di  ",
+                    "position": 3
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "guarda ",
+                    "position": 7
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "quanta vita ",
+                    "position": 14
+                },
+                {
+                    "chords": "La",
+                    "lyric": "c'è",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "tu  ",
+                    "position": 3
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "non puoi sen",
+                    "position": 7
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tirti solo",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "sai per",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "ché  ",
+                    "position": 8
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "tu non c'",
+                    "position": 13
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "eri quando",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Dio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "ha creato il mondo",
+                    "position": 5
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Fa#m",
+                    "lyric": "Dio ha fatto l'",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "universo",
+                    "position": 16
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Dio ha soff",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "iato su di ",
+                    "position": 12
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "Te",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e ti ha ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "fatto vive",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "re",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "e  ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "ti ha ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "fatto vive",
+                    "position": 10
+                },
+                {
+                    "chords": "La",
+                    "lyric": "re ",
+                    "position": 20
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Fa#m",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "",
+                    "position": 5
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Puoi ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "tu ",
+                    "position": 6
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "dire al ",
+                    "position": 9
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "sole sorgi",
+                    "position": 17
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "puoi ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "tu ",
+                    "position": 6
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "dire al ",
+                    "position": 9
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mare calma",
+                    "position": 17
+                },
+                {
+                    "chords": "La",
+                    "lyric": "ti",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ce la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "fai a ",
+                    "position": 7
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "placare ",
+                    "position": 13
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "una tempesta",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "cosa ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "sei ",
+                    "position": 6
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "di fronte ad ",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "un tramonto.",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Lui ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "sa i ",
+                    "position": 5
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "sogni di ",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "un bambino",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Lui ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "dà  ",
+                    "position": 5
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "vita ad ",
+                    "position": 9
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ogni cosa",
+                    "position": 17
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Lui ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "è  ",
+                    "position": 5
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "luce ",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "nelle tenebre",
+                    "position": 13
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "vuoi ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "che non si ac",
+                    "position": 6
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "corga ",
+                    "position": 19
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "di Te",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Dio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "ha creato il mondo",
+                    "position": 5
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Fa#m",
+                    "lyric": "Dio ha fatto l'",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "universo",
+                    "position": 16
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Dio ha soff",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "iato su di ",
+                    "position": 12
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "Te",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e ti ha ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "fatto vive",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "re",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "e  ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "ti ha ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "fatto vive",
+                    "position": 10
+                },
+                {
+                    "chords": "La",
+                    "lyric": "re ",
+                    "position": 20
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 23
+                }
+            ]
+        }
+    ],
+    "id": "0011",
     "title": "Il soffio di Dio",
-    "tags": ["Apertura"],
-    "sections": [
-      {
-        "type": "chords",
-        "lines": [
-          {
-            "chords": "La Mi Fa#m Re",
-            "lyrics": ""
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "lines": [
-          {
-            "chords": "La  Mi   Fa#m  Re",
-            "lyrics": "Quando intorno sembra nero"
-          },
-          {
-            "chords": "La    Mi    Fa#m  Re",
-            "lyrics": "credi di sentirti solo"
-          },
-          {
-            "chords": "La Mi  Fa#m      Re         La",
-            "lyrics": "lo so, ti puoi alzare amico mio"
-          },
-          {
-            "chords": "   Mi  Fa#m       Re        La Mi",
-            "lyrics": "perché non è così che vuole Dio."
-          },{
-            "chords": "La Mi Fa#m      Re             La",
-            "lyrics": "Ora   guarda un poco intorno a Te"
-          },
-          {
-            "chords": "  Mi  Fa#m   Re          La",
-            "lyrics": "vedi  guarda quanta vita c'è"
-          },
-          {
-            "chords": "  Mi Fa#m         Re",
-            "lyrics": "e tu  non puoi sentirti solo"
-          },
-          {
-            "chords": "La     Mi Fa#m       Re",
-            "lyrics": "sai perché  tu non c'eri quando"
-          }
-        ]
-      },
-      {
-        "type": "chorus",
-        "lines": [
-          {
-            "chords": "La  Mi",
-            "lyrics": "Dio ha creato il mondo"
-          },
-          {
-            "chords": "Fa#m           Re",
-            "lyrics": "Dio ha fatto l'universo"
-          },
-          {
-            "chords": "La         Mi         Fa#m",
-            "lyrics": "Dio ha soffiato su di Te"
-          },
-          {
-            "chords": "        Re        La",
-            "lyrics": "e ti ha fatto vivere"
-          },
-          {
-            "chords": "Mi Fa#m  Re        La Mi",
-            "lyrics": "e  ti ha fatto vivere"
-          }
-        ]
-      },
-      {
-        "type": "chords",
-        "lines": [
-          {
-            "chords": "Fa#m  Re",
-            "lyrics": ""
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "lines": [
-          {
-            "chords": "La   Mi Fa#m    Re",
-            "lyrics": "Puoi tu dire al sole sorgi"
-          },
-          {
-            "chords": "La     Mi Fa#m    Re      La",
-            "lyrics": "puoi tu dire al mare calmati"
-          },
-          {
-            "chords": "      Mi  Fa#m      Re",
-            "lyrics": "ce la fai a placare una tempesta"
-          },
-          {
-            "chords": "La   Mi  Fa#m         Re",
-            "lyrics": "cosa sei di fronte ad un tramonto."
-          },{
-            "chords": "La  Mi Fa#m      Re",
-            "lyrics": "Lui sa i sogni di un bambino"
-          },
-          {
-            "chords": "La  Mi  Fa#m   Re",
-            "lyrics": "Lui dà vita ad ogni cosa"
-          },
-          {
-            "chords": "La  Mi Fa#m Re",
-            "lyrics": "Lui è  luce nelle tenebre"
-          },
-          {
-            "chords": "La   Mi            Fa#m Re",
-            "lyrics": "vuoi che non si accorga ti Te"
-          }
-        ]
-      },
-      {
-        "type": "chorus",
-        "lines": [
-          {
-            "chords": "La  Mi",
-            "lyrics": "Dio ha creato il mondo"
-          },
-          {
-            "chords": "Fa#m           Re",
-            "lyrics": "Dio ha fatto l'universo"
-          },
-          {
-            "chords": "La         Mi         Fa#m",
-            "lyrics": "Dio ha soffiato su di Te"
-          },
-          {
-            "chords": "        Re        La",
-            "lyrics": "e ti ha fatto vivere"
-          },
-          {
-            "chords": "Mi Fa#m  Re        La Mi",
-            "lyrics": "e  ti ha fatto vivere"
-          }
-        ]
-      }
+    "author": "Reale",
+    "categories": [
+        "Apertura"
     ]
-  }
-  
+}

@@ -1,0 +1,110 @@
+{
+    "song": [
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Magnifi",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cat, ",
+                    "position": 8
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "Magnifi",
+                    "position": 13
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "cat",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Magnifi",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cat anima ",
+                    "position": 8
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "mea ",
+                    "position": 18
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "Dominum",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Magnifi",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cat, ",
+                    "position": 8
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "Magnifi",
+                    "position": 13
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "cat",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Magnifi",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cat anima ",
+                    "position": 8
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "me--",
+                    "position": 18
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "a",
+                    "position": 22
+                }
+            ]
+        }
+    ],
+    "id": "0012",
+    "title": "Magnificat (Taizè)",
+    "author": "Jacques Berthier",
+    "categories": [
+        "Canoni Taizè"
+    ]
+}

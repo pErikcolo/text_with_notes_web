@@ -11,10 +11,11 @@ export function addControlsFunctionality() {
     if (transposeUp && transposeDown && increaseFontSize && decreaseFontSize) {
         transposeUp.addEventListener('click', () => transposeChords(1));
         transposeDown.addEventListener('click', () => transposeChords(-1));
-        increaseFontSize.addEventListener('click', () => changeFontSize(1));
-        decreaseFontSize.addEventListener('click', () => changeFontSize(-1));
+        increaseFontSize.addEventListener('click', () => changeFontSize(2)); // Incrementa di 2px
+        decreaseFontSize.addEventListener('click', () => changeFontSize(-2)); // Decrementa di 2px
     }
 }
+
 // Dopo ogni modifica della dimensione del testo
 document.getElementById('increaseFontSize').addEventListener('click', () => {
     changeFontSize(1);

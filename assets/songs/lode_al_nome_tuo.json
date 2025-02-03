@@ -1,315 +1,695 @@
-    {
-      "id": "song10",
-      "title": "Lode al nome tuo",
-      "tags": ["Offertorio"],
-      "sections": [
+{
+    "song": [
         {
-            "type": "chords",
+            "section": "chords",
             "lines": [
                 {
-                 "chords": "Sol Re Mim Do",
-                 "lyrics": ""
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": " ",
+                    "position": 10
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 15
                 }
             ]
         },
         {
-            "type": "verse",
-          "lines": [
-              {
-                "text": "Lode al nome tuo dalle terre più floride,",
-                "tags": [
-                  { "word": "Lode al no", "note": "Sol" },
-                  { "word": "me tuo dalle", "note": "Re" },
-                  { "word": "terre più", "note": "Mim" },
-                  { "word": "ride,", "note": "Do" }
-                ]
-              },
-              {
-                "text": "dove tutto sembra vivere lode al nome Tuo",
-                "tags": [
-                  { "word": "dove", "note": " " },
-                  { "word": "tutto sembra", "note": "Sol" },
-                  { "word": "vivere", "note": "Re" },
-                  { "word": "lode al nome Tuo", "note": "Do" }
-                ]
-              },
-              {
-                "text": "Lode al nome tuo dalle terre più aride,",
-                "tags": [
-                  { "word": "Lode al no", "note": "Sol" },
-                  { "word": "me tuo dalle", "note": "Re" },
-                  { "word": "terre più", "note": "Mim" },
-                  { "word": "floride,", "note": "Do" }
-                ]
-              },
-              {
-                "text": "dove tutto sembra sterile lode al nome Tuo",
-                "tags": [
-                  { "word": "dove", "note": " " },
-                  { "word": "tutto sembra", "note": "Sol" },
-                  { "word": "sterile", "note": "Re" },
-                  { "word": "lode al nome Tuo", "note": "Do" }
-                ]
-              }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Lode al nome ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tuo dalle ",
+                    "position": 14
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "terre più ",
+                    "position": 24
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "floride,",
+                    "position": 34
+                }
+            ]
         },
         {
-          "type": "chorus",
-          "lines": [
-            {
-              "text": "Tornerò a lodarti sempre per ogni dono Tuo",
-              "tags": [
-                { "word": "Tornerò a lo", "note": "Sol" },
-                { "word": "darti sempre", "note": "Re" },
-                { "word": "per ogni dono", "note": "Mim" },
-                { "word": "Tuo", "note": "Do" }
-              ]
-            },
-            {
-              "text": "E quando scenderà la notte sempre io dirò",
-              "tags": [
-                { "word": "E quando", "note": "Sol" },
-                { "word": "scenderà la", "note": "Re" },
-                { "word": "notte sempre io", "note": "Mim" },
-                { "word": "dirò", "note": "Do" }
-              ]
-            },
-            {
-              "text": "Benedetto il nome del Signor lode al nome Tu--o",
-              "tags": [
-                { "word": "Benedetto il", "note": " " },
-                { "word": "nome del Si", "note": "Sol" },
-                { "word": "gnor lode al nome", "note": "Re" },
-                { "word": "Tu--", "note": "Mim" },
-                { "word": "o", "note": "Do" }
-              ]
-            },
-            {
-              "text": "Benedetto il nome del Signor, il glorioso nome di Gesù",
-              "tags": [
-                { "word": "Benedetto il", "note": " " },
-                { "word": "nome del Si", "note": "Sol" },
-                { "word": "gnor, il glorioso", "note": "Re" },
-                { "word": "nome di", "note": "Mim" },
-                { "word": "Gesù", "note": "Do" }
-              ]
-            }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "dove ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "tutto sembra ",
+                    "position": 6
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "vivere ",
+                    "position": 19
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "lode al nome Tuo",
+                    "position": 26
+                }
+            ]
         },
         {
-          "type": "chords",
-          "lines": [
-              {
-               "text": "Do",
-               "tags": []
-              }
-          ]
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Lode al nome ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tuo dalle ",
+                    "position": 14
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "terre più ",
+                    "position": 24
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "aride,",
+                    "position": 34
+                }
+            ]
         },
-      {
-          "type": "verse",
-        "lines": [
-            {
-              "text": "Lode al nome tuo quando il sole splende su di me,",
-              "tags": [
-                { "word": "Lode al nome", "note": "Sol" },
-                { "word": "tuo quando il", "note": "Re" },
-                { "word": "splende su di", "note": "Mim" },
-                { "word": "me,", "note": "Do" }
-              ]
-            },
-            {
-              "text": "quando tutto è incantevole, lode al nome Tuo",
-              "tags": [
-                { "word": "quando", "note": " " },
-                { "word": "utto è incan", "note": "Sol" },
-                { "word": "tevole,", "note": "Re" },
-                { "word": "lode al nome Tuo", "note": "Do" }
-              ]
-            },
-            {
-              "text": "Lode al nome tuo quando io sto davanti a Te,",
-              "tags": [
-                { "word": "Lode al nome", "note": "Sol" },
-                { "word": "tuo quando", "note": "Re" },
-                { "word": "io sto da", "note": "Mim" },
-                { "word": "anti a Te,", "note": "Do" }
-              ]
-            },
-            {
-              "text": "con il cuore triste e fragile, lode al nome Tuo",
-              "tags": [
-                { "word": "con il", "note": " " },
-                { "word": "cuore triste e", "note": "Sol" },
-                { "word": "fragile,", "note": "Re" },
-                { "word": "lode al nome Tuo", "note": "Do" }
-              ]
-            }
-        ]
-      },
-      {
-        "type": "chorus",
-        "lines": [
-          {
-            "text": "Tornerò a lodarti sempre per ogni dono Tuo",
-            "tags": [
-              { "word": "Tornerò a lo", "note": "Sol" },
-              { "word": "darti sempre", "note": "Re" },
-              { "word": "per ogni dono", "note": "Mim" },
-              { "word": "Tuo", "note": "Do" }
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "dove ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "tutto sembra ",
+                    "position": 6
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "sterile ",
+                    "position": 19
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "lode al nome Tuo",
+                    "position": 27
+                }
             ]
-          },
-          {
-            "text": "E quando scenderà la notte sempre io dirò",
-            "tags": [
-              { "word": "E quando", "note": "Sol" },
-              { "word": "scenderà la", "note": "Re" },
-              { "word": "notte sempre io", "note": "Mim" },
-              { "word": "dirò", "note": "Do" }
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Tornerò a lo",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "darti sempre ",
+                    "position": 13
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "per ogni dono ",
+                    "position": 26
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Tuo",
+                    "position": 40
+                }
             ]
-          },
-          {
-            "text": "Benedetto il nome del Signor lode al nome Tu--o",
-            "tags": [
-              { "word": "Benedetto il", "note": " " },
-              { "word": "nome del Si", "note": "Sol" },
-              { "word": "gnor lode al nome", "note": "Re" },
-              { "word": "Tu--", "note": "Mim" },
-              { "word": "o", "note": "Do" }
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "E quando scende",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rà la notte ",
+                    "position": 16
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "sempre io di",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "rò",
+                    "position": 40
+                }
             ]
-          },
-          {
-            "text": "Benedetto il nome del Signor, il glorioso nome di Gesù",
-            "tags": [
-              { "word": "Benedetto il", "note": " " },
-              { "word": "nome del Si", "note": "Sol" },
-              { "word": "gnor, il glorioso", "note": "Re" },
-              { "word": "nome di", "note": "Mim" },
-              { "word": "Gesù", "note": "Do" }
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Benedetto il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "nome del Si",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "gnor lode al nome ",
+                    "position": 25
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Tu--",
+                    "position": 43
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "o",
+                    "position": 47
+                }
             ]
-          }
-        ]
-      },
-      {
-        "type": "verse",
-      "lines": [
-          {
-            "text": "Tu doni e porti via tu doni e porti via,",
-            "tags": [
-              { "word": "Tu", "note": " " },
-              { "word": "doni e porti", "note": "Sol" },
-              { "word": "via tu", "note": "Re" },
-              { "word": "doni e porti", "note": "Mim" },
-              { "word": "via,", "note": "Do" }
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Benedetto il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "nome del Si",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "gnor, il glorioso ",
+                    "position": 25
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "nome di Ge",
+                    "position": 43
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "sù",
+                    "position": 53
+                }
             ]
-          },
-          {
-            "text": "ma sempre sceglierò di benedire te",
-            "tags": [
-              { "word": "ma", "note": " " },
-              { "word": "sempre sceglie", "note": "Sol" },
-              { "word": "rò di", "note": "Re" },
-              { "word": "benedire", "note": "Mim" },
-              { "word": "te", "note": "Do" }
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 0
+                }
             ]
-          }
-      ]
-      },
-      {
-        "type": "chorus",
-        "lines": [
-          {
-            "text": "Tornerò a lodarti sempre per ogni dono Tuo",
-            "tags": [
-              { "word": "Tornerò a lo", "note": "Sol" },
-              { "word": "darti sempre", "note": "Re" },
-              { "word": "per ogni dono", "note": "Mim" },
-              { "word": "Tuo", "note": "Do" }
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Lode al nome ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tuo quando il ",
+                    "position": 14
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "sole splende su di ",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me,",
+                    "position": 47
+                }
             ]
-          },
-          {
-            "text": "E quando scenderà la notte sempre io dirò",
-            "tags": [
-              { "word": "E quando", "note": "Sol" },
-              { "word": "scenderà la", "note": "Re" },
-              { "word": "notte sempre io", "note": "Mim" },
-              { "word": "dirò", "note": "Do" }
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "quando ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "tutto è inca",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ntevole, ",
+                    "position": 20
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "lode al nome Tuo",
+                    "position": 29
+                }
             ]
-          },
-          {
-            "text": "Benedetto il nome del Signor lode al nome Tu--o",
-            "tags": [
-              { "word": "Benedetto il", "note": " " },
-              { "word": "nome del Si", "note": "Sol" },
-              { "word": "gnor lode al nome", "note": "Re" },
-              { "word": "Tu--", "note": "Mim" },
-              { "word": "o", "note": "Do" }
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Lode al nome ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tuo quando ",
+                    "position": 14
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "io sto davanti a ",
+                    "position": 25
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Te,",
+                    "position": 42
+                }
             ]
-          },
-          {
-            "text": "Benedetto il nome del Signor, il glorioso nome di Gesù",
-            "tags": [
-              { "word": "Benedetto il", "note": " " },
-              { "word": "nome del Si", "note": "Sol" },
-              { "word": "gnor, il glorioso", "note": "Re" },
-              { "word": "nome di", "note": "Mim" },
-              { "word": "Gesù", "note": "Do" }
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "con il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "cuore triste e ",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "fragile, ",
+                    "position": 23
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "lode al nome Tuo",
+                    "position": 32
+                }
             ]
-          }
-        ]
-      },
-      {
-        "type": "verse",
-      "lines": [
-          {
-            "text": "Tu doni e porti via tu doni e porti via,",
-            "tags": [
-              { "word": "Tu", "note": " " },
-              { "word": "doni e porti", "note": "Sol" },
-              { "word": "via tu", "note": "Re" },
-              { "word": "doni e porti", "note": "Mim" },
-              { "word": "via,", "note": "Do" }
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Tornerò a lo",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "darti sempre ",
+                    "position": 13
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "per ogni dono ",
+                    "position": 26
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Tuo",
+                    "position": 40
+                }
             ]
-          },
-          {
-            "text": "ma sempre sceglierò di benedire te",
-            "tags": [
-              { "word": "ma", "note": " " },
-              { "word": "sempre sceglie", "note": "Sol" },
-              { "word": "rò di", "note": "Re" },
-              { "word": "benedire", "note": "Mim" },
-              { "word": "te", "note": "Do" }
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "E quando scende",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rà la notte ",
+                    "position": 16
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "sempre io di",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "rò",
+                    "position": 40
+                }
             ]
-          },
-          {
-            "text": "Tu doni e porti via tu doni e porti via,",
-            "tags": [
-              { "word": "Tu", "note": " " },
-              { "word": "doni e porti", "note": "Sol" },
-              { "word": "via tu", "note": "Re" },
-              { "word": "doni e porti", "note": "Mim" },
-              { "word": "via,", "note": "Do" }
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Benedetto il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "nome del Si",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "gnor lode al nome ",
+                    "position": 25
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Tu--",
+                    "position": 43
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "o",
+                    "position": 47
+                }
             ]
-          },
-          {
-            "text": "ma sempre sceglierò di benedire te",
-            "tags": [
-              { "word": "ma", "note": " " },
-              { "word": "sempre sceglie", "note": "Sol" },
-              { "word": "rò di", "note": "Re" },
-              { "word": "benedire", "note": "Mim" },
-              { "word": "te", "note": "Do" }
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Benedetto il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "nome del Si",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "gnor, il glorioso ",
+                    "position": 25
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "nome di Ge",
+                    "position": 43
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "sù",
+                    "position": 53
+                }
             ]
-          }
-      ]
-      },
-      {
-        "type": "chords",
-        "lines": [
-            {
-             "text": "Sol",
-             "tags": []
-            }
-        ]
-      }
-      ]
-    }
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "doni e porti ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "via tu ",
+                    "position": 17
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "doni e porti ",
+                    "position": 24
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "via,",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ma ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sempre sceglie",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rò di ",
+                    "position": 18
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "benedire ",
+                    "position": 24
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Tornerò a lo",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "darti sempre ",
+                    "position": 13
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "per ogni dono ",
+                    "position": 26
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Tuo",
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "E quando scende",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rà la notte ",
+                    "position": 16
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "sempre io di",
+                    "position": 28
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "rò",
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Benedetto il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "nome del Si",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "gnor lode al nome ",
+                    "position": 25
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Tu--",
+                    "position": 43
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "o",
+                    "position": 47
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Benedetto il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "nome del Si",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "gnor, il glorioso ",
+                    "position": 25
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "nome di Ge",
+                    "position": 43
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "sù x2",
+                    "position": 53
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "doni e porti ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "via tu ",
+                    "position": 17
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "doni e porti ",
+                    "position": 24
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "via,",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ma ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sempre sceglie",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rò di ",
+                    "position": 18
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "benedire ",
+                    "position": 24
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te x2",
+                    "position": 33
+                }
+            ]
+        }
+    ],
+    "id": "0007",
+    "title": "Lode al nome tuo",
+    "author": "RnS",
+    "categories": [
+        "Apertura"
+    ]
+}
