@@ -11,22 +11,22 @@
                 {
                     "chords": "Re",
                     "lyric": " ",
-                    "position": 5
+                    "position": 2
                 },
                 {
                     "chords": "Mi",
                     "lyric": " ",
-                    "position": 10
+                    "position": 3
                 },
                 {
                     "chords": "Re",
                     "lyric": " ",
-                    "position": 15
+                    "position": 4
                 },
                 {
                     "chords": "Do",
                     "lyric": "",
-                    "position": 20
+                    "position": 5
                 }
             ]
         },
@@ -379,7 +379,7 @@
                     "position": 3
                 },
                 {
-                    "chords": "Mim",
+                    "chords": "Re",
                     "lyric": "Figlio ",
                     "position": 18
                 },
@@ -401,22 +401,22 @@
                 {
                     "chords": "Re",
                     "lyric": " ",
-                    "position": 5
+                    "position": 2
                 },
                 {
                     "chords": "Mi",
                     "lyric": " ",
-                    "position": 10
+                    "position": 3
                 },
                 {
                     "chords": "Re",
                     "lyric": " ",
-                    "position": 15
+                    "position": 4
                 },
                 {
                     "chords": "Do",
                     "lyric": "",
-                    "position": 20
+                    "position": 5
                 }
             ]
         },
@@ -769,7 +769,7 @@
                     "position": 3
                 },
                 {
-                    "chords": "Mim",
+                    "chords": "Re",
                     "lyric": "Figlio ",
                     "position": 18
                 },
