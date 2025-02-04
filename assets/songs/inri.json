@@ -1,0 +1,971 @@
+{
+    "song": [
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ha senso solo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "così,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "perdo",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "nando proprio ",
+                    "position": 6
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "tutto",
+                    "position": 20
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": ".",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ha senso solo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "così,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "a",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mando fino in ",
+                    "position": 2
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "fondo",
+                    "position": 16
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": ".",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ha senso solo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "così,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "anche quando ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "hai tutti ",
+                    "position": 14
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "contro",
+                    "position": 24
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": ".",
+                    "position": 30
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ha senso solo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "così,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e ora ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "io lo di",
+                    "position": 7
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "fendo",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Io non ritorno in",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "dietro,",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "io non ritorno in",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dietro",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ".",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Da un amore gi",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "gante così",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "io non ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "posso tornare ind",
+                    "position": 8
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ietro.",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Io non ritorno ind",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ietro,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "io ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "no che non ritorno in",
+                    "position": 4
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dietro",
+                    "position": 25
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ".",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "A un amore gi",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "gante così",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "pesa e non ",
+                    "position": 12
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "scendo.",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Io non ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "scendo",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ".",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 4
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 6
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ha senso solo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "così,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "rischi",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ando proprio ",
+                    "position": 7
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "tutto",
+                    "position": 20
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": ".",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ha senso solo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "così,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "continu",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ando fino in ",
+                    "position": 8
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "fondo",
+                    "position": 21
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": ".",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ha senso solo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "così,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "soprattutto quando ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "hai il buio addo",
+                    "position": 20
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sso",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "Ha senso solo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "così,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e ora ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "io lo di",
+                    "position": 7
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "fendo",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Io non ritorno in",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "dietro,",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "io non ritorno in",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dietro",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ".",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Da un amore gi",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "gante così",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "io non ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "posso tornare ind",
+                    "position": 8
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ietro.",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Io non ritorno ind",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ietro,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "io ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "no che non ritorno in",
+                    "position": 4
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dietro",
+                    "position": 25
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ".",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "A un amore gi",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "gante così",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "pesa e non ",
+                    "position": 12
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "scendo.",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Io non ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "scendo.",
+                    "position": 8
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Do",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "",
+                    "position": 6
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Io non ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "scendo.",
+                    "position": 8
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Do",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 5
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": " ",
+                    "position": 6
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 7
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "È questa la natura ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "del vero amore",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "l’operare da ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Dio.",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "la fermezza e non ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ritirarsi ",
+                    "position": 19
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "mai",
+                    "position": 29
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ",",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "È questa la natura ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "del vero amore",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "l’operare da ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Dio.",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "la fermezza e non ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ritirarsi ",
+                    "position": 19
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "mai,",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "a costo di qualunque sacri",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "ficio",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "io non ritorno in",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dietro",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ".",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        }
+    ],
+    "id": "0014",
+    "title": "INRI",
+    "author": "Debora Vezzani",
+    "categories": [
+        "Conclusione",
+        "Comunione"
+    ]
+}

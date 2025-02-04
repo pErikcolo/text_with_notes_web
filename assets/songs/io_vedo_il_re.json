@@ -1,0 +1,176 @@
+{
+    "song": [
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "",
+                    "position": 0
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Io vedo il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Re, il mio Si",
+                    "position": 12
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "gnor",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ado",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "rato sulla ter",
+                    "position": 4
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "ra",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Innal",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "zato su nel ",
+                    "position": 6
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ciel",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Io vedo il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Re, il mio Si",
+                    "position": 12
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "gnor",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "I miei ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "occhi han visto il ",
+                    "position": 8
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "Re",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "L'A",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "gnello, il Salva",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Che semp",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "re regne",
+                    "position": 9
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "rà",
+                    "position": 17
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Che semp",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "re regne",
+                    "position": 9
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "rà",
+                    "position": 17
+                }
+            ]
+        }
+    ],
+    "id": "0015",
+    "title": "Io vedo il Re",
+    "author": "RnS",
+    "categories": [
+        "Conclusione",
+        "Apertura"
+    ]
+}

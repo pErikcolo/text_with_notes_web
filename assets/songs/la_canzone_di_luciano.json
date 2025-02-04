@@ -1,0 +1,1206 @@
+{
+    "song": [
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "La",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Fa Signore",
+                    "position": 0
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "che io ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "riesca a consu",
+                    "position": 8
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "mare",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "la mia ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "vita per gli ",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "altri",
+                    "position": 21
+                },
+                {
+                    "chords": "La",
+                    "lyric": ",",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "come ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "tu hai fatto per ",
+                    "position": 6
+                },
+                {
+                    "chords": "La",
+                    "lyric": "me",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Che non ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "debba mai ",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "dir di no,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ma ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sempre un ",
+                    "position": 4
+                },
+                {
+                    "chords": "La",
+                    "lyric": "si con un sor",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "riso",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "sulle ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "labb",
+                    "position": 7
+                },
+                {
+                    "chords": "La",
+                    "lyric": "ra.",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa che il mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "dir di si ",
+                    "position": 15
+                },
+                {
+                    "chords": "La",
+                    "lyric": "sia sempre",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "per la gloria ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Tua,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "fa che abbia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "sempre ",
+                    "position": 14
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "sete di ",
+                    "position": 21
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Te, Si",
+                    "position": 29
+                },
+                {
+                    "chords": "La",
+                    "lyric": "gnore",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "La",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Signore che la ",
+                    "position": 4
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Tua volon",
+                    "position": 19
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "tà",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "sia ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "sempre più ",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "chiara ",
+                    "position": 16
+                },
+                {
+                    "chords": "La",
+                    "lyric": "verso me",
+                    "position": 23
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "  ",
+                    "position": 31
+                },
+                {
+                    "chords": "La",
+                    "lyric": ".",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Che il mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "cuore s’al",
+                    "position": 12
+                },
+                {
+                    "chords": "La",
+                    "lyric": "larghi",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "sempre ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "più all’a",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "more----",
+                    "position": 17
+                },
+                {
+                    "chords": "La",
+                    "lyric": "e-----",
+                    "position": 25
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "e  ",
+                    "position": 31
+                },
+                {
+                    "chords": "La",
+                    "lyric": ".",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Signore che io ",
+                    "position": 4
+                },
+                {
+                    "chords": "La",
+                    "lyric": "abbia sempre bi",
+                    "position": 19
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sogno",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "di ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Te in ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ogni is",
+                    "position": 10
+                },
+                {
+                    "chords": "La",
+                    "lyric": "tante",
+                    "position": 17
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "   ",
+                    "position": 22
+                },
+                {
+                    "chords": "La",
+                    "lyric": ".",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Che non ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "debba mai ",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "dir di no,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ma ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sempre un ",
+                    "position": 4
+                },
+                {
+                    "chords": "La",
+                    "lyric": "si con un sor",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "riso",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "sulle ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "labb",
+                    "position": 7
+                },
+                {
+                    "chords": "La",
+                    "lyric": "ra.",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa che il mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "dir di si ",
+                    "position": 15
+                },
+                {
+                    "chords": "La",
+                    "lyric": "sia sempre",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "per la gloria ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Tua,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "fa che abbia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "sempre ",
+                    "position": 14
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "sete di ",
+                    "position": 21
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Te, Si",
+                    "position": 29
+                },
+                {
+                    "chords": "La",
+                    "lyric": "gnore",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Così che tu ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "venga ",
+                    "position": 13
+                },
+                {
+                    "chords": "La",
+                    "lyric": "subito nell’",
+                    "position": 19
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "aiutarmi",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "a rial",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "zare ",
+                    "position": 7
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "persone ",
+                    "position": 12
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cadute",
+                    "position": 20
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "   ",
+                    "position": 26
+                },
+                {
+                    "chords": "La",
+                    "lyric": ",",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e a confor",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tare ",
+                    "position": 11
+                },
+                {
+                    "chords": "La",
+                    "lyric": "persone in ",
+                    "position": 16
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "crisi,",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "e a rassere",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "nare ",
+                    "position": 12
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cuori an",
+                    "position": 17
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "siosi,",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "e a risa",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "nare ",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "malati mo",
+                    "position": 14
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "rali,",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "e sorridere a ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tutti ",
+                    "position": 15
+                },
+                {
+                    "chords": "La",
+                    "lyric": "con il Tuo ",
+                    "position": 21
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "volto",
+                    "position": 32
+                },
+                {
+                    "chords": "La",
+                    "lyric": ".",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Che non ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "debba mai ",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "dir di no,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ma ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sempre un ",
+                    "position": 4
+                },
+                {
+                    "chords": "La",
+                    "lyric": "si con un sor",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "riso",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "sulle ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "labb",
+                    "position": 7
+                },
+                {
+                    "chords": "La",
+                    "lyric": "ra.",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa che il mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "dir di si ",
+                    "position": 15
+                },
+                {
+                    "chords": "La",
+                    "lyric": "sia sempre",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "per la gloria ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Tua,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "fa che abbia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "sempre ",
+                    "position": 14
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "sete di ",
+                    "position": 21
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Te, Si",
+                    "position": 29
+                },
+                {
+                    "chords": "La",
+                    "lyric": "gnore",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa Si",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "gnore, che il ",
+                    "position": 6
+                },
+                {
+                    "chords": "La",
+                    "lyric": "mio arrivo ",
+                    "position": 20
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sia",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Para",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "diso---",
+                    "position": 8
+                },
+                {
+                    "chords": "La",
+                    "lyric": "o----",
+                    "position": 15
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "o   ",
+                    "position": 20
+                },
+                {
+                    "chords": "La",
+                    "lyric": ".",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Che non ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "debba mai ",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "dir di no,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ma ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sempre un ",
+                    "position": 4
+                },
+                {
+                    "chords": "La",
+                    "lyric": "si con un sor",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "riso",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "sulle ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "labb",
+                    "position": 7
+                },
+                {
+                    "chords": "La",
+                    "lyric": "ra.",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa che il mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "dir di si ",
+                    "position": 15
+                },
+                {
+                    "chords": "La",
+                    "lyric": "sia sempre",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "per la gloria ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Tua,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "fa che abbia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "sempre ",
+                    "position": 14
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "sete di ",
+                    "position": 21
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Te, Si",
+                    "position": 29
+                },
+                {
+                    "chords": "La",
+                    "lyric": "gnore",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Che non ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "debba mai ",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "dir di no,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ma ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sempre un ",
+                    "position": 4
+                },
+                {
+                    "chords": "La",
+                    "lyric": "si con un sor",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "riso",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "sulle ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "labb",
+                    "position": 7
+                },
+                {
+                    "chords": "La",
+                    "lyric": "ra.",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa che il mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "dir di si ",
+                    "position": 15
+                },
+                {
+                    "chords": "La",
+                    "lyric": "sia sempre",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "per la gloria ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Tua,",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "fa che abbia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "sempre ",
+                    "position": 14
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "sete di ",
+                    "position": 21
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Te, Si",
+                    "position": 29
+                },
+                {
+                    "chords": "La",
+                    "lyric": "gnore",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "La",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        }
+    ],
+    "id": "0016",
+    "title": "Canzone di Luciano",
+    "author": "Luciano Bottan",
+    "categories": [
+        "Conclusione",
+        "Apertura"
+    ]
+}
