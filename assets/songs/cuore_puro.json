@@ -1,0 +1,981 @@
+{
+    "song": [
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "La",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": "Dammi il Tuo cuore ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Padre",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e che cresca in ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "me, il carattere di ",
+                    "position": 17
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Cristo",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "del Tuo Spiri",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "to.",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fammi amare ciò che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "ami",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "dammi la Tua forza ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "per",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "sradicare dal mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cuore, ciò che non è ",
+                    "position": 19
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "tuo.",
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Io voglio ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "stare vicino a ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "Te",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "desidera",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "re di piacere a ",
+                    "position": 9
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Te.",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Io voglio ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "fare la Tua volon",
+                    "position": 11
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "tà, e adorar",
+                    "position": 28
+                },
+                {
+                    "chords": "La",
+                    "lyric": "ti",
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": "Padre dammi un cuore ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "puro",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Padre dammi un cuore ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "che",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Che ricerca il Tuo ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "volto, più di tutto",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": "Padre dammi mani ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "puro",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Padre dammi mani ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "che",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "alzerò verso il ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cielo, per adorar",
+                    "position": 17
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "Ti",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "La",
+                    "lyric": "",
+                    "position": 3
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": "Dammi il Tuo cuore ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Padre",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e che cresca in ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "me, il carattere di ",
+                    "position": 17
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Cristo",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "del Tuo Spiri",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "to.",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fammi amare ciò che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "ami",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "dammi la Tua forza ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "per",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "sradicare dal mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cuore, ciò che non è ",
+                    "position": 19
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "tuo.",
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Io voglio ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "stare vicino a ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "Te",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "desidera",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "re di piacere a ",
+                    "position": 9
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Te.",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Io voglio ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "fare la Tua volon",
+                    "position": 11
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "tà, e adorar",
+                    "position": 28
+                },
+                {
+                    "chords": "La",
+                    "lyric": "ti",
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": "Padre dammi un cuore ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "puro",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Padre dammi un cuore ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "che",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Che ricerca il Tuo ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "volto, più di tutto",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": "Padre dammi mani ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "puro",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Padre dammi mani ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "che",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "alzerò verso il ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cielo, per adorar",
+                    "position": 17
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "Ti",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "La",
+                    "lyric": "",
+                    "position": 3
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "per a",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "dorarTi",
+                    "position": 6
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "",
+                    "position": 2
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Chi salirà sul monte Tuo,",
+                    "position": 0
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "chi re",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "sterà davanti a Te.",
+                    "position": 7
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "sia io ,fa che io ",
+                    "position": 8
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "veda la ",
+                    "position": 26
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "gloria ",
+                    "position": 34
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Tua",
+                    "position": 41
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Chi salirà sul monte Tuo,",
+                    "position": 0
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "chi re",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "sterà davanti a Te.",
+                    "position": 7
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "sia io ,fa che io ",
+                    "position": 8
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "veda la ",
+                    "position": 26
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "gloria ",
+                    "position": 34
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Tua",
+                    "position": 41
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Chi salirà sul monte Tuo,",
+                    "position": 0
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "chi re",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "sterà davanti a Te.",
+                    "position": 7
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "sia io ,fa che io ",
+                    "position": 8
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "veda la ",
+                    "position": 26
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "gloria ",
+                    "position": 34
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Tua",
+                    "position": 41
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": "Padre dammi un cuore ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "puro",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Padre dammi un cuore ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "che",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Che ricerca il Tuo ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "volto, più di tutto",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": "Padre dammi mani ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "puro",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Padre dammi mani ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "che",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "alzerò verso il ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cielo, per adorar",
+                    "position": 17
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "Ti",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": "Padre dammi un cuore ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "puro",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Padre dammi un cuore ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "che",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Che ricerca il Tuo ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "volto, più di tutto",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sim",
+                    "lyric": "Padre dammi mani ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "puro",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Padre dammi mani ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "che",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "alzerò verso il ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cielo, per adorar",
+                    "position": 17
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "Ti",
+                    "position": 34
+                }
+            ]
+        }
+    ],
+    "id": "0018",
+    "title": "Cuore puro",
+    "author": "SDV Worship",
+    "categories": [
+        "Silenzio",
+        "Adorazione"
+    ]
+}

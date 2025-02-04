@@ -38,10 +38,12 @@ export function toggleScrolling() {
   if (!songContent) return;
   
   if (scrollState === 0) {
-    // Stato 0 -> Stato 1: avvia scrolling molto lento (20px/sec)
-    startScrolling(speeds[0]);
-    scrollState = 1;
-    scrollingButton.textContent = '⏩'; // simbolo per "very slow"
+    setTimeout(() => {
+      // Stato 0 -> Stato 1: avvia scrolling molto lento (20px/sec)
+      startScrolling(speeds[0]);
+      scrollState = 1;
+      scrollingButton.textContent = '⏩'; // simbolo per "very slow"
+    }, 2000); // Ritarda l'avvio dello scrolling di 2 secondi
   } else if (scrollState === 1) {
     // Stato 1 -> Stato 2: passa a scrolling lento (40px/sec)
     if (scrollingRequestId) cancelAnimationFrame(scrollingRequestId);

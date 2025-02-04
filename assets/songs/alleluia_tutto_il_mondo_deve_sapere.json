@@ -1,0 +1,301 @@
+{
+    "song": [
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Allelu",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ia, ",
+                    "position": 7
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Allelu",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "ia, ",
+                    "position": 17
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Alle",
+                    "position": 21
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "luia",
+                    "position": 25
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ".",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Allelu",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ia, ",
+                    "position": 7
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Allelu",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "ia, ",
+                    "position": 17
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Alle",
+                    "position": 21
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "luia",
+                    "position": 25
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ".",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "Come potrò raccon",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tare?",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "È una ",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "gioia che fa piangere e ",
+                    "position": 7
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "fa gridare:",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "io l’ho visto con i miei ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "occhi,",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "era vivo era ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Lui.",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "E m’ha chiamata per ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "nome:",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "era la Sua voce, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "era il mio Signore!",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Io l’ho visto con i miei ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "occhi, ",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "era ",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "lì, davanti a ",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "me.",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Allelu",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ia, ",
+                    "position": 7
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Allelu",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "ia, ",
+                    "position": 17
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Alle",
+                    "position": 21
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "luia",
+                    "position": 25
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ".",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": "Allelu",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ia, ",
+                    "position": 7
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Allelu",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "ia, ",
+                    "position": 17
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Alle",
+                    "position": 21
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "luia",
+                    "position": 25
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ".",
+                    "position": 29
+                }
+            ]
+        }
+    ],
+    "id": "0017",
+    "title": "Alleluia (Tutto il mondo deve sapere)",
+    "author": "Gen Verde",
+    "categories": [
+        "Alleluia",
+        "Canto al Vangelo"
+    ]
+}

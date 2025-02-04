@@ -1,0 +1,781 @@
+{
+    "song": [
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Do",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Do",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Eccomi, di nuovo in ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "ginocchio qui",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "sto lasciando ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tutto, sto lasciando ",
+                    "position": 15
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "tutto",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "E mi ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "trovo qui, perché Tu ",
+                    "position": 6
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "Dio mi attiri",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "io cerco ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Te, ho bisogno di ",
+                    "position": 10
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "Te",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Io mi arrendo",
+                    "position": 0
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "",
+                    "position": 3
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Riempimi, di grazia e d'",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "amore sì",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ho fame di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Te, ho sete di ",
+                    "position": 12
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "Te",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Io so ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "che, senti il mio ",
+                    "position": 7
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "grido a Te",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "parlami a",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "desso, parlami ",
+                    "position": 10
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "ora",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Io mi arrendo, Io mi ar",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "rendo",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Voglio sen",
+                    "position": 0
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "tirti di più, voglio sco",
+                    "position": 11
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "prirti di più",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Io mi arrendo, Io mi ar",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "rendo",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Voglio sen",
+                    "position": 0
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "tirti di più, voglio sco",
+                    "position": 11
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "prirti di più",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 3
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 3
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Sei un ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vento ",
+                    "position": 8
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "che, soffia ",
+                    "position": 14
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "forte in me",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa' ciò che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "vuoi, fa' ciò che ",
+                    "position": 13
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "vuoi in ",
+                    "position": 31
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Sei tem",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "pesta ",
+                    "position": 8
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "che, si ris",
+                    "position": 14
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "veglia in me",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa' ciò che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "vuoi, fa' ciò che ",
+                    "position": 13
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "vuoi in ",
+                    "position": 31
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 3
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Sei un ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vento ",
+                    "position": 8
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "che, soffia ",
+                    "position": 14
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "forte in me",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa' ciò che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "vuoi, fa' ciò che ",
+                    "position": 13
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "vuoi in ",
+                    "position": 31
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Sei tem",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "pesta ",
+                    "position": 8
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "che, si ris",
+                    "position": 14
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "veglia in me",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa' ciò che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "vuoi, fa' ciò che ",
+                    "position": 13
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "vuoi in ",
+                    "position": 31
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 3
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Solm",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 3
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Sei un ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vento ",
+                    "position": 8
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "che, soffia ",
+                    "position": 14
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "forte in me",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa' ciò che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "vuoi, fa' ciò che ",
+                    "position": 13
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "vuoi in ",
+                    "position": 31
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Sei tem",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "pesta ",
+                    "position": 8
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "che, si ris",
+                    "position": 14
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "veglia in me",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa' ciò che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "vuoi, fa' ciò che ",
+                    "position": 13
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "vuoi in ",
+                    "position": 31
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Io mi arrendo, Io mi ar",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "rendo",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Voglio sen",
+                    "position": 0
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "tirti di più, voglio sco",
+                    "position": 11
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "prirti di più",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Io mi arrendo, Io mi ar",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "rendo",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Voglio sen",
+                    "position": 0
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "tirti di più, voglio sco",
+                    "position": 11
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "prirti di più",
+                    "position": 35
+                }
+            ]
+        }
+    ],
+    "id": "0019",
+    "title": "Io mi arrendo",
+    "author": "The sun",
+    "categories": [
+        "Silenzio",
+        "Adorazione"
+    ]
+}
