@@ -3,7 +3,7 @@ let scrollState = 0; // 0: fermo (play), 1: scrolling molto lento, 2: scrolling 
 let lastFrameTime = 0;
 
 // Velocità in pixel per secondo: Stato 1: 20px/sec, Stato 2: 40px/sec
-const speeds = [10, 20];
+const speeds = [8, 15];
 
 function startScrolling(speed) {
   lastFrameTime = performance.now();
