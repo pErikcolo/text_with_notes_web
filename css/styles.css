@@ -59,7 +59,7 @@ nav button:hover {
 main {
   max-width: 100%; /* Larghezza massima del contenuto principale */
   margin: 0 auto; /* Centra il contenuto principale orizzontalmente */
-  padding: 1em 25em; /* Padding del contenuto principale */
+  padding: 1em; /* Padding del contenuto principale */
   box-sizing: border-box; /* Include il padding e il bordo nella larghezza e altezza dell'elemento */
 }
 
@@ -237,7 +237,7 @@ main {
   }
 
   #songList li {
-    padding: 0.8rem; /* Padding degli elementi della lista per dispositivi mobili */
+    padding: 0.7rem; /* Padding degli elementi della lista per dispositivi mobili */
     font-size: 1.2rem; /* Dimensione del font degli elementi della lista per dispositivi mobili */
   }
 
@@ -248,5 +248,18 @@ main {
 
   .song-section {
     margin-bottom: 1rem; /* Spaziatura tra le sezioni per dispositivi mobili */
+  }
+}
+
+@media (min-width: 768px) {
+
+  #songList li {
+    padding: 0.8rem; /* Padding degli elementi della lista per dispositivi mobili */
+    font-size: 1.2rem; /* Dimensione del font degli elementi della lista per dispositivi mobili */
+  }
+
+
+  main {
+    padding: 1em 25em; /* Padding del contenuto principale */
   }
 }

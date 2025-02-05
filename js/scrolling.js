@@ -43,7 +43,7 @@ export function toggleScrolling() {
       startScrolling(speeds[0]);
       scrollState = 1;
       scrollingButton.textContent = '⏩'; // simbolo per "very slow"
-    }, 2000); // Ritarda l'avvio dello scrolling di 2 secondi
+    }, 6000); // Ritarda l'avvio dello scrolling di 2 secondi
   } else if (scrollState === 1) {
     // Stato 1 -> Stato 2: passa a scrolling lento (40px/sec)
     if (scrollingRequestId) cancelAnimationFrame(scrollingRequestId);
