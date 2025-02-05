@@ -18,10 +18,6 @@ body {
   background-color: var(--main-bg-color); /* Colore di sfondo del corpo */
   color: var(--main-text-color); /* Colore del testo del corpo */
   overflow-x: hidden; /* Nasconde lo scorrimento orizzontale */
-  background-image: url('../image/background.png'); /* Aggiunge l'immagine di sfondo */
-  background-size: cover; /* Adatta l'immagine di sfondo per coprire l'intero contenitore */
-  background-position: center; /* Centra l'immagine di sfondo */
-  background-repeat: no-repeat; /* Evita che l'immagine di sfondo si ripeta */
 }
 
 /* Header */
