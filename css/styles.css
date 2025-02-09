@@ -1,265 +1,363 @@
+/*============================
+         VARIABLES
+=============================*/
 :root {
-  --main-bg-color: #f8f8f8; /* Colore di sfondo principale */
-  --main-text-color: #333; /* Colore del testo principale */
-  --header-bg-color: #333; /* Colore di sfondo dell'header */
-  --header-text-color: #fff; /* Colore del testo dell'header */
-  --button-bg-color: #444; /* Colore di sfondo dei pulsanti */
-  --button-hover-bg-color: #666; /* Colore di sfondo dei pulsanti al passaggio del mouse */
-  --button-text-color: #fff; /* Colore del testo dei pulsanti */
-  --accent-color: red; /* Colore di accento */
+  --main-bg-color: #f8f8f8;
+  --main-text-color: #333;
+  --header-bg-color: #333;
+  --header-text-color: #fff;
+  --button-bg-color: #444;
+  --button-hover-bg-color: #666;
+  --button-text-color: #fff;
+  --accent-color: red;
 }
 
-/* Stile del corpo */
+/*============================
+         GENERAL STYLES
+=============================*/
 body {
-  font-family: Arial, sans-serif; /* Font del corpo */
-  line-height: 1.8; /* Altezza della linea */
-  margin: 0; /* Margine del corpo */
-  padding: 0; /* Padding del corpo */
-  background-color: var(--main-bg-color); /* Colore di sfondo del corpo */
-  color: var(--main-text-color); /* Colore del testo del corpo */
-  overflow-x: hidden; /* Nasconde lo scorrimento orizzontale */
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  overflow-x: hidden;
 }
 
-/* Header */
 header {
-  background-color: var(--header-bg-color); /* Colore di sfondo dell'header */
-  color: var(--header-text-color); /* Colore del testo dell'header */
-  padding: 1rem; /* Padding dell'header */
-  text-align: center; /* Allinea il testo al centro */
+  background-color: var(--header-bg-color);
+  color: var(--header-text-color);
+  padding: 1rem;
+  text-align: center;
 }
 
 header h1 {
-  margin: 0; /* Rimuove il margine predefinito dall'elemento h1 */
-  font-size: 1.8rem; /* Imposta la dimensione del font dell'elemento h1 */
+  margin: 0;
+  font-size: 1.8rem;
 }
 
-/* Navigazione */
+/*============================
+         NAVIGATION
+=============================*/
+/* Il contenitore nav in colonna */
 nav {
-  display: flex; /* Utilizza il layout flexbox per la navigazione */
-  justify-content: center; /* Centra gli elementi di navigazione orizzontalmente */
-  gap: 1rem; /* Aggiunge spazio tra gli elementi di navigazione */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
 }
 
+/* Ogni riga di navigazione */
+.nav-row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+/* PRIMA RIGA: Filtro per categoria centrato */
+.filter-row .nav-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* SECONDA RIGA: Campo di ricerca e menu preferiti */
+.search-fav-row {
+  width: 90%;       /* Per desktop, 90% della larghezza */
+  margin: 0 auto;   /* Centra la riga nel nav */
+  display: flex;
+  gap: 1rem;
+}
+
+/* Nella versione desktop, le due metà occupano uguale spazio */
+.search-fav-row .nav-left,
+.search-fav-row .nav-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* Allineamento per desktop */
+.search-fav-row .nav-left {
+  justify-content: flex-start;
+  padding-left: 0.5rem;
+}
+.search-fav-row .nav-right {
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+}
+
+/* Media Query per dispositivi mobili */
+@media (max-width: 768px) {
+  .search-fav-row {
+    width: 100%;
+    gap: 0.25rem;
+    padding: 0 0.25rem;
+  }
+  /* In mobile, il campo di ricerca occupa l'80% e il menu preferiti il 20% */
+  .search-fav-row .nav-left {
+    flex: 0 0 80%;
+    padding: 0;
+    justify-content: flex-start;
+  }
+  .search-fav-row .nav-right {
+    flex: 0 0 20%;
+    padding: 0;
+    justify-content: center;
+  }
+}
+
+/* Stile per il campo di ricerca */
+#searchInput {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Stili per select e button nella navigazione */
 nav select,
 nav button {
-  padding: 0.5rem; /* Aggiunge padding all'interno degli elementi select e button */
-  border-radius: 5px; /* Arrotonda gli angoli degli elementi select e button */
-  border: none; /* Rimuove il bordo predefinito dagli elementi select e button */
-  font-size: 1rem; /* Imposta la dimensione del font degli elementi select e button */
-  background-color: var(--button-bg-color); /* Imposta il colore di sfondo degli elementi select e button */
-  color: var(--button-text-color); /* Imposta il colore del testo degli elementi select e button */
-  cursor: pointer; /* Cambia il cursore in un puntatore quando si passa sopra gli elementi select e button */
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  cursor: pointer;
 }
 
 nav button:hover {
-  background-color: var(--button-hover-bg-color); /* Colore di sfondo del pulsante al passaggio del mouse */
+  background-color: var(--button-hover-bg-color);
 }
 
-/* Contenuto principale */
+/*============================
+         MAIN CONTENT
+=============================*/
 main {
-  max-width: 100%; /* Larghezza massima del contenuto principale */
-  margin: 0 auto; /* Centra il contenuto principale orizzontalmente */
-  padding: 1em; /* Padding del contenuto principale */
-  box-sizing: border-box; /* Include il padding e il bordo nella larghezza e altezza dell'elemento */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
 }
 
-/* Lista delle canzoni */
+#songList {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
 #songList li {
-  list-style: none; /* Rimuove i punti elenco */
-  background-color: #fff; /* Colore di sfondo degli elementi della lista */
-  margin: 1rem auto; /* Margine degli elementi della lista */
-  padding: 1rem; /* Padding degli elementi della lista */
-  border-radius: 5px; /* Arrotonda gli angoli degli elementi della lista */
-  display: flex; /* Utilizza il layout flexbox per gli elementi della lista */
-  justify-content: space-between; /* Distribuisce lo spazio tra gli elementi della lista */
-  max-width: 550px; /* Larghezza massima degli elementi della lista */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra agli elementi della lista */
-  cursor: pointer; /* Cambia il cursore in un puntatore quando si passa sopra gli elementi della lista */
+  list-style: none;
+  background-color: #fff;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 550px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 #songList li:hover {
-  background-color: #f0f0f0; /* Colore di sfondo degli elementi della lista al passaggio del mouse */
+  background-color: #f0f0f0;
 }
 
-/* Contenuto della canzone */
 #songContent {
-  background-color: #fff; /* Colore di sfondo del contenuto della canzone */
-  border: 1px solid #ddd; /* Bordo del contenuto della canzone */
-  border-radius: 8px; /* Arrotonda gli angoli del contenuto della canzone */
-  min-height: 400px; /* Altezza minima del contenuto della canzone */
-  max-height: 80vh; /* Limita l'altezza al 80% della viewport */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra al contenuto della canzone */
-  overflow-y: auto; /* Forza lo scrolling verticale se il contenuto supera l'altezza */
-  overflow-wrap: break-word; /* Permette la rottura delle parole */
-  word-wrap: break-word; /* Assicura che le parole si spezzino correttamente */
-  white-space: pre-wrap; /* Permette il wrapping */
-  position: relative; /* Necessario per posizionamenti assoluti */
-  font-family: "Fira Code", monospace; /* Font del contenuto della canzone */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  min-height: 400px;
+  max-height: 80vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  position: relative;
+  font-family: "Fira Code", monospace;
+  padding-bottom: 100px;
 }
 
 /* Righe di lyrics e accordi */
 #songContent .chord-row,
 #songContent .lyric-row {
-  position: relative; /* Posizionamento relativo delle righe di lyrics e accordi */
-  margin-bottom: 1em; /* Margine inferiore delle righe di lyrics e accordi */
+  position: relative;
+  margin-bottom: 1em;
 }
 
-/* Lyrics */
 #songContent .lyric {
-  display: inline-block; /* Gli accordi si posizionano rispetto a questa */
-  white-space: pre-wrap; /* Permette il wrapping */
-  word-wrap: break-word; /* Assicura che le parole si spezzino correttamente */
+  display: inline-block;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
-/* Accordi */
 #songContent .chord {
-  position: absolute; /* Posizionamento assoluto degli accordi */
-  top: -1.2em; /* Posiziona gli accordi sopra le lyrics */
-  color: red; /* Colore degli accordi */
-  white-space: pre-wrap; /* Permette il wrapping */
-  word-wrap: break-word; /* Assicura che le parole si spezzino correttamente */
+  position: absolute;
+  top: -1.2em;
+  color: red;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
-/* Spaziatura tra le sezioni */
-.song-section {
-  margin-bottom: 1.5rem; /* Spaziatura tra tutte le sezioni */
-}
-
+/* Sezioni della canzone */
 .song-section.verse {
-  margin-top: 1.5rem; /* Spaziatura superiore delle sezioni di tipo verse */
-  margin-bottom: 2.5rem; /* Spaziatura inferiore delle sezioni di tipo verse */
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-
-/* Aggiunge più spazio sopra e sotto le sezioni di tipo chorus */
+.song-section.chords {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
 .song-section.chorus {
-  margin-top: 2rem; /* Spaziatura superiore delle sezioni di tipo chorus */
-  margin-bottom: 3rem; /* Spaziatura inferiore delle sezioni di tipo chorus */
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-
-/* Lyrics del chorus in grassetto */
 .song-section.chorus .lyric {
-  font-weight: bold; /* Grassetto per le lyrics del chorus */
+  font-weight: bold;
 }
 
-/* Elementi della pagina principale */
+/*============================
+        PAGE ELEMENTS
+=============================*/
+/* Elementi della pagina principale (nascondi di default) */
 #mainTitle,
 #categoryFilter,
 #favoritesButton {
-  display: none; /* Nascondili di default */
+  display: none;
 }
 
 /* Titolo della canzone */
 #songTitle {
-  font-size: 1.8rem; /* Dimensione del font del titolo della canzone */
-  font-weight: bold; /* Grassetto per il titolo della canzone */
-  margin-bottom: 0.5rem; /* Margine inferiore del titolo della canzone */
-  text-align: center; /* Allinea il titolo della canzone al centro */
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 /* Autore della canzone */
 #songAuthor {
-  font-size: 1.2rem; /* Dimensione del font dell'autore della canzone */
-  font-style: italic; /* Stile del font in corsivo per l'autore della canzone */
-  color: #555; /* Colore del testo dell'autore della canzone */
-  margin-bottom: 1rem; /* Margine inferiore dell'autore della canzone */
-  text-align: center; /* Allinea l'autore della canzone al centro */
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
-/* Stile per i pulsanti della pagina della canzone */
+/* Contenitore dei controlli della canzone */
 #controlsContainer {
-  display: flex; /* Utilizza il layout flexbox per il contenitore dei pulsanti */
-  justify-content: center; /* Centra i pulsanti orizzontalmente */
-  align-items: center; /* Allinea i pulsanti verticalmente */
-  gap: 10px; /* Spazio tra i pulsanti */
-  background-color: var(--header-bg-color); /* Stesso nero opaco della barra del titolo */
-  padding: 10px; /* Padding del contenitore dei pulsanti */
-  border-radius: 8px; /* Arrotonda gli angoli del contenitore dei pulsanti */
-  margin: 10px auto; /* Spazio sopra e sotto */
-  width: fit-content; /* Adatta la larghezza ai pulsanti */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--header-bg-color);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px auto;
+  width: fit-content;
 }
 
-/* Stile per i pulsanti */
 #controlsContainer button {
-  background-color: var(--header-bg-color); /* Colore di sfondo dei pulsanti */
-  color: var(--header-text-color); /* Colore del testo dei pulsanti */
-  border: 2px solid var(--header-text-color); /* Bordo dei pulsanti */
-  padding: 8px 12px; /* Padding dei pulsanti */
-  border-radius: 5px; /* Arrotonda gli angoli dei pulsanti */
-  cursor: pointer; /* Cambia il cursore in un puntatore quando si passa sopra i pulsanti */
-  font-size: 1rem; /* Dimensione del font dei pulsanti */
-  transition: background-color 0.3s, transform 0.2s; /* Transizione per il colore di sfondo e la trasformazione */
+  background-color: var(--header-bg-color);
+  color: var(--header-text-color);
+  border: 2px solid var(--header-text-color);
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 #controlsContainer button:hover {
-  background-color: var(--button-hover-bg-color); /* Colore di sfondo dei pulsanti al passaggio del mouse */
-  transform: scale(1.05); /* Scala i pulsanti al passaggio del mouse */
+  background-color: var(--button-hover-bg-color);
+  transform: scale(1.05);
 }
 
 #backButton {
-  display: none; /* Nascondilo di default */
-  background-color: var(--header-bg-color); /* Colore di sfondo del pulsante */
-  color: var(--header-text-color); /* Colore del testo del pulsante */
-  border: 2px solid var(--header-text-color); /* Bordo del pulsante */
-  padding: 8px 12px; /* Padding del pulsante */
-  border-radius: 5px; /* Arrotonda gli angoli del pulsante */
-  cursor: pointer; /* Cambia il cursore in un puntatore quando si passa sopra il pulsante */
-  font-size: 1rem; /* Dimensione del font del pulsante */
-  transition: background-color 0.3s, transform 0.2s; /* Transizione per il colore di sfondo e la trasformazione */
-  width: fit-content; /* Adatta la larghezza al contenuto */
-  text-align: center; /* Allinea il testo al centro */
-  margin: 10px auto; /* Lo centra orizzontalmente */
-  position: relative; /* Posizionamento relativo */
-  display: block; /* Mostra il pulsante */
-}
-
-#scrollingButton {
-  display: inline-block; /* Visualizza il pulsante come inline-block */
-  color: black; /* Forza il colore del testo a nero */
-  z-index: 1000; /* Assicura che il pulsante sia sopra il contenuto */
+  display: none;
+  background-color: var(--header-bg-color);
+  color: var(--header-text-color);
+  border: 2px solid var(--header-text-color);
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
+  width: fit-content;
+  text-align: center;
+  margin: 10px auto;
+  position: relative;
 }
 
 #backButton:hover {
-  background-color: var(--button-hover-bg-color); /* Colore di sfondo del pulsante al passaggio del mouse */
-  transform: scale(1.05); /* Scala il pulsante al passaggio del mouse */
+  background-color: var(--button-hover-bg-color);
+  transform: scale(1.05);
 }
 
-/* Assicura che il pulsante sia centrato */
+#scrollingButton {
+  display: inline-block;
+  color: black;
+  z-index: 1000;
+}
+
 #backButtonContainer {
-  display: flex; /* Utilizza il layout flexbox per il contenitore del pulsante */
-  justify-content: center; /* Centra il pulsante orizzontalmente */
-  margin-bottom: 10px; /* Margine inferiore del contenitore del pulsante */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
-/* Responsive Design */
+/*============================
+         RESPONSIVE
+=============================*/
 @media (max-width: 768px) {
   body {
-    font-size: 16px; /* Dimensione del font per dispositivi mobili */
+    font-size: 16px;
   }
-
+  
   #songList li {
-    padding: 0.7rem; /* Padding degli elementi della lista per dispositivi mobili */
-    font-size: 1.2rem; /* Dimensione del font degli elementi della lista per dispositivi mobili */
+    padding: 0.7rem;
+    font-size: 1.2rem;
   }
-
+  
   #songContent {
-    padding: 1rem; /* Padding del contenuto della canzone per dispositivi mobili */
-    overflow-x: hidden; /* Previene lo scorrimento orizzontale */
+    padding: 1rem;
+    overflow-x: hidden;
   }
-
+  
   .song-section {
-    margin-bottom: 1rem; /* Spaziatura tra le sezioni per dispositivi mobili */
+    margin-bottom: 1rem;
+  }
+  
+  /* Riduci le dimensioni del contenitore dei controlli */
+  #controlsContainer {
+    padding: 5px;
+    gap: 5px;
+    transform: scale(0.9);
+  }
+  
+  #controlsContainer button {
+    padding: 5px 8px;
+    font-size: 0.9rem;
+  }
+  
+  /* Riduci il box della canzone */
+  #songContent {
+    max-height: 70vh;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
   }
 }
 
 @media (min-width: 768px) {
-
   #songList li {
-    padding: 0.8rem; /* Padding degli elementi della lista per dispositivi mobili */
-    font-size: 1.2rem; /* Dimensione del font degli elementi della lista per dispositivi mobili */
+    padding: 0.8rem;
+    font-size: 1.2rem;
   }
-
-
   main {
-    padding: 1em 25em; /* Padding del contenuto principale */
+    padding: 1em 25em;
   }
 }

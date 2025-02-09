@@ -22,10 +22,14 @@ function startScrolling(speed) {
       accumulated -= deltaScroll;
       console.log(`step: delta=${delta}ms, pixelsToScroll=${pixelsToScroll.toFixed(2)}px, deltaScroll=${deltaScroll}, scrollTop=${songContent.scrollTop}`);
       
-      if (songContent.scrollTop + songContent.clientHeight >= songContent.scrollHeight) {
+      const tolerance = 5; // o 10, a seconda delle necessità
+      if (songContent.scrollTop + songContent.clientHeight >= songContent.scrollHeight - tolerance) {
+        // Forza lo scroll in fondo per assicurare che tutto sia visibile
+        songContent.scrollTop = songContent.scrollHeight - songContent.clientHeight;
         stopScrolling();
         return;
       }
+
     }
     scrollingRequestId = requestAnimationFrame(step);
   }

@@ -55,13 +55,13 @@
             "lines": [
                 {
                     "chords": "Rem",
-                    "lyric": "Eccomi, di nuovo in ",
+                    "lyric": "Eccomi, di nuovo in gi",
                     "position": 0
                 },
                 {
                     "chords": "Fa",
-                    "lyric": "ginocchio qui",
-                    "position": 21
+                    "lyric": "nocchio qui",
+                    "position": 23
                 }
             ]
         },
@@ -129,9 +129,14 @@
             "section": "verse",
             "lines": [
                 {
-                    "chords": "Rem",
-                    "lyric": "Io mi arrendo",
+                    "chords": "",
+                    "lyric": "Io mi ar",
                     "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "rendo",
+                    "position": 9
                 }
             ]
         },
@@ -156,22 +161,22 @@
             ]
         },
         {
-            "section": "chords",
+            "section": "verse",
             "lines": [
                 {
                     "chords": "Rem",
-                    "lyric": "Riempimi, di grazia e d'",
+                    "lyric": "Riempimi, di grazia e d'a",
                     "position": 0
                 },
                 {
                     "chords": "Fa",
-                    "lyric": "amore sì",
-                    "position": 25
+                    "lyric": "more sì",
+                    "position": 26
                 }
             ]
         },
         {
-            "section": "chords",
+            "section": "verse",
             "lines": [
                 {
                     "chords": "",
@@ -191,17 +196,12 @@
             ]
         },
         {
-            "section": "chords",
+            "section": "verse",
             "lines": [
                 {
-                    "chords": "",
-                    "lyric": "Io so ",
+                    "chords": "Rem",
+                    "lyric": "Io so che, senti il mio ",
                     "position": 0
-                },
-                {
-                    "chords": "Re",
-                    "lyric": "che, senti il mio ",
-                    "position": 7
                 },
                 {
                     "chords": "Fa",
@@ -211,7 +211,7 @@
             ]
         },
         {
-            "section": "chords",
+            "section": "verse",
             "lines": [
                 {
                     "chords": "",
@@ -234,9 +234,14 @@
             "section": "verse",
             "lines": [
                 {
-                    "chords": "Rem",
-                    "lyric": "Io mi arrendo, Io mi ar",
+                    "chords": "",
+                    "lyric": "Io mi ar",
                     "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "rendo, Io mi ar",
+                    "position": 9
                 },
                 {
                     "chords": "Fa",
@@ -269,9 +274,14 @@
             "section": "verse",
             "lines": [
                 {
-                    "chords": "Rem",
-                    "lyric": "Io mi arrendo, Io mi ar",
+                    "chords": "",
+                    "lyric": "Io mi ar",
                     "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "rendo, Io mi ar",
+                    "position": 9
                 },
                 {
                     "chords": "Fa",
@@ -317,126 +327,6 @@
                     "chords": "Do",
                     "lyric": "",
                     "position": 3
-                }
-            ]
-        },
-        {
-            "section": "chords",
-            "lines": [
-                {
-                    "chords": "Sib",
-                    "lyric": " ",
-                    "position": 0
-                },
-                {
-                    "chords": "Fa",
-                    "lyric": " ",
-                    "position": 2
-                },
-                {
-                    "chords": "Do",
-                    "lyric": "",
-                    "position": 3
-                }
-            ]
-        },
-        {
-            "section": "verse",
-            "lines": [
-                {
-                    "chords": "",
-                    "lyric": "Sei un ",
-                    "position": 0
-                },
-                {
-                    "chords": "Sib",
-                    "lyric": "vento ",
-                    "position": 8
-                },
-                {
-                    "chords": "Fa",
-                    "lyric": "che, soffia ",
-                    "position": 14
-                },
-                {
-                    "chords": "Do",
-                    "lyric": "forte in me",
-                    "position": 26
-                }
-            ]
-        },
-        {
-            "section": "verse",
-            "lines": [
-                {
-                    "chords": "",
-                    "lyric": "Fa' ciò che ",
-                    "position": 0
-                },
-                {
-                    "chords": "Solm",
-                    "lyric": "vuoi, fa' ciò che ",
-                    "position": 13
-                },
-                {
-                    "chords": "Rem",
-                    "lyric": "vuoi in ",
-                    "position": 31
-                },
-                {
-                    "chords": "Do",
-                    "lyric": "me",
-                    "position": 39
-                }
-            ]
-        },
-        {
-            "section": "verse",
-            "lines": [
-                {
-                    "chords": "",
-                    "lyric": "Sei tem",
-                    "position": 0
-                },
-                {
-                    "chords": "Sib",
-                    "lyric": "pesta ",
-                    "position": 8
-                },
-                {
-                    "chords": "Fa",
-                    "lyric": "che, si ris",
-                    "position": 14
-                },
-                {
-                    "chords": "Do",
-                    "lyric": "veglia in me",
-                    "position": 25
-                }
-            ]
-        },
-        {
-            "section": "verse",
-            "lines": [
-                {
-                    "chords": "",
-                    "lyric": "Fa' ciò che ",
-                    "position": 0
-                },
-                {
-                    "chords": "Solm",
-                    "lyric": "vuoi, fa' ciò che ",
-                    "position": 13
-                },
-                {
-                    "chords": "Rem",
-                    "lyric": "vuoi in ",
-                    "position": 31
-                },
-                {
-                    "chords": "Do",
-                    "lyric": "me",
-                    "position": 39
                 }
             ]
         },
@@ -481,6 +371,106 @@
                 {
                     "chords": "Do",
                     "lyric": "forte in me",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa' ciò che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "vuoi, fa' ciò che ",
+                    "position": 13
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "vuoi in ",
+                    "position": 31
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Sei tem",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "pesta ",
+                    "position": 8
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "che, si ris",
+                    "position": 14
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "veglia in me",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fa' ciò che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "vuoi, fa' ciò che ",
+                    "position": 13
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "vuoi in ",
+                    "position": 31
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Sei un ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "vento ",
+                    "position": 8
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "che, che res",
+                    "position": 14
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "pira in me",
                     "position": 26
                 }
             ]

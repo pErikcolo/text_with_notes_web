@@ -1,49 +1,62 @@
 <!DOCTYPE html>
 <html lang="it">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <title>Text With Notes</title>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>      
-<body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Text With Notes</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
     <header>
-        <h1 id="mainTitle">Text With Notes</h1> <!-- ID per il titolo principale -->
-        <div id="songHeader" style="display: none;">
-            <h1 id="songTitle"></h1>
-            <h2 id="songAuthor"></h2>
-        </div>
-        <nav>
+      <!-- Titolo principale -->
+      <h1 id="mainTitle">Text With Notes</h1>
+      <nav>
+        <!-- PRIMA RIGA: Filtro per categoria centrato -->
+        <div class="nav-row filter-row">
+          <div class="nav-center">
             <label for="categoryFilter">Filtra per categoria:</label>
             <select id="categoryFilter">
-                <option value="">Tutte</option>
+              <option value="">Tutte</option>
             </select>
+          </div>
+        </div>
+        <!-- SECONDA RIGA: Campo di ricerca e menu preferiti -->
+        <div class="nav-row search-fav-row">
+          <div class="nav-left">
+            <input type="text" id="searchInput" placeholder="Cerca canzone..." />
+          </div>
+          <div class="nav-right">
             <button id="favoritesButton">Preferiti</button>
             <button id="clearFavoritesButton" style="display: none;">Svuota preferiti</button>
-        </nav>
-    </header>      
-
+          </div>
+        </div>
+      </nav>            
+        
+    </header>
+    
     <main>
-        <div id="backButtonContainer">
-            <button id="backButton" style="display: none;">Torna alla lista</button>
-        </div>
-        <div id="controlsContainer" style="display: none;">
-            <button id="transposeUp">T+</button>
-            <button id="transposeDown">T-</button>
-            <button id="scrollingButton" class="play">▶</button>
-            <button id="increaseFontSize">A+</button>
-            <button id="decreaseFontSize">A-</button>
-            <button id="viewModeButton">Solo testo</button>
-        </div>
-
-        <ul id="songList"></ul>
-
-        <div id="songContent">
-            <p>Seleziona una canzone per iniziare.</p>
-        </div>
-    </main>    
-
+      <div id="backButtonContainer">
+        <button id="backButton" style="display: none;">Torna alla lista</button>
+      </div>
+      <div id="controlsContainer" style="display: none;">
+        <button id="transposeUp">T+</button>
+        <button id="transposeDown">T-</button>
+        <button id="scrollingButton" class="play">▶</button>
+        <button id="increaseFontSize">A+</button>
+        <button id="decreaseFontSize">A-</button>
+        <button id="viewModeButton">Solo testo</button>
+      </div>
+      
+      <ul id="songList"></ul>
+      
+      <!-- Box per il contenuto della canzone -->
+      <div id="songContent">
+        <p>Seleziona una canzone per iniziare.</p>
+      </div>
+    </main>
+    
+    <!-- Assicurati che main.js venga caricato dopo il DOM -->
     <script type="module" src="js/main.js"></script>
-</body>
+  </body>
 </html>
