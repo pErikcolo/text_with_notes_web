@@ -1,0 +1,111 @@
+{
+    "song": [
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "Nada te ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "turbe, ",
+                    "position": 9
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "nada te es",
+                    "position": 16
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "pante,",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "quien a Dios ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "tiene ",
+                    "position": 14
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "nada le ",
+                    "position": 20
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "falta",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "Nada te ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "turbe, ",
+                    "position": 9
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "nada te es",
+                    "position": 16
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "pante,",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "solo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "Dios ",
+                    "position": 6
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ba--",
+                    "position": 11
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "sta.",
+                    "position": 15
+                }
+            ]
+        }
+    ],
+    "id": "0021",
+    "title": "Nada te turbe (Taizè)",
+    "author": "Jacques Bérthier",
+    "categories": [
+        "Salmo",
+        "Taizè"
+    ]
+}

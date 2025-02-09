@@ -1,0 +1,101 @@
+{
+    "song": [
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Lau",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "date ",
+                    "position": 4
+                },
+                {
+                    "chords": "La",
+                    "lyric": "omnes ",
+                    "position": 9
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "gen--",
+                    "position": 15
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "tes Lau",
+                    "position": 20
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "date ",
+                    "position": 27
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Domi",
+                    "position": 32
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "num",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Lau",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "date ",
+                    "position": 4
+                },
+                {
+                    "chords": "La",
+                    "lyric": "omnes ",
+                    "position": 9
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "gen--",
+                    "position": 15
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "tes Lau",
+                    "position": 20
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "date ",
+                    "position": 27
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "Domi",
+                    "position": 32
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "num",
+                    "position": 36
+                }
+            ]
+        }
+    ],
+    "id": "0022",
+    "title": "Laudate omnes gentes (Taizè)",
+    "author": "Jacques Bérthier",
+    "categories": [
+        "Salmo",
+        "Taizè"
+    ]
+}

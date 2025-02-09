@@ -1,0 +1,66 @@
+{
+    "song": [
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Miseri",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "cordias ",
+                    "position": 7
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "Domi",
+                    "position": 15
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ni",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "in ae",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ternum ",
+                    "position": 6
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "can--",
+                    "position": 13
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "ta--",
+                    "position": 18
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "bo.",
+                    "position": 22
+                }
+            ]
+        }
+    ],
+    "id": "0024",
+    "title": "Misericordia Domini (Taizè)",
+    "author": "Jacques Bérthier",
+    "categories": [
+        "Salmo",
+        "Taizè"
+    ]
+}

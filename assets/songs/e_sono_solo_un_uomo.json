@@ -1,0 +1,936 @@
+{
+    "song": [
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Io lo so ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "Signore, che ",
+                    "position": 10
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "vengo da lon",
+                    "position": 23
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tano",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "prima nel pen",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "siero e ",
+                    "position": 14
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "poi nella Tua ",
+                    "position": 22
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "mano",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "io mi rendo ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "conto che ",
+                    "position": 13
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Tu sei la mia ",
+                    "position": 23
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "vita",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "non mi sembra ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "vero di pre",
+                    "position": 17
+                },
+                {
+                    "chords": "Mim7",
+                    "lyric": "garti ",
+                    "position": 28
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "così",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Padre di ogni ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "uomo e ",
+                    "position": 15
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "non ti ho visto ",
+                    "position": 22
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mai",
+                    "position": 38
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Spirito di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "vita e ",
+                    "position": 12
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "nacqui da una ",
+                    "position": 19
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "donna",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Figlio mio fra",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "tello e ",
+                    "position": 15
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sono solo un ",
+                    "position": 23
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "uomo",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ep",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "pure io ca",
+                    "position": 3
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "pisco che ",
+                    "position": 13
+                },
+                {
+                    "chords": "Mim7",
+                    "lyric": "Tu sei veri",
+                    "position": 23
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "tà",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "E im",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "parerò a guar",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "dare tutto il ",
+                    "position": 19
+                },
+                {
+                    "chords": "La",
+                    "lyric": "mond",
+                    "position": 33
+                },
+                {
+                    "chords": "Re7",
+                    "lyric": "o",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "con gli ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "occhi traspa",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "renti di un bam",
+                    "position": 21
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "bin",
+                    "position": 36
+                },
+                {
+                    "chords": "Re7",
+                    "lyric": "o",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e in",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "segnerò a chia",
+                    "position": 5
+                },
+                {
+                    "chords": "La",
+                    "lyric": "marti ‘Padre ",
+                    "position": 20
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Nostro",
+                    "position": 33
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "’",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ogni figlio ",
+                    "position": 4
+                },
+                {
+                    "chords": "Mi7",
+                    "lyric": "che diventa ",
+                    "position": 16
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "uomo",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "E im",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "parerò a guar",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "dare tutto il ",
+                    "position": 19
+                },
+                {
+                    "chords": "La",
+                    "lyric": "mond",
+                    "position": 33
+                },
+                {
+                    "chords": "Re7",
+                    "lyric": "o",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "con gli ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "occhi traspa",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "renti di un bam",
+                    "position": 21
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "bin",
+                    "position": 36
+                },
+                {
+                    "chords": "Re7",
+                    "lyric": "o",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e in",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "segnerò a chia",
+                    "position": 5
+                },
+                {
+                    "chords": "La",
+                    "lyric": "marti ‘Padre ",
+                    "position": 20
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Nostro",
+                    "position": 33
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "’",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim7",
+                    "lyric": "ogni figlio ",
+                    "position": 4
+                },
+                {
+                    "chords": "La",
+                    "lyric": "che diventa ",
+                    "position": 16
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "uom",
+                    "position": 28
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "o...",
+                    "position": 31
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ".",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Io lo so ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "Signore che ",
+                    "position": 10
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Tu mi sei vi",
+                    "position": 22
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "cino",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "luce alla mia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "mente ",
+                    "position": 15
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "guida al mio cam",
+                    "position": 21
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "mino",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "mano che sor",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "regge, ",
+                    "position": 13
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sguardo che per",
+                    "position": 20
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "dona",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "non mi sembra ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "vero di pre",
+                    "position": 17
+                },
+                {
+                    "chords": "Mim7",
+                    "lyric": "garti ",
+                    "position": 28
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "così",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Dove nasce a",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "more ",
+                    "position": 13
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Tu sei la sor",
+                    "position": 18
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "gente",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Dove c’è una ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "croce ",
+                    "position": 15
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Tu sei la spe",
+                    "position": 21
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "ranza",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Dove il tempo ha ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "fine Tu ",
+                    "position": 18
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sei vita e",
+                    "position": 26
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "terna",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "so che posso ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "sempre con",
+                    "position": 16
+                },
+                {
+                    "chords": "Mim7",
+                    "lyric": "tare su di ",
+                    "position": 26
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "Te",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "E im",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "parerò a guar",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "dare tutto il ",
+                    "position": 19
+                },
+                {
+                    "chords": "La",
+                    "lyric": "mond",
+                    "position": 33
+                },
+                {
+                    "chords": "Re7",
+                    "lyric": "o",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "con gli ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "occhi traspa",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "renti di un bam",
+                    "position": 21
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "bin",
+                    "position": 36
+                },
+                {
+                    "chords": "Re7",
+                    "lyric": "o",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e in",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "segnerò a chia",
+                    "position": 5
+                },
+                {
+                    "chords": "La",
+                    "lyric": "marti ‘Padre ",
+                    "position": 20
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Nostro",
+                    "position": 33
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "’",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ogni figlio ",
+                    "position": 4
+                },
+                {
+                    "chords": "Mi7",
+                    "lyric": "che diventa ",
+                    "position": 16
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "uomo",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "E im",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "parerò a guar",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "dare tutto il ",
+                    "position": 19
+                },
+                {
+                    "chords": "La",
+                    "lyric": "mond",
+                    "position": 33
+                },
+                {
+                    "chords": "Re7",
+                    "lyric": "o",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "con gli ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "occhi traspa",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "renti di un bam",
+                    "position": 21
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "bin",
+                    "position": 36
+                },
+                {
+                    "chords": "Re7",
+                    "lyric": "o",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "e in",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "segnerò a chia",
+                    "position": 5
+                },
+                {
+                    "chords": "La",
+                    "lyric": "marti ‘Padre ",
+                    "position": 20
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Nostro",
+                    "position": 33
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "’",
+                    "position": 39
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim7",
+                    "lyric": "ogni figlio ",
+                    "position": 4
+                },
+                {
+                    "chords": "La",
+                    "lyric": "che diventa ",
+                    "position": 16
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "uom",
+                    "position": 28
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "o...",
+                    "position": 31
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ".",
+                    "position": 35
+                }
+            ]
+        }
+    ],
+    "id": "0020",
+    "title": "E sono solo un uomo",
+    "author": "Pierangelo Sequeri",
+    "categories": [
+        "Comunione",
+        "Apertrura"
+    ]
+}

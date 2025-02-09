@@ -1,0 +1,511 @@
+{
+    "song": [
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "Vogliamo vivere Si",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "gnore,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "offrendo a Te la nostra ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "vita",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "con questo pane e questo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "vino",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "accetta quello che noi ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "siamo",
+                    "position": 24
+                },
+                {
+                    "chords": "Mi4",
+                    "lyric": ".",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "Vogliamo vivere Si",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "gnore,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "abbandonati alla Tua ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "voce,",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "staccati dalle cose ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "vane,",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "fissati nella vita ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "vera..",
+                    "position": 20
+                },
+                {
+                    "chords": "Mi4",
+                    "lyric": ".",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Vogli",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "amo ",
+                    "position": 6
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "vivere ",
+                    "position": 10
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "come Ma",
+                    "position": 17
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "ria",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "l’irraggiun",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "gibile, ",
+                    "position": 12
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "la madre a",
+                    "position": 20
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "mata",
+                    "position": 30
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "che vince il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "mondo con l’",
+                    "position": 14
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "amore",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "e offrire ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "sempre la Tua ",
+                    "position": 11
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "vita che ",
+                    "position": 25
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "viene dal ",
+                    "position": 34
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cielo.",
+                    "position": 44
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "Accetta dalle nostre ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "mani,",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "come un’offerta a Te gra",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dita,",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "i desideri di ogni ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "cuore,",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "le ansie della nostra ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "vita",
+                    "position": 23
+                },
+                {
+                    "chords": "Mi4",
+                    "lyric": ".",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "Vogliamo vivere Si",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "gnore,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "accesi dalle Tue pa",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "role",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "per ricordare ad ogni ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "uomo",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "la fiamma viva del Tuo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "amore",
+                    "position": 24
+                },
+                {
+                    "chords": "Mi4",
+                    "lyric": ".",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Vogli",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "amo ",
+                    "position": 6
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "vivere ",
+                    "position": 10
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "come Ma",
+                    "position": 17
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "ria",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "l’irraggiun",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "gibile, ",
+                    "position": 12
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "la madre a",
+                    "position": 20
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "mata",
+                    "position": 30
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "che vince il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "mondo con l’",
+                    "position": 14
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "amore",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "e offrire ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "sempre la Tua ",
+                    "position": 11
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "vita che ",
+                    "position": 25
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "viene dal ",
+                    "position": 34
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cielo.",
+                    "position": 44
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "e offrire ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "sempre la Tua ",
+                    "position": 11
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "vita che ",
+                    "position": 25
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "viene dal ",
+                    "position": 34
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cielo.",
+                    "position": 44
+                }
+            ]
+        }
+    ],
+    "id": "0025",
+    "title": "Come Maria",
+    "author": "Gen Rosso",
+    "categories": [
+        "Conclusione",
+        "Canto a Maria"
+    ]
+}

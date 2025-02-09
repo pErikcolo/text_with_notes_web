@@ -1,0 +1,1200 @@
+{
+    "song": [
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Mi indiche",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "rai il senti",
+                    "position": 11
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ero della ",
+                    "position": 23
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "vita,",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "gioia piena ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "nella tua pre",
+                    "position": 13
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "senza;",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "SOlm",
+                    "lyric": "alla tua ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "destra dol",
+                    "position": 10
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "cezza senza ",
+                    "position": 20
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "fine;",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": "il sentiero ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tu mi indiche",
+                    "position": 13
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "rai",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Pro",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "teggimi o ",
+                    "position": 4
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Dio, in ",
+                    "position": 14
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "te mi ri",
+                    "position": 22
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "fugio;",
+                    "position": 30
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "ho detto a ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Dio, sei ",
+                    "position": 12
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "tu il mio Si",
+                    "position": 21
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "gnore,",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "senza di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te alcun ",
+                    "position": 10
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "bene non ",
+                    "position": 19
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ho",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Mi indiche",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "rai il senti",
+                    "position": 11
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ero della ",
+                    "position": 23
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "vita,",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "gioia piena ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "nella tua pre",
+                    "position": 13
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "senza;",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "SOlm",
+                    "lyric": "alla tua ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "destra dol",
+                    "position": 10
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "cezza senza ",
+                    "position": 20
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "fine;",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": "il sentiero ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tu mi indiche",
+                    "position": 13
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "rai",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ai ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "santi della ",
+                    "position": 4
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "terra il mio a",
+                    "position": 16
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "more da",
+                    "position": 30
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "rò,",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "altri si af",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "frettino a ",
+                    "position": 12
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "costruire ",
+                    "position": 23
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "idoli,",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "senza di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te alcun ",
+                    "position": 10
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "bene non ",
+                    "position": 19
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ho",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "i loro ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "nomi non ",
+                    "position": 8
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "pronunce",
+                    "position": 17
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rò.",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Mi indiche",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "rai il senti",
+                    "position": 11
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ero della ",
+                    "position": 23
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "vita,",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "gioia piena ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "nella tua pre",
+                    "position": 13
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "senza;",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "SOlm",
+                    "lyric": "alla tua ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "destra dol",
+                    "position": 10
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "cezza senza ",
+                    "position": 20
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "fine;",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": "il sentiero ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tu mi indiche",
+                    "position": 13
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "rai",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ai ",
+                    "position": 0
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "santi della ",
+                    "position": 4
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "terra il mio a",
+                    "position": 16
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "more da",
+                    "position": 30
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "rò,",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "altri si af",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "frettino a ",
+                    "position": 12
+                },
+                {
+                    "chords": "Solm",
+                    "lyric": "costruire ",
+                    "position": 23
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "idoli,",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "senza di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te alcun ",
+                    "position": 10
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "bene non ",
+                    "position": 19
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ho",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "i loro ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "nomi non ",
+                    "position": 8
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "pronunce",
+                    "position": 17
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rò.",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Mi indiche",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "rai il senti",
+                    "position": 11
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ero della ",
+                    "position": 23
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "vita,",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "gioia piena ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "nella tua pre",
+                    "position": 13
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "senza;",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "SOlm",
+                    "lyric": "alla tua ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "destra dol",
+                    "position": 10
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "cezza senza ",
+                    "position": 20
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "fine;",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": "il sentiero ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tu mi indiche",
+                    "position": 13
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "rai",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Mia eredi",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tà ",
+                    "position": 10
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "è il Si",
+                    "position": 13
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "gnore,",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "nelle tue ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "mani ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "è la vita ",
+                    "position": 16
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "mia,",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "terra deli",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "ziosa è la ",
+                    "position": 11
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "mia eredi",
+                    "position": 22
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tà.",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Mi indiche",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "rai il senti",
+                    "position": 11
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ero della ",
+                    "position": 23
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "vita,",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "gioia piena ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "nella tua pre",
+                    "position": 13
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "senza;",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "SOlm",
+                    "lyric": "alla tua ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "destra dol",
+                    "position": 10
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "cezza senza ",
+                    "position": 20
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "fine;",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": "il sentiero ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tu mi indiche",
+                    "position": 13
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "rai",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Benedico ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "Dio che mi ha ",
+                    "position": 10
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "dato con",
+                    "position": 24
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "siglio,",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "innanzi a ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "pongo il Si",
+                    "position": 14
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "gnore,",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "lui è alla mia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "destra: non ",
+                    "position": 16
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "vacille",
+                    "position": 28
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rò.",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Mi indiche",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "rai il senti",
+                    "position": 11
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ero della ",
+                    "position": 23
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "vita,",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "gioia piena ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "nella tua pre",
+                    "position": 13
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "senza;",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "SOlm",
+                    "lyric": "alla tua ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "destra dol",
+                    "position": 10
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "cezza senza ",
+                    "position": 20
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "fine;",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": "il sentiero ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tu mi indiche",
+                    "position": 13
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "rai",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Rem",
+                    "lyric": "Gioia nel mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "cuore, l’",
+                    "position": 15
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "anima e",
+                    "position": 24
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "sulta,",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "anche il mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "corpo ",
+                    "position": 14
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "abita si",
+                    "position": 20
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "curo,",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "lui è alla mia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "destra: non ",
+                    "position": 16
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "vacille",
+                    "position": 28
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rò.",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "la mia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "vita non ",
+                    "position": 8
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "abbandone",
+                    "position": 17
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "rai.",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Re",
+                    "lyric": "Mi indiche",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "rai il senti",
+                    "position": 11
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ero della ",
+                    "position": 23
+                },
+                {
+                    "chords": "La7",
+                    "lyric": "vita,",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Fa",
+                    "lyric": "gioia piena ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sib",
+                    "lyric": "nella tua pre",
+                    "position": 13
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "senza;",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "SOlm",
+                    "lyric": "alla tua ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "destra dol",
+                    "position": 10
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "cezza senza ",
+                    "position": 20
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "fine;",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": "il sentiero ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tu mi indiche",
+                    "position": 13
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "rai",
+                    "position": 26
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "Sib",
+                    "lyric": "il sentiero ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tu mi indiche",
+                    "position": 13
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "rai",
+                    "position": 26
+                }
+            ]
+        }
+    ],
+    "id": "0026",
+    "title": "Mi indicherai",
+    "author": "Salmo 16 (15)",
+    "categories": [
+        "Comunione"
+    ]
+}

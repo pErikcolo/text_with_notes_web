@@ -1,0 +1,141 @@
+{
+    "song": [
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "Laudate ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "Dominum,",
+                    "position": 9
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "Laudate ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Dominum,",
+                    "position": 9
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "omnes ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "gentes. ",
+                    "position": 7
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "Al--",
+                    "position": 15
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "le--",
+                    "position": 19
+                },
+                {
+                    "chords": "Rem",
+                    "lyric": "lu--",
+                    "position": 23
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "ia!",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "Laudate ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "Dominum,",
+                    "position": 9
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Lam",
+                    "lyric": "Laudate ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Dominum,",
+                    "position": 9
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "omnes ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "gentes. ",
+                    "position": 7
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "Al--",
+                    "position": 15
+                },
+                {
+                    "chords": "Fa",
+                    "lyric": "le--",
+                    "position": 19
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "lu--",
+                    "position": 23
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "ia!",
+                    "position": 27
+                }
+            ]
+        }
+    ],
+    "id": "0023",
+    "title": "Laudate Dominum (Taizè)",
+    "author": "Jacques Bérthier",
+    "categories": [
+        "Salmo",
+        "Taizè"
+    ]
+}

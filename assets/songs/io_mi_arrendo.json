@@ -505,23 +505,23 @@
             "lines": [
                 {
                     "chords": "",
-                    "lyric": "Sei tem",
+                    "lyric": "Sei una tem",
                     "position": 0
                 },
                 {
                     "chords": "Sib",
                     "lyric": "pesta ",
-                    "position": 8
+                    "position": 12
                 },
                 {
                     "chords": "Fa",
                     "lyric": "che, si ris",
-                    "position": 14
+                    "position": 18
                 },
                 {
                     "chords": "Do",
                     "lyric": "veglia in me",
-                    "position": 25
+                    "position": 29
                 }
             ]
         },
