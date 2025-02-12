@@ -1,0 +1,1430 @@
+{
+    "song": [
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "Fe--",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "de ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "è:",
+                    "position": 8
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è cer",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "care co",
+                    "position": 6
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "lui che non co",
+                    "position": 13
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "nosci",
+                    "position": 27
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ",",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è co",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "noscere co",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "lui che non ",
+                    "position": 15
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "vedi",
+                    "position": 27
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ",",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è ve",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "dere co",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "lui che non ",
+                    "position": 12
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "tocchi,",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è toc",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "care co",
+                    "position": 6
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "lui che non ",
+                    "position": 13
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ami,",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è a",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "mare co",
+                    "position": 4
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "lui che già, ti ha cer",
+                    "position": 11
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "cato",
+                    "position": 33
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ",",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ti ha cono",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "sciuto",
+                    "position": 11
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ", e ti ha ",
+                    "position": 17
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "visto",
+                    "position": 27
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ",",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ti ha toc",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "cato",
+                    "position": 10
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ", ti ha a",
+                    "position": 14
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "ma--to",
+                    "position": 23
+                },
+                {
+                    "chords": "Si",
+                    "lyric": ".",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "È fi",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "darsi di ",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "chi,",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te si è ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "già fi",
+                    "position": 12
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dato,",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "affidando alle tue fragili ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mani,",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "un dono d'a",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "more,",
+                    "position": 12
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "che vale ogni ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "rischio.",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "È fi",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "darsi di ",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "chi,",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te si è ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "già fi",
+                    "position": 12
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dato,",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "affidando alle tue fragili ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mani,",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "un dono d'a",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "more,",
+                    "position": 12
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "che vale ogni ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "rischio.",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "Gio--",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ia ",
+                    "position": 6
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "è:",
+                    "position": 9
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è una ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "stretta di ",
+                    "position": 7
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mano ad un ",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "amico",
+                    "position": 29
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ",",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è un a",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "mico che ",
+                    "position": 7
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "dice: \"Io ti ",
+                    "position": 16
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "amo.",
+                    "position": 29
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "\",",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è un a",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "more, che s",
+                    "position": 7
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "boccia per in",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "canto,",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è un in",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "canto che es",
+                    "position": 8
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "plode nella ",
+                    "position": 20
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "mente,",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è a",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "mare co",
+                    "position": 4
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "lui che già, è tuo a",
+                    "position": 11
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "mico",
+                    "position": 31
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ",",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "strin",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ge la ",
+                    "position": 6
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mano, e ti ",
+                    "position": 12
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "a--ma",
+                    "position": 23
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ",",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "come un in",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "canto",
+                    "position": 11
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ", che ti es",
+                    "position": 16
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "plo",
+                    "position": 27
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "de.",
+                    "position": 30
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "È fi",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "darsi di ",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "chi,",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te si è ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "già fi",
+                    "position": 12
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dato,",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "affidando alle tue fragili ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mani,",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "un dono d'a",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "more,",
+                    "position": 12
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "che vale ogni ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "rischio.",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "È fi",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "darsi di ",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "chi,",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te si è ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "già fi",
+                    "position": 12
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dato,",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "affidando alle tue fragili ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mani,",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "un dono d'a",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "more,",
+                    "position": 12
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "che vale ogni ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "rischio.",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "Gio--",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ia ",
+                    "position": 6
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "è:",
+                    "position": 9
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "Vi--",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "ta ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "è:",
+                    "position": 8
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è una ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "stretta di ",
+                    "position": 7
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mano ad un ",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "amico",
+                    "position": 29
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ",",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è l'au",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "rora che il",
+                    "position": 7
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "lumina il tuo ",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "cuore",
+                    "position": 32
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ",",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è un a",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "mico che ",
+                    "position": 7
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "dice: \"Io ti ",
+                    "position": 16
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "amo.",
+                    "position": 29
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "\",",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è il cu",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ore che in",
+                    "position": 8
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "contra il tuo a",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "more",
+                    "position": 33
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ",",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è un a",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "more, che s",
+                    "position": 7
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "boccia per in",
+                    "position": 18
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "canto,",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è l'a",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "more che ",
+                    "position": 6
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "forma un bam",
+                    "position": 15
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "bino,",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è un in",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "canto che es",
+                    "position": 8
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "plode nella ",
+                    "position": 20
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "mente,",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è un bam",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "bino che ",
+                    "position": 9
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "nasce come un ",
+                    "position": 18
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "canto,",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è a",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "mare co",
+                    "position": 4
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "lui che già, è tuo a",
+                    "position": 11
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "mico",
+                    "position": 31
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ",",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "è a",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "mare co",
+                    "position": 4
+                },
+                {
+                    "chords": "Sim",
+                    "lyric": "lui che già, è come a",
+                    "position": 11
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "urora",
+                    "position": 32
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ",",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "strin",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "ge la ",
+                    "position": 6
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mano, e ti ",
+                    "position": 12
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "a--ma",
+                    "position": 23
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ",",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "nel ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "tuo c",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "uore, ed è a",
+                    "position": 10
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "mo--re",
+                    "position": 22
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ",",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "come un in",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "canto",
+                    "position": 11
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ", che ti es",
+                    "position": 16
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "plo",
+                    "position": 27
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "de.",
+                    "position": 30
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "per un bam",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "bino",
+                    "position": 11
+                },
+                {
+                    "chords": "Do",
+                    "lyric": ", che oggi ",
+                    "position": 15
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "nasce",
+                    "position": 26
+                },
+                {
+                    "chords": "Si",
+                    "lyric": ".",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "È fi",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "darsi di ",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "chi,",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te si è ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "già fi",
+                    "position": 12
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dato,",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "affidando alle tue fragili ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mani,",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "un dono d'a",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "more,",
+                    "position": 12
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "che vale ogni ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "rischio.",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "È fi",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "darsi di ",
+                    "position": 5
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "chi,",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "te si è ",
+                    "position": 4
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "già fi",
+                    "position": 12
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dato,",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "affidando alle tue fragili ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "mani,",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "un dono d'a",
+                    "position": 0
+                },
+                {
+                    "chords": "Lam",
+                    "lyric": "more,",
+                    "position": 12
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "che vale ogni ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si7",
+                    "lyric": "rischio.",
+                    "position": 15
+                }
+            ]
+        }
+    ],
+    "id": "0027",
+    "title": "Fede è",
+    "author": "Don Franco De Marchi",
+    "categories": [
+        "Comunione"
+    ]
+}

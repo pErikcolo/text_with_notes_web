@@ -11,17 +11,17 @@
                 {
                     "chords": "Sib",
                     "lyric": " ",
-                    "position": 5
+                    "position": 2
                 },
                 {
                     "chords": "Fa",
                     "lyric": " ",
-                    "position": 10
+                    "position": 3
                 },
                 {
                     "chords": "Do",
                     "lyric": "",
-                    "position": 15
+                    "position": 4
                 }
             ]
         },
@@ -124,7 +124,7 @@
                     "position": 0
                 },
                 {
-                    "chords": "Fas",
+                    "chords": "Fa",
                     "lyric": "persi ingino",
                     "position": 3
                 },
