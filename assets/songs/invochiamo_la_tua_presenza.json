@@ -11,17 +11,17 @@
                 {
                     "chords": "Sib",
                     "lyric": " ",
-                    "position": 5
+                    "position": 2
                 },
                 {
                     "chords": "Fa",
                     "lyric": " ",
-                    "position": 10
+                    "position": 3
                 },
                 {
                     "chords": "Do",
                     "lyric": "",
-                    "position": 15
+                    "position": 4
                 }
             ]
         },
@@ -36,17 +36,17 @@
                 {
                     "chords": "Sib",
                     "lyric": " ",
-                    "position": 5
+                    "position": 2
                 },
                 {
                     "chords": "Fa",
                     "lyric": " ",
-                    "position": 10
+                    "position": 3
                 },
                 {
                     "chords": "Do",
                     "lyric": "",
-                    "position": 15
+                    "position": 4
                 }
             ]
         },
@@ -316,17 +316,17 @@
                 {
                     "chords": "Sib",
                     "lyric": " ",
-                    "position": 5
+                    "position": 2
                 },
                 {
                     "chords": "Fa",
                     "lyric": " ",
-                    "position": 10
+                    "position": 3
                 },
                 {
                     "chords": "Do",
                     "lyric": "",
-                    "position": 15
+                    "position": 4
                 }
             ]
         },
@@ -596,17 +596,17 @@
                 {
                     "chords": "Sib",
                     "lyric": " ",
-                    "position": 5
+                    "position": 2
                 },
                 {
                     "chords": "Fa",
                     "lyric": " ",
-                    "position": 10
+                    "position": 3
                 },
                 {
                     "chords": "Do",
                     "lyric": "",
-                    "position": 15
+                    "position": 4
                 }
             ]
         }
@@ -615,7 +615,6 @@
     "title": "Invochiamo la tua presenza",
     "author": "RnS",
     "categories": [
-        "Apertura",
-        "Adorazione"
+        "Inizio"
     ]
 }

@@ -1,0 +1,1060 @@
+{
+    "song": [
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Si",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Prezi",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "oso e maestoso",
+                    "position": 6
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "È il ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "nome Tuo Ges",
+                    "position": 6
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "ù",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol#m",
+                    "lyric": "Sei il desiderio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "più grande che ",
+                    "position": 18
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "ho",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Il Tuo amore ha stra",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "volto il cuore ",
+                    "position": 21
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "mio",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Sol#m",
+                    "lyric": "Tu sei la roccia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "su cui costrui",
+                    "position": 18
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "rò",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con tutta la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "forza canterò",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "tutto il mio ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "cuore griderò",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Nessuno è ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "come ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "Te, Glorioso ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "Re",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Si",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Grandi prodigi e mi",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "racoli ancora fa",
+                    "position": 20
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "rai",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Una ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "lode gloriosa a ",
+                    "position": 5
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "Te innalze",
+                    "position": 21
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "rò",
+                    "position": 31
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con tutta la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "forza canterò",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "tutto il mio ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "cuore griderò",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Nessuno è ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "come ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "Te, Glorioso ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "Re",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con tutta la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "forza canterò",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "tutto il mio ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "cuore adorerò",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Nessuno è ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "come ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "Te, Glorioso ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "Re",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Ogni catena ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "distrugge",
+                    "position": 13
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "rai",
+                    "position": 22
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Ed ogni muro ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "abbatte",
+                    "position": 14
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "rai",
+                    "position": 21
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Crei una via dove ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "via ",
+                    "position": 19
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "non c'è",
+                    "position": 23
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 30
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Nel nome tuo vit",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "toria ",
+                    "position": 17
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "avrò",
+                    "position": 23
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Ogni catena ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "distrugge",
+                    "position": 13
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "rai",
+                    "position": 22
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Ed ogni muro ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "abbatte",
+                    "position": 14
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "rai",
+                    "position": 21
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Crei una via dove ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "via ",
+                    "position": 19
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "non c'è",
+                    "position": 23
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 30
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Nel nome tuo vit",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "toria ",
+                    "position": 17
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "avrò",
+                    "position": 23
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con tutta la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "forza canterò",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "tutto il mio ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "cuore griderò",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Nessuno è ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "come ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "Te, Glorioso ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "Re",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con tutta la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "forza canterò",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "tutto il mio ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "cuore adorerò",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Nessuno è ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "come ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "Te, Glorioso ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "Re",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con tutta la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "forza canterò",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "tutto il mio ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "cuore griderò",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Nessuno è ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "come ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "Te, Glorioso ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "Re",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con tutta la ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "forza canterò",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "tutto il mio ",
+                    "position": 5
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "cuore adorerò",
+                    "position": 18
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Nessuno è ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "come ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "Te, Glorioso ",
+                    "position": 16
+                },
+                {
+                    "chords": "Fa#",
+                    "lyric": "Re",
+                    "position": 29
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Ogni catena ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "distrugge",
+                    "position": 13
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "rai",
+                    "position": 22
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Ed ogni muro ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "abbatte",
+                    "position": 14
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "rai",
+                    "position": 21
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Crei una via dove ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "via ",
+                    "position": 19
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "non c'è",
+                    "position": 23
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 30
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Nel nome tuo vit",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "toria ",
+                    "position": 17
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "avrò",
+                    "position": 23
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ti offro una ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "vera lode",
+                    "position": 14
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Lode glori",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "osa",
+                    "position": 11
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Ti offro una ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "vera lode",
+                    "position": 14
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 23
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Lode glori",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol#m",
+                    "lyric": "osa",
+                    "position": 11
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 14
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "",
+                    "position": 0
+                }
+            ]
+        }
+    ],
+    "id": "0029",
+    "title": "Lode gloriosa",
+    "author": "SDV Worship",
+    "categories": [
+        "Conclusione"
+    ]
+}

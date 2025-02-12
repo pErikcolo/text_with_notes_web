@@ -805,26 +805,6 @@
             "lines": [
                 {
                     "chords": "Mim",
-                    "lyric": "Gio--",
-                    "position": 0
-                },
-                {
-                    "chords": "Re",
-                    "lyric": "ia ",
-                    "position": 6
-                },
-                {
-                    "chords": "Sol",
-                    "lyric": "è:",
-                    "position": 9
-                }
-            ]
-        },
-        {
-            "section": "verse",
-            "lines": [
-                {
-                    "chords": "Mim",
                     "lyric": "Vi--",
                     "position": 0
                 },
@@ -837,36 +817,6 @@
                     "chords": "Sol",
                     "lyric": "è:",
                     "position": 8
-                }
-            ]
-        },
-        {
-            "section": "verse",
-            "lines": [
-                {
-                    "chords": "",
-                    "lyric": "è una ",
-                    "position": 0
-                },
-                {
-                    "chords": "Mim",
-                    "lyric": "stretta di ",
-                    "position": 7
-                },
-                {
-                    "chords": "Re",
-                    "lyric": "mano ad un ",
-                    "position": 18
-                },
-                {
-                    "chords": "Do",
-                    "lyric": "amico",
-                    "position": 29
-                },
-                {
-                    "chords": "Re",
-                    "lyric": ",",
-                    "position": 34
                 }
             ]
         },
@@ -905,36 +855,6 @@
             "lines": [
                 {
                     "chords": "",
-                    "lyric": "è un a",
-                    "position": 0
-                },
-                {
-                    "chords": "Mim",
-                    "lyric": "mico che ",
-                    "position": 7
-                },
-                {
-                    "chords": "Re",
-                    "lyric": "dice: \"Io ti ",
-                    "position": 16
-                },
-                {
-                    "chords": "Do",
-                    "lyric": "amo.",
-                    "position": 29
-                },
-                {
-                    "chords": "Re",
-                    "lyric": "\",",
-                    "position": 33
-                }
-            ]
-        },
-        {
-            "section": "verse",
-            "lines": [
-                {
-                    "chords": "",
                     "lyric": "è il cu",
                     "position": 0
                 },
@@ -965,31 +885,6 @@
             "lines": [
                 {
                     "chords": "",
-                    "lyric": "è un a",
-                    "position": 0
-                },
-                {
-                    "chords": "Sol",
-                    "lyric": "more, che s",
-                    "position": 7
-                },
-                {
-                    "chords": "Re",
-                    "lyric": "boccia per in",
-                    "position": 18
-                },
-                {
-                    "chords": "Do",
-                    "lyric": "canto,",
-                    "position": 31
-                }
-            ]
-        },
-        {
-            "section": "verse",
-            "lines": [
-                {
-                    "chords": "",
                     "lyric": "è l'a",
                     "position": 0
                 },
@@ -1007,31 +902,6 @@
                     "chords": "Do",
                     "lyric": "bino,",
                     "position": 27
-                }
-            ]
-        },
-        {
-            "section": "verse",
-            "lines": [
-                {
-                    "chords": "",
-                    "lyric": "è un in",
-                    "position": 0
-                },
-                {
-                    "chords": "Lam",
-                    "lyric": "canto che es",
-                    "position": 8
-                },
-                {
-                    "chords": "Sim",
-                    "lyric": "plode nella ",
-                    "position": 20
-                },
-                {
-                    "chords": "Mim",
-                    "lyric": "mente,",
-                    "position": 32
                 }
             ]
         },
@@ -1075,36 +945,6 @@
                 },
                 {
                     "chords": "Sim",
-                    "lyric": "lui che già, è tuo a",
-                    "position": 11
-                },
-                {
-                    "chords": "Mim",
-                    "lyric": "mico",
-                    "position": 31
-                },
-                {
-                    "chords": "Re",
-                    "lyric": ",",
-                    "position": 35
-                }
-            ]
-        },
-        {
-            "section": "verse",
-            "lines": [
-                {
-                    "chords": "",
-                    "lyric": "è a",
-                    "position": 0
-                },
-                {
-                    "chords": "Lam",
-                    "lyric": "mare co",
-                    "position": 4
-                },
-                {
-                    "chords": "Sim",
                     "lyric": "lui che già, è come a",
                     "position": 11
                 },
@@ -1117,36 +957,6 @@
                     "chords": "Re",
                     "lyric": ",",
                     "position": 37
-                }
-            ]
-        },
-        {
-            "section": "verse",
-            "lines": [
-                {
-                    "chords": "",
-                    "lyric": "strin",
-                    "position": 0
-                },
-                {
-                    "chords": "Mim",
-                    "lyric": "ge la ",
-                    "position": 6
-                },
-                {
-                    "chords": "Re",
-                    "lyric": "mano, e ti ",
-                    "position": 12
-                },
-                {
-                    "chords": "Sol",
-                    "lyric": "a--ma",
-                    "position": 23
-                },
-                {
-                    "chords": "Do",
-                    "lyric": ",",
-                    "position": 28
                 }
             ]
         },
@@ -1177,36 +987,6 @@
                     "chords": "Do",
                     "lyric": ",",
                     "position": 28
-                }
-            ]
-        },
-        {
-            "section": "verse",
-            "lines": [
-                {
-                    "chords": "",
-                    "lyric": "come un in",
-                    "position": 0
-                },
-                {
-                    "chords": "Sol",
-                    "lyric": "canto",
-                    "position": 11
-                },
-                {
-                    "chords": "Do",
-                    "lyric": ", che ti es",
-                    "position": 16
-                },
-                {
-                    "chords": "Lam",
-                    "lyric": "plo",
-                    "position": 27
-                },
-                {
-                    "chords": "Si",
-                    "lyric": "de.",
-                    "position": 30
                 }
             ]
         },

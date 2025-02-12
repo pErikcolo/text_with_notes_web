@@ -11,17 +11,17 @@
                 {
                     "chords": "Re",
                     "lyric": " ",
-                    "position": 5
+                    "position": 2
                 },
                 {
                     "chords": "Mi",
                     "lyric": " ",
-                    "position": 10
+                    "position": 3
                 },
                 {
                     "chords": "Do",
                     "lyric": "",
-                    "position": 15
+                    "position": 4
                 }
             ]
         },
@@ -690,6 +690,6 @@
     "title": "Lode al nome tuo",
     "author": "RnS",
     "categories": [
-        "Apertura"
+        "Conclusione"
     ]
 }

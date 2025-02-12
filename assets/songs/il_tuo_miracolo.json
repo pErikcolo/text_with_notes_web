@@ -1,0 +1,705 @@
+{
+    "song": [
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Come un va",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "saio Tu sei",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "la mia vita é ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "tra le Tue mani",
+                    "position": 15
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "plasmami e ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "rimuovi Tu",
+                    "position": 12
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ogni imperfe",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "zione da me",
+                    "position": 13
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu non mi ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "getti mai via",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "riprendi ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "tutto da capo",
+                    "position": 10
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "mi rimo",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "delli, Tu perdoni i miei ",
+                    "position": 8
+                },
+                {
+                    "chords": "La",
+                    "lyric": "sbagli",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fai di me ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "ciò che che vuoi",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "portami ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "dove vuoi",
+                    "position": 9
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "usa il mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "dolore offro il mio ",
+                    "position": 12
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cuore",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "tutta la mia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "vita é ",
+                    "position": 14
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "Tua",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Come dell'",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "oro darò",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "passerò in ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "mezzo al fuoco",
+                    "position": 12
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "ma so che ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "resti con me nella for",
+                    "position": 11
+                },
+                {
+                    "chords": "La",
+                    "lyric": "nace io e te",
+                    "position": 33
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "il fuoco ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "non mi consuma",
+                    "position": 10
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "mi rende ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "sempre piu puro",
+                    "position": 10
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "io sarò ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "come Te a Tua Im",
+                    "position": 9
+                },
+                {
+                    "chords": "La",
+                    "lyric": "magine",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fai di me ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "ciò che che vuoi",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "portami ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "dove vuoi",
+                    "position": 9
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "usa il mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "dolore offro il mio ",
+                    "position": 12
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cuore",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "tutta la mia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "vita é ",
+                    "position": 14
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "Tua",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Io non mori",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "rò",
+                    "position": 12
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "anzi io vi",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "vrò",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "racconterò le Tue ope",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "re",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "racconterò il tuo miracolo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "in me",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mi",
+                    "lyric": "Io non mori",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "rò",
+                    "position": 12
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "anzi io vi",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "vrò",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "racconterò le Tue ope",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "re",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "racconterò il tuo miracolo ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "in me",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fai di me ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "ciò che che vuoi",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "portami ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "dove vuoi",
+                    "position": 9
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "usa il mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "dolore offro il mio ",
+                    "position": 12
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cuore",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "tutta la mia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "vita é ",
+                    "position": 14
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "Tua",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Fai di me ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "ciò che che vuoi",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "portami ",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "dove vuoi",
+                    "position": 9
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "usa il mio ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "dolore offro il mio ",
+                    "position": 12
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cuore",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "tutta la mia ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "vita é ",
+                    "position": 14
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "Tua",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Mi hai libe",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "rato per libe",
+                    "position": 12
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "rare",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Mi hai libe",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "rato per libe",
+                    "position": 12
+                },
+                {
+                    "chords": "La",
+                    "lyric": "rare",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Mi hai libe",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "rato per libe",
+                    "position": 12
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "rare",
+                    "position": 25
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Mi hai libe",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "rato per libe",
+                    "position": 12
+                },
+                {
+                    "chords": "La",
+                    "lyric": "rare",
+                    "position": 25
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 29
+                }
+            ]
+        }
+    ],
+    "id": "0028",
+    "title": "Il tuo miracolo",
+    "author": "SDV Worship",
+    "categories": [
+        "Adorazione"
+    ]
+}
