@@ -1,0 +1,360 @@
+{
+    "song": [
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "San--{Mi}to, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "San--",
+                    "position": 14
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "to, ",
+                    "position": 19
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "Santo il Si",
+                    "position": 23
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "gnore, ",
+                    "position": 34
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Dio dell'univer",
+                    "position": 41
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "so",
+                    "position": 56
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "San--{Mi}to, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "San--",
+                    "position": 14
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "to,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "i ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "cieli e la ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "terra sono ",
+                    "position": 14
+                },
+                {
+                    "chords": "La",
+                    "lyric": "pieni della tua ",
+                    "position": 25
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "glo--",
+                    "position": 41
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "ria.",
+                    "position": 46
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Osanna nell'",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "alto dei ",
+                    "position": 13
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cie--",
+                    "position": 22
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "li.",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa#m",
+                    "lyric": "Osanna nell'alto dei ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cie--",
+                    "position": 22
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "li.",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "San--{Mi}to, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "San--",
+                    "position": 14
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "to, ",
+                    "position": 19
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "Santo il Si",
+                    "position": 23
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "gnore, ",
+                    "position": 34
+                },
+                {
+                    "chords": "La",
+                    "lyric": "Dio dell'univer",
+                    "position": 41
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "so",
+                    "position": 56
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "San--{Mi}to, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "San--",
+                    "position": 14
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "to,",
+                    "position": 19
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "i ",
+                    "position": 0
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "cieli e la ",
+                    "position": 3
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "terra sono ",
+                    "position": 14
+                },
+                {
+                    "chords": "La",
+                    "lyric": "pieni della tua ",
+                    "position": 25
+                },
+                {
+                    "chords": "Fa#m",
+                    "lyric": "glo--",
+                    "position": 41
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "ria.",
+                    "position": 46
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Si",
+                    "lyric": "Benedetto co",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "lui che viene",
+                    "position": 13
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "nel ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": "nome del Si",
+                    "position": 5
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "gnore.",
+                    "position": 16
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "Osanna nell'",
+                    "position": 0
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "alto dei ",
+                    "position": 13
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cie--",
+                    "position": 22
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "li.",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Fa#m",
+                    "lyric": "Osanna nell'alto dei ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "cie--",
+                    "position": 22
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "li.",
+                    "position": 27
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "La",
+                    "lyric": "San--{Mi}to, ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do#m",
+                    "lyric": "San--",
+                    "position": 14
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "to, ",
+                    "position": 19
+                },
+                {
+                    "chords": "La",
+                    "lyric": "San--",
+                    "position": 23
+                },
+                {
+                    "chords": "Si",
+                    "lyric": "-to",
+                    "position": 28
+                },
+                {
+                    "chords": "Mi",
+                    "lyric": ".",
+                    "position": 31
+                }
+            ]
+        }
+    ],
+    "id": "0029",
+    "title": "Santo (Gen Rosso)",
+    "author": "Gen Rosso",
+    "categories": [
+        "Santo"
+    ]
+}

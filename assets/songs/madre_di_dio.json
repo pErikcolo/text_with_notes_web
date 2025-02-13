@@ -1,0 +1,981 @@
+{
+    "song": [
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "",
+                    "position": 3
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "Dio mi pen",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "sò e fu ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sera e fu mat",
+                    "position": 19
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tina",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "E con un ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "soffio mi ",
+                    "position": 10
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "creò",
+                    "position": 20
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ".",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "E dentro ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me, abita un ",
+                    "position": 10
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "cuore di bam",
+                    "position": 23
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "bino",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "Che chiede a",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "more e ha ",
+                    "position": 13
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "nostal",
+                    "position": 23
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "gia di ",
+                    "position": 29
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Te",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu che sei ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "madre, ",
+                    "position": 12
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "madre di ",
+                    "position": 19
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "questa umani",
+                    "position": 28
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tà",
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu che sei ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "donna, ",
+                    "position": 12
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dolcezza ",
+                    "position": 19
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "nella tua umil",
+                    "position": 28
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tà",
+                    "position": 42
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu che sei ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "amica",
+                    "position": 12
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " me",
+                    "position": 17
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "raviglio",
+                    "position": 20
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "sa",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "",
+                    "position": 0
+                },
+                {
+                    "chords": "",
+                    "lyric": "Tu che sei s",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "posa di ",
+                    "position": 13
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Dio",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu che inter",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "cedi per ",
+                    "position": 13
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "me presso ",
+                    "position": 22
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Di---",
+                    "position": 32
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "o",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "essere ",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "uomo",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "essere ",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "buono",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "essere ",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "amico",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "la Tua umil",
+                    "position": 11
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tà",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "essere ",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "sposo",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "essere ",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "padre",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "esser ",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "sincero",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "essere un ",
+                    "position": 14
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "figlio di ",
+                    "position": 24
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Di--",
+                    "position": 34
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "o",
+                    "position": 38
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 3
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "",
+                    "position": 4
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "Dio mi pen",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "sò e fu ",
+                    "position": 11
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "sera e fu mat",
+                    "position": 19
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tina",
+                    "position": 32
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "E con un ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "soffio mi ",
+                    "position": 10
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "creò",
+                    "position": 20
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ".",
+                    "position": 24
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "E dentro ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "me, abita un ",
+                    "position": 10
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "cuore di bam",
+                    "position": 23
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "bina",
+                    "position": 35
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Mim",
+                    "lyric": "Che chiede a",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "more e ha ",
+                    "position": 13
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "nostal",
+                    "position": 23
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "gia di ",
+                    "position": 29
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Te",
+                    "position": 36
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu che sei ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "madre, ",
+                    "position": 12
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "madre di ",
+                    "position": 19
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "questa umani",
+                    "position": 28
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tà",
+                    "position": 40
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu che sei ",
+                    "position": 0
+                },
+                {
+                    "chords": "La",
+                    "lyric": "donna, ",
+                    "position": 12
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "dolcezza ",
+                    "position": 19
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "nella tua umil",
+                    "position": 28
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tà",
+                    "position": 42
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu che sei ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "amica",
+                    "position": 12
+                },
+                {
+                    "chords": "Re",
+                    "lyric": " me",
+                    "position": 17
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "raviglio",
+                    "position": 20
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "sa",
+                    "position": 28
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "",
+                    "position": 0
+                },
+                {
+                    "chords": "",
+                    "lyric": "Tu che sei s",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "posa di ",
+                    "position": 13
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Dio",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "chorus",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Tu che inter",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "cedi per ",
+                    "position": 13
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "me presso ",
+                    "position": 22
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "Di---",
+                    "position": 32
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "o",
+                    "position": 37
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "essere ",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "donna",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "essere ",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "buona",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "essere ",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "amica",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "la Tua umil",
+                    "position": 11
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "tà",
+                    "position": 22
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "essere ",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "sposa",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "essere ",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "madre",
+                    "position": 21
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnami ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "esser ",
+                    "position": 14
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "sincera",
+                    "position": 20
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Insegnaci ad ",
+                    "position": 0
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "essere ",
+                    "position": 14
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "figli di ",
+                    "position": 21
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Di--",
+                    "position": 30
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "o",
+                    "position": 34
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Di----",
+                    "position": 4
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "o",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ",",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": "Di ",
+                    "position": 0
+                },
+                {
+                    "chords": "Re",
+                    "lyric": "Di----",
+                    "position": 4
+                },
+                {
+                    "chords": "Mim",
+                    "lyric": "o",
+                    "position": 10
+                },
+                {
+                    "chords": "Re",
+                    "lyric": ",",
+                    "position": 11
+                }
+            ]
+        },
+        {
+            "section": "verse",
+            "lines": [
+                {
+                    "chords": "",
+                    "lyric": "Con ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": "Te",
+                    "position": 5
+                }
+            ]
+        },
+        {
+            "section": "chords",
+            "lines": [
+                {
+                    "chords": "Do",
+                    "lyric": " ",
+                    "position": 0
+                },
+                {
+                    "chords": "Sol",
+                    "lyric": " ",
+                    "position": 2
+                },
+                {
+                    "chords": "Do",
+                    "lyric": "",
+                    "position": 3
+                }
+            ]
+        }
+    ],
+    "id": "0030",
+    "title": "Madre di Dio",
+    "author": "Reale",
+    "categories": [
+        "Conclusione",
+        "Canto a Maria"
+    ]
+}
